@@ -1,0 +1,49 @@
+{
+    "type": "ItemTurret",
+    "size": 4,
+    "health": 800,
+    "range": 5000,
+    "minRange": 0,
+    "reloadTime": 240,
+    "shots": 360,
+    "spread": 1,
+    "velocityInnacuracy": 12,
+    "recoilAmount": 1,
+    "hasItems": true,
+    "itemCapacity": 12,
+    "targetAir": false,
+    "rotateSpeed": 12,
+    "shootSound": "artillery",
+    "ammoTypes": {
+        "nuke": {
+            "type": "ByTheWaySinceIWantThisBulletToHaveNoTypeImmaJustMakeAStupidName",
+            "damage": 750,
+            "height": 30,
+            "width": 30,
+            "speed": 50,
+            "lifetime": 360,
+            "collidesTiles": false,
+            "ammoMultiplier": 0.5
+        }
+    },
+    "requirements": [
+        {
+            "item": "metaglass",
+            "amount": 600
+        },
+        {
+            "item": "plastanium",
+            "amount": 300
+        },
+        {
+            "item": "phase-fabric",
+            "amount": 100
+        },
+        {
+            "item": "zinq-good",
+            "amount": 25
+        }
+    ],
+    "category": "turret",
+    "research": "nuke-cilo"
+}

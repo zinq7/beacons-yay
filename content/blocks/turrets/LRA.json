@@ -1,0 +1,65 @@
+{
+    "type": "ItemTurret",
+    "size": 3,
+    "health": 800,
+    "range": 1000,
+    "minRange": 100,
+    "reloadTime": 90,
+    "shots": 1,
+    "velocityInnacuracy": 12,
+    "recoilAmount": 1,
+    "inaccuracy": 12,
+    "targetAir": false,
+    "hasItems": true,
+    "itemCapacity": 12,
+    "rotateSpeed": 2,
+    "shootSound": "artillery",
+    "ammoTypes": {
+        "lead": {
+            "type": "ArtilleryBulletType",
+            "damage": 0,
+            "speed": 8,
+            "height": 30,
+            "width": 12,
+            "collidesTiles": false,
+            "splashDamage": 100,
+            "splashDamageRadius": 10,
+            "ammoMultiplier": 0.6,
+            "smokeEffect": "shootBigSmoke",
+            "shootEffect": "producesmoke"
+        },
+        "blast-compound": {
+            "type": "ArtilleryBulletType",
+            "damage": 0,
+            "height": 30,
+            "speed": 10,
+            "collidesTiles": false,
+            "width": 12,
+            "splashDamage": 75,
+            "splashDamageRadius": 50,
+            "ammoMultiplier": 0.3,
+            "smokeEffect": "shootBigSmoke",
+            "shootEffect": "producesmoke"
+        }
+    },
+    "requirements": [
+        {
+            "item": "lead",
+            "amount": 500
+        },
+        {
+            "item":  "graphite",
+            "amount": 300
+        },
+        {
+            "item": "thorium",
+            "amount": 200
+        },
+        {
+            "item": "phase-fabric",
+            "amount": 25
+        }
+    ],
+    "category": "turret",
+    "research": "ripple"
+}

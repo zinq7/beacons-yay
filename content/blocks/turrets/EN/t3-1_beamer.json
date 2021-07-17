@@ -1,0 +1,66 @@
+{
+    "type": "PowerTurret",
+    "size": 3,
+    "health": 800,
+    "range": 200,
+    "reloadTime": 70,
+    "shots": 5,
+    "burstSpacing": 5,
+    "inaccuracy": 5,
+    "targetAir": false,
+    "targetGround": true,
+    "shootCone": 1,
+    "spread": 2,
+    "restitution": 0.05,
+    "rotateSpeed": 0.4,
+    "shootSound": "laser",
+    "powerUse": 56,
+    "emitLight": true,
+    "lightRadius": 100,
+    "hasPower": true,
+    "shootType": {
+        "type": "LaserBulletType",
+        "damage": 150,
+        "speed": 0.1,
+        "height": 35,
+        "width": 15,
+        "length": 200,
+        "hitSize": 10,
+        "drawSize": 600,
+        "lifetime": 20,
+        "frontColor": "E8D174",
+        "backColor": "F3E979"
+    },
+    "requirements": [
+        {
+            "item": "thorium",
+            "amount": 200
+        },
+        {
+            "item": "zinq",
+            "amount": 400
+        },
+        {
+            "item": "graphite",
+            "amount": 200
+        },
+        {
+            "item": "silicon",
+            "amount": 200
+        },
+        {
+            "item": "plastanium",
+            "amount": 200
+        },
+        {
+            "item": "metaglass",
+            "amount": 200
+        },
+        {
+            "item": "titanium",
+            "amount": 350
+        }
+    ],
+    "category": "turret",
+    "research": "lancer"
+}

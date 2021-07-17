@@ -1,0 +1,14 @@
+{
+    "cost": 20,
+    "color": "000000",
+    "research": {
+        "parent": "blast-compound",
+        "requirements": [
+            {
+                "item": "nuke",
+                "amount": 1
+            }
+        ]
+    },
+    "hardness": 12
+}

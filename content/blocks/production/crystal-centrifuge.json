@@ -1,0 +1,43 @@
+{
+    "type": "GenericCrafter",
+    "health": 240,
+    "size": 2,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 60,
+    "itemCapacity": 30,
+    "liquidCapacity": 120,
+    "craftEffect": "formsmoke",
+    "outputItem": {
+        "item": "quartz",
+        "amount": 2
+    },
+    "consumes": {
+        "power": 8,
+        "liquid": {
+            "liquid": "jungle-juice",
+            "amount": 0.40
+        }
+    },
+    "requirements": [
+        {
+            "item": "graphite",
+            "amount": 200
+        },
+        {
+            "item": "silicon",
+            "amount": 175
+        },
+        {
+            "item": "titanium",
+            "amount": 150
+        },
+        {
+            "item": "thorium",
+            "amount": 100
+        }
+    ],
+    "category": "crafting",
+    "research": "jungle-juicer"
+}

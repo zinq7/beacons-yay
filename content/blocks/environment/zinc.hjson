@@ -1,0 +1,9 @@
+type: OverlayFloor
+localizedName: Zinc
+name: Zinc
+itemDrop: zinq
+playerUnmineable: false
+oreDefault: true
+variants: 8
+oreScale: 8
+oreThreshold: 2.3

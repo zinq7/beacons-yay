@@ -1,0 +1,34 @@
+{
+    "type": "CoreBlock",
+    "size": 6,
+    "health": 7500,
+    "itemCapacity": 16000,
+    "hasItems": true,
+    "unitType": "copperguy",
+    "unitCapModifier": 24,
+    "researchCostMultiplier": 0.2,
+    "reload": 20,
+    "weapons": [
+        {
+            "type": "BasicBulletType",
+            "damage": 10,
+            "x": -0,
+            "y": -0,
+            "height": 12,
+
+            "width": 7,
+            "speed": 4,
+            "lifetime": 35,
+            "ammoMultiplier": 3,
+            "smokeEffect": "shootSmallSmoke"
+        }
+    ],
+    "requirements": [
+        {
+            "item": "copper",
+            "amount": 14000
+        }
+    ],
+    "category": "effect",
+    "research": "core-nucleus"
+}

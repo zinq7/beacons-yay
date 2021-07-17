@@ -1,0 +1,28 @@
+{
+    "insulated": false,
+    "consumes": {
+        "power": 0.05
+    },
+    "size": 1,
+    "solid": true,
+    "health": 5,
+    "speed": 0.12,
+    "displayedSpeed": 16,
+    "hasPower": true,
+    "requirements": [
+        {
+            "item": "lead",
+            "amount": 1
+        },
+        {
+            "item": "zinq",
+            "amount": 2
+        },
+        {
+            "item": "silicon",
+            "amount": 1
+        }
+    ],
+    "category": "distribution",
+    "research": "titanium-conveyor"
+}

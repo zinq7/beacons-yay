@@ -1,0 +1,55 @@
+{
+    "type": "GenericCrafter",
+    "health": 240,
+    "size": 3,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 10,
+    "itemCapacity": 30,
+    "liquidCapacity" : 120,
+    "craftEffect": "smeltsmoke",
+    "outputItem": {
+        "item": "zinq-good",
+        "amount": 1
+    },
+    "consumes": {
+        "power": 6,
+        "items": {
+            "items": [
+                {
+                    "item": "zinq",
+                    "amount": 6
+                },
+                {
+                    "item": "quartz",
+                    "amount": 2
+                }
+            ]
+        },
+        "liquid": {
+            "liquid": "water",
+            "amount": 0.6
+        }
+    },
+    "requirements": [
+        {
+            "item": "silicon",
+            "amount": 250
+        },
+        {
+            "item": "titanium",
+            "amount": 200
+        },
+        {
+            "item": "phase-fabric",
+            "amount": 150
+        },
+        {
+            "item": "surge-alloy",
+            "amount": 100
+        }
+    ],
+    "category": "crafting",
+    "research": "crystal-centrifuge"
+}

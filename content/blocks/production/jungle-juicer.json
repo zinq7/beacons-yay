@@ -1,0 +1,60 @@
+{
+    "type": "LiquidConverter",
+    "health": 240,
+    "size": 3,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 120,
+    "itemCapacity": 30,
+    "liquidCapacity" : 120,
+    "craftEffect": "smeltsmoke",
+    "drawLiquidLight": true,
+    "outputLiquid": {
+        "liquid": "jungle-juice",
+        "amount": 35
+    },
+    "consumes": {
+        "power": 1.2,
+        "items": {
+            "items": [
+                {
+                    "item": "pyratite",
+                    "amount": 1
+                },
+                {
+                    "item": "blast-compound",
+                    "amount": 1
+                },
+                {
+                    "item": "spore-pod",
+                    "amount": 3
+                }
+            ]
+        },
+        "liquid": {
+            "liquid": "slag",
+            "amount": 0.25
+        }
+    },
+    "requirements": [
+        {
+            "item": "silicon",
+            "amount": 120
+        },
+        {
+            "item": "titanium",
+            "amount": 135
+        },
+        {
+            "item": "lead",
+            "amount": 150
+        },
+        {
+            "item": "zinq",
+            "amount": 100
+        }
+    ],
+    "category": "crafting",
+    "research": "blast-mixer"
+}

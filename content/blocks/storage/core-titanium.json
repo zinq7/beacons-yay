@@ -1,0 +1,18 @@
+{
+    "type": "CoreBlock",
+    "size": 6,
+    "health": 12000,
+    "itemCapacity": 22000,
+    "hasItems": true,
+    "unitType": "titanguy",
+    "unitCapModifier": 22,
+    "researchCostMultiplier": 0.2,
+    "requirements": [
+        {
+            "item": "titanium",
+            "amount": 14000
+        }
+    ],
+    "category": "effect",
+    "research": "core-copper"
+}

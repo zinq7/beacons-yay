@@ -1,0 +1,42 @@
+{
+    "type": "flying",
+    "isCounted": false,
+    "flying": true,
+    "health": 220,
+    "mineSpeed": 15,
+    "mineTier": 5,
+    "buildSpeed": 1,
+    "drag": 0.05,
+    "speed": 5,
+    "rotateSpeed": 19,
+    "accel": 0.11,
+    "itemCapacity": 150,
+    "ealt": 220,
+    "engineOffset": 6,
+    "hitSize": 11,
+    "commandLimit": 5,
+    "weapons": [
+        {
+            "name": "small-mount-weapon",
+            "top": false,
+            "reload": 40,
+            "x": 1,
+            "y": 2,
+            "shots": 2,
+            "spacing": 2,
+            "inaccuracy": 4,
+            "shotDelay": 3,
+            "ejectEffect": "casing2Double",
+            "bullet": {
+                "type": "BasicBulletType",
+                "width": 6.5,
+                "height": 11,
+                "lifetime": 100,
+                "shootEffect": "shootSmall",
+                "smokeEffect": "shootSmallSmoke",
+                "buildingDamageMultiplier": 0.10,
+                "homingPower": 0.1
+            }
+        }
+    ]
+}

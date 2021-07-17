@@ -1,0 +1,18 @@
+{
+    "type": "CoreBlock",
+    "size": 6,
+    "health": 5000,
+    "itemCapacity": 18000,
+    "hasItems": true,
+    "unitType": "glassyguy",
+    "unitCapModifier": 30,
+    "researchCostMultiplier": 0.2,
+    "requirements": [
+        {
+            "item": "metaglass",
+            "amount": 14000
+        }
+    ],
+    "category": "effect",
+    "research": "core-lead"
+}

@@ -1,0 +1,67 @@
+{
+    "type": "GenericCrafter",
+    "health": 2400,
+    "size": 4,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 10000,
+    "itemCapacity": 3000,
+    "liquidCapacity": 1200,
+    "craftEffect": "formsmoke",
+    "outputItem": {
+        "item": "nuke",
+        "amount": 1
+    },
+    "consumes": {
+        "power": 15,
+        "liquid": {
+            "liquid": "oil",
+            "amount": 0.40
+        },
+        "items": {
+            "items": [
+                {
+                    "item": "silicon",
+                    "amount": 400
+                },
+                {
+                    "item": "graphite",
+                    "amount": 300
+                },
+                {
+                    "item": "blast-compound",
+                    "amount": 500
+                },
+                {
+                    "item": "pyratite",
+                    "amount": 300
+                },
+                {
+                    "item": "thorium",
+                    "amount": 300
+                }
+            ]
+        }
+    },
+    "requirements": [
+        {
+            "item": "silicon",
+            "amount": 400
+        },
+        {
+            "item": "phase-fabric",
+            "amount": 200
+        },
+        {
+            "item": "surge-alloy",
+            "amount": 200
+        },
+        {
+            "item": "zinq-good",
+            "amount": 100
+        }
+    ],
+    "category": "crafting",
+    "research": "blast-mixer"
+}

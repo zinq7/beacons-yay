@@ -1,0 +1,23 @@
+{
+    "type": "PowerNode",
+    "size": 1,
+    "health": 100,
+    "emitLight": true,
+    "hasPower": true,
+    "laserRange": 12,
+    "baseExplosiveness": 15,
+    "insulated": false,
+    "maxNodes": 20,
+    "requirements": [
+        {
+            "item": "lead",
+            "amount": 5
+        },
+        {
+            "item": "zinq",
+            "amount": 10
+        }
+    ],
+    "category": "power",
+    "research": "power-node-large"
+}

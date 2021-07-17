@@ -1,0 +1,14 @@
+{
+    "cost": 5,
+    "color": "E9DEF0",
+    "research": {
+        "parent": "zinq",
+        "requirements": [
+            {
+                "item": "quartz",
+                "amount": 1
+            }
+        ]
+    },
+    "hardness": 5
+}

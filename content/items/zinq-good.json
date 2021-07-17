@@ -1,0 +1,14 @@
+{
+    "cost": 2.5,
+    "color": "7575C8",
+    "research": {
+        "parent": "zinq",
+        "requirements": [
+            {
+                "item": "zinq-good",
+                "amount": 1
+            }
+        ]
+    },
+    "hardness": 12
+}

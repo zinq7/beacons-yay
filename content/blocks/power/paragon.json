@@ -1,0 +1,60 @@
+{
+    "type": "DecayGenerator",
+    "size": 4,
+    "health": 1800,
+    "emitLight": false,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "baseExplosiveness": 1000,
+    "itemDuration": 720,
+    "update": true,
+    "updateEffect": "melting",
+    "consumes": {
+        "items": {
+            "items": [
+                {
+                    "item": "phase-fabric",
+                    "amount": 1
+                }
+            ]
+        },
+        "liquid": {
+            "liquid": "water",
+            "amount": 1
+        }
+    },
+    "powerProduction": 500,
+    "requirements": [
+        {
+            "item": "lead",
+            "amount": 5000
+        },
+        {
+            "item": "silicon",
+            "amount": 4000
+        },
+        {
+            "item": "graphite",
+            "amount": 4000
+        },
+        {
+            "item": "plastanium",
+            "amount": 3000
+        },
+        {
+            "item": "metaglass",
+            "amount": 3000
+        },
+        {
+            "item": "phase-fabric",
+            "amount": 3000
+        },
+        {
+            "item": "zinq",
+            "amount": 3000
+        }
+    ],
+    "category": "power",
+    "research": "impact-reactor"
+}

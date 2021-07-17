@@ -1,0 +1,41 @@
+SC2 UNITS:
+
+Ok so you know how ancient energy nodes have the different coloured power lines?
+Well, if you can address the node lines, you can make like a barbed wire node that uses power to deal damage using connections.
+
+adding sc2 units into the game, starting at UEF.
+
+	UEF:
+	T1 bot land: Mech Marine
+	T2 bot land: Titan
+	T3 bot land: Mongoose
+	T4 bot land: Percival
+	T5 bot land: King Kryptor
+
+	T1 tank land: MA12 Striker
+	T2 tank land: Pillar
+	T3 tank land: Rock Head
+	T4 tank land: Fatboy mk2
+	T5 tank land: Jackhammer
+
+	T1 air: Wasp
+	T2 air: Eagle Eye
+	T3 air: Broadsword
+	T4 air: AC1000-Terror
+	T5 air: Mega Fortress
+
+	T1 sea: Tigershark
+	T2 sea: Mastadon
+	T3 sea: Poseidon
+	T4 sea: Atlantis II
+	T5 sea: Super Tritan
+		
+		UEF Structures:
+		
+		Aegis (force projector) !!!!DONE
+		LRA (gooooood seige structure) ||| In progress
+		Disrupter Station (ripple 2.0)
+		Nuke Production Complex (makes nukes for the cilo at high time and resource cost) ||| In progress
+		Nuke Missile Cilo(long range death bullet that must be player controlled [takes nukes to shoot]) ||| in progress
+		
+		

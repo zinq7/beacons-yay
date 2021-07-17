@@ -1,0 +1,77 @@
+{
+    "type": "flying",
+    "health": 500,
+    "accel": 0.06,
+    "drag": 0.007,
+    "speed": 2.3,
+    "flying": true,
+    "lowAltitude": false,
+    "rotateShooting": true,
+    "faceTarget": true,
+    "visualElevation": 0.5,
+    "rotateSpeed": 4,
+    "maxRange": 60,
+    "hitSize": 20,
+    "engineSize": 0,
+    "armor": 5,
+    "commandLimit": 4,
+    "weapons": [
+        {
+            "name": "Linked Railgun AA",
+            "rotate": false,
+            "mirror": true,
+            "inaccuracy": 8,
+            "x": 1,
+            "y": -1,
+            "shootY": -0.2,
+            "shootCone": 90,
+            "reload": 20,
+            "shots": 2,
+            "shootSound": "pew",
+            "ejectEffect": "casing2Double",
+            "recoil": 2.5,
+            "bullet": {
+                "type": "MissileBulletType",
+                "damage": 20,
+                "splashDamage": 5,
+                "splashDamageRadius": 3,
+                "maxRange": 180,
+                "height": 16,
+                "width": 8,
+                "speed": 4,
+                "lifetime": 90,
+                "status": "burning",
+                "statusDuration": 360,
+                "pierce": false,
+                "collidesGround": false,
+                "homingPower": 3,
+                "homingRange": 80,
+                "hitShake": 3,
+                "frontColor": "ff8484",
+                "backColor": "ffbdb4",
+                "hitEffect": "plasticExplosion",
+                "shootEffect": "shootSmall",
+                "smokeEffect": "hitBulletSmall",
+                "weaveScale": 8,
+                "weaveMag": 3
+            }
+        }
+    ],
+    "research": {
+        "parent": "flare",
+        "requirements": [
+            {
+                "item": "silicon",
+                "amount": 500
+            },
+            {
+                "item": "graphite",
+                "amount": 500
+            },
+            {
+                "item": "lead",
+                "amount": 400
+            }
+        ]
+    }
+}

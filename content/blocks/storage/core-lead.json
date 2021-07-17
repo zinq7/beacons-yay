@@ -1,0 +1,18 @@
+{
+    "type": "CoreBlock",
+    "size": 6,
+    "health": 10000,
+    "itemCapacity": 16000,
+    "hasItems": true,
+    "unitType": "leadguy",
+    "unitCapModifier": 28,
+    "researchCostMultiplier": 0.2,
+    "requirements": [
+        {
+            "item": "lead",
+            "amount": 14000
+        }
+    ],
+    "category": "effect",
+    "research": "core-nucleus"
+}

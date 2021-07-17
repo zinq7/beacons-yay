@@ -1,0 +1,15 @@
+heatCapacity: 2.7
+explosiveness: 4.0
+temperature: 4
+viscosity: 0.5
+effect: corroded
+color: ff4500
+lightColor: ff450088
+research:{
+  parent: slag
+  requirements:[
+      blast-compound/100
+      pyratite/100
+      zinq/100
+  ]
+}

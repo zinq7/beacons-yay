@@ -1,0 +1,43 @@
+{
+    "type": "GenericCrafter",
+    "health": 240,
+    "size": 2,
+    "drawFloor": false,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 60,
+    "itemCapacity": 30,
+    "liquidCapacity": 120,
+    "craftEffect": "formsmoke",
+    "outputItem": {
+        "item": "scrap",
+        "amount": 1
+    },
+    "consumes": {
+        "power": 0.05,
+        "liquid": {
+            "liquid": "water",
+            "amount": 0.1,
+            "booster": true,
+            "optional": true
+        }
+    },
+ 
+    "requirements": [
+        {
+            "item": "graphite",
+            "amount": 25
+        },
+        {
+            "item": "copper",
+            "amount": 50
+        },
+        {
+            "item": "lead",
+            "amount": 40
+        }
+    ],
+    "category": "production",
+    "research": "melter"
+}

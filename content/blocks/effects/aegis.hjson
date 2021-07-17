@@ -1,0 +1,39 @@
+name: Aegis
+description: "Experimental sheild generator that has high power consumption."
+type: ForceProjector
+health: 1500
+size: 4
+liquidCapacity: 30
+baseExplosiveness: 100
+buildCostMultiplier: 2.7
+hasPower: true
+canOverdrive: true
+phaseUseTime: 270
+phaseRadiusBoost: 174
+radius: 200
+shieldHealth: 1500
+phaseShieldBoost: 1000
+cooldownNormal: 1
+cooldownLiquid: 1
+cooldownBrokenBase: 1
+consumes: {
+  power: 18
+  items: {
+    items: [
+      thorium/1
+    ]
+    booster: true
+	optional: true
+  }
+}
+requirements: [
+  copper/2000
+  lead/2000
+  silicon/2000
+  plastanium/500
+  metaglass/1000
+  surge-alloy/250
+  thorium/1000
+]
+category: effect
+research: lancer
