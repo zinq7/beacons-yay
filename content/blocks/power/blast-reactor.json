@@ -1,0 +1,39 @@
+{
+    "type": "NuclearReactor",
+    "size": 2,
+    "health": 100,
+    "emitLight": false,
+    "hasPower": true,
+    "baseExplosiveness": 1000,
+    "itemDuration": 720,
+    "update": true,
+    "hasItems": true,
+    "itemCapacity": 10,
+    "heating": 0.05,
+    "updateEffect": "melting",
+    "consumes":{
+        "item":"thorium",
+        "amount": 1
+    },
+    "powerProduction": 100,
+    "requirements": [
+        {
+            "item": "lead",
+            "amount": 50
+        },
+        {
+            "item": "silicon",
+            "amount": 24
+        },
+        {
+            "item": "graphite",
+            "amount": 30
+        },
+        {
+            "item": "blast-compound",
+            "amount": 24
+        }
+    ],
+    "category": "power",
+    "research": "solar-panel"
+}

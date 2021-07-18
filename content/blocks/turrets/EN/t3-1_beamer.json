@@ -9,7 +9,7 @@
     "inaccuracy": 5,
     "targetAir": false,
     "targetGround": true,
-    "shootCone": 1,
+    "shootCone": 4,
     "spread": 2,
     "restitution": 0.05,
     "rotateSpeed": 0.4,

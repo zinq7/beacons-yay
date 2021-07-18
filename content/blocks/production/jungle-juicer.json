@@ -55,6 +55,7 @@
             "amount": 100
         }
     ],
+    "drawer": "DrawMixer",
     "category": "crafting",
     "research": "blast-mixer"
 }
