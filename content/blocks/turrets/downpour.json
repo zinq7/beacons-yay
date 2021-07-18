@@ -17,6 +17,7 @@
     "rotateSpeed": 12,
     "shootSound": "liquid",
     "ammoTypes": {
+	"liquid": [
         "water": {
             "type": "LiquidBulletType",
             "lifetime": 62,
@@ -77,6 +78,7 @@
             "ammoMultiplier": 0.4,
             "damage": 50
         }
+	]
     },
     "requirements": [
         {
