@@ -1,0 +1,67 @@
+{
+    "type": "GenericCrafter",
+    "health": 2400,
+    "size": 6,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 60,
+    "itemCapacity": 200,
+    "liquidCapacity" : 240,
+    "craftEffect": "smeltsmoke",
+    "outputItem": {
+        "item": "surge-alloy",
+        "amount": 7
+    },
+    "consumes": {
+        "power": 22,
+        "items": {
+            "items": [
+                {
+                    "item": "lead",
+                    "amount": 10
+                },
+                {
+                    "item": "copper",
+                    "amount": 9
+                },
+                {
+                    "item": "silicon",
+                    "amount": 8
+                },
+                {
+                    "item": "titianium",
+                    "amount": 9
+                }
+            ]
+        },
+        "liquid": {
+            "liquid": "cryofluid",
+            "amount": 0.2
+        }
+    },
+    "requirements": [
+        {
+            "item": "silicon",
+            "amount": 250
+        },
+        {
+            "item": "zinq-good",
+            "amount": 50
+        },
+        {
+            "item": "plastanium",
+            "amount": 200
+        },
+        {
+            "item": "phase-fabric",
+            "amount": 150
+        },
+        {
+            "item": "surge-alloy",
+            "amount": 200
+        }
+    ],
+    "category": "crafting",
+    "research": "alloy-smelter"
+}
