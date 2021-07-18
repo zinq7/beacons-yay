@@ -12,8 +12,7 @@
     "heating": 0.05,
     "updateEffect": "melting",
     "consumes":{
-        "item":"thorium",
-        "amount": 1
+        "item":"thorium"
     },
     "powerProduction": 100,
     "requirements": [
