@@ -1,0 +1,97 @@
+{
+    "type": "LiquidTurret",
+    "size": 4,
+    "health": 800,
+    "range": 250,
+    "minRange": 1,
+    "reloadTime": 3,
+    "shots": 1,
+    "velocityInaccuracy": 0.2,
+    "inaccuracy": 2,
+    "shootCone": 8,
+    "recoilAmount": 0.1,
+    "hasLiquids": true,
+    "maxAmmo": 500,
+    "liquidCapacity": 500,
+    "targetAir": true,
+    "rotateSpeed": 12,
+    "shootSound": "liquid",
+    "ammoTypes": {
+        "water": {
+            "type": "LiquidBulletType",
+            "lifetime": 62,
+            "speed": 4,
+            "knockback": 1.7,
+            "puddleSize": 8,
+            "orbSize": 4,
+            "drag": 0.001,
+			"statusDuration": 240,
+            "ammoMultiplier": 0.4,
+            "damage": 10,
+        },
+        "cryofluid": {
+            "type": "LiquidBulletType",
+            "lifetime": 62,
+            "speed": 4,
+            "knockback": 2,
+            "puddleSize": 6,
+            "orbSize": 4,
+            "drag": 0.002,
+			"statusDuration": 240,
+            "ammoMultiplier": 0.4,
+            "damage": 15,
+        },
+        "oil": {
+            "type": "LiquidBulletType",
+            "lifetime": 62,
+            "speed": 4,
+            "knockback": -5,
+            "puddleSize": 6,
+            "orbSize": 4,
+            "drag": 0.002,
+			"statusDuration": 240,
+            "ammoMultiplier": 0.4,
+            "damage": 20,
+        },
+        "slag": {
+            "type": "LiquidBulletType",
+            "lifetime": 62,
+            "speed": 4,
+            "knockback": 2,
+            "puddleSize": 12,
+            "orbSize": 8,
+            "drag": 0.002,
+			"statusDuration": 240,
+            "ammoMultiplier": 0.4,
+            "damage": 40,
+        },
+        "jungle-juice": {
+            "type": "LiquidBulletType",
+            "lifetime": 32,
+            "speed": 8,
+            "knockback": 3,
+            "puddleSize": 3,
+            "orbSize": 3,
+            "drag": 0.002,
+			"statusDuration": 240,
+            "ammoMultiplier": 0.4,
+            "damage": 50,
+        }
+    },
+    "requirements": [
+        {
+            "item": "plastanium",
+            "amount": 300
+        },
+        {
+            "item": "quartz",
+            "amount": 250
+        },
+        {
+            "item": "zinq-good",
+            "amount": 50
+        }
+    ],
+    "category": "turret",
+    "research": "arc"
+}
