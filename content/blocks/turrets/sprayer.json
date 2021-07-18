@@ -6,7 +6,7 @@
     "minRange": 0,
     "reloadTime": 10,
     "shots": 5,
-    "spread": 0.07,
+    "shootCone": 32,
     "velocityInaccuracy": 0.2,
     "recoilAmount": 1,
     "hasItems": true,
@@ -16,6 +16,18 @@
     "rotateSpeed": 12,
     "shootSound": "artillery",
     "ammoTypes": {
+        "metaglass": {
+            "type": "BasicBulletType",
+            "damage": 6,
+            "height": 12,
+            "width": 6,
+            "speed": 2.5,
+            "lifetime": 50,
+            "collidesTiles": true,
+            "ammoMultiplier": 1
+            "splashDamage": 12,
+            "splashRadius": 4
+        },
         "scrap": {
             "type": "BasicBulletType",
             "damage": 8,
@@ -25,16 +37,7 @@
             "lifetime": 60,
             "collidesTiles": true,
             "ammoMultiplier": 1
-        },
-        "metaglass": {
-            "type": "BasicBulletType",
-            "damage": 14,
-            "height": 12,
-            "width": 6,
-            "speed": 2.5,
-            "lifetime": 50,
-            "collidesTiles": true,
-            "ammoMultiplier": 1
+            
         }
     },
     "requirements": [
