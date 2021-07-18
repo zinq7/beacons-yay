@@ -29,7 +29,7 @@
 		"splashRadius": 5,
             "ammoMultiplier": 1,
             "smokeEffect": "shootBigSmoke",
-            "shootEffect": "producesmoke",
+            "shootEffect": "shootBig",
 			"speed": 25
         }
     },
