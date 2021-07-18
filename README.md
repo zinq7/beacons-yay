@@ -1,4 +1,5 @@
-Holy Light (Beacons-yay) ~ By zinq
+Holy Light (Beacons-yay) ~ By zinq and Archaeon
+
 A mod that aims add a bunch of weapons and content.
 ## Software Used
 - **Visual Studio Code** : Editing all the files
