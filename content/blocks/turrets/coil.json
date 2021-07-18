@@ -27,39 +27,19 @@
 			"damage": 135,
             "ammoMultiplier": 1,
             "smokeEffect": "shootBigSmoke",
-            "shootEffect": "producesmoke"
+            "shootEffect": "producesmoke",
 			"speed": 125
         }
     },
     "requirements": [
         {
+            "item": "copper",
+            "amount": 75
+        },
+        {
             "item": "lead",
-            "amount": 500
-        },
-        {
-            "item": "zinq",
-            "amount": 400
-        },
-        {
-            "item": "graphite",
-            "amount": 250
-        },
-        {
-            "item": "silicon",
-            "amount": 250
-        },
-        {
-            "item": "titanium",
-            "amount": 300
-        },
-        {
-            "item": "metaglass",
-            "amount": 200
-        },
-        {
-            "item": "surge-alloy",
-            "amount": 200
-        }
+            "amount": 50
+	}
     ],
     "category": "turret",
     "research": "ripple"
