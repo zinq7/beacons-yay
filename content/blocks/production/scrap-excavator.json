@@ -6,6 +6,7 @@
     "hasPower": true,
     "hasLiquids": true,
     "hasItems": true,
+    "boostEfficiency": 1.9,
     "craftTime": 60,
     "itemCapacity": 30,
     "liquidCapacity": 120,
