@@ -27,5 +27,5 @@ consumes: {
 requirements: [
   zinq-good/24
 ]
-category: wall
+category: defense
 research: titanium-wall-large
