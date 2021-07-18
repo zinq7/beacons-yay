@@ -3,14 +3,14 @@ name: ZinQ Wall
 description: "Wall with a shield."
 type: ForceProjector
 health: 600
-size: 2
+size: 1
 buildCostMultiplier: 1
 hasPower: false
 canOverdrive: false
 phaseUseTime: 270
 phaseRadiusBoost: 5
 radius: 10
-shieldHealth: 100
+shieldHealth: 75
 phaseShieldBoost: 50
 cooldownNormal: 1
 cooldownLiquid: 1
