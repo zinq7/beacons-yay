@@ -2,7 +2,7 @@
     "type": "ItemTurret",
     "size": 2,
     "health": 400,
-    "range": 120,
+    "range": 170,
     "minRange": 0,
     "reloadTime": 10,
     "shots": 5,
@@ -22,8 +22,8 @@
             "damage": 10,
             "height": 12,
             "width": 6,
-            "speed": 2.0,
-            "lifetime": 60,
+            "speed": 2.5,
+            "lifetime": 80,
             "collidesTiles": true,
             "ammoMultiplier": 1
         },
@@ -32,8 +32,8 @@
             "damage": 16,
             "height": 12,
             "width": 6,
-            "speed": 2.5,
-            "lifetime": 50,
+            "speed": 3,
+            "lifetime": 70,
             "collidesTiles": true,
             "ammoMultiplier": 1
         }
