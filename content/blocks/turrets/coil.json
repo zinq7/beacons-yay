@@ -26,11 +26,11 @@
             "collidesTiles": false,
 			"damage": 135,
 		"splashDamage": 135,
-		"splashDamageRadius": 1,
+		"splashDamageRadius": 10,
             "ammoMultiplier": 1,
             "smokeEffect": "shootBigSmoke",
             "shootEffect": "shootBig",
-			"speed": 25
+			"speed": 20
         }
     },
     "requirements": [
@@ -44,5 +44,5 @@
 	}
     ],
     "category": "turret",
-    "research": "ripple"
+    "research": "hail"
 }
