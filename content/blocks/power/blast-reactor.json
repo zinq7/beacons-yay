@@ -14,7 +14,7 @@
     "consumes":{
         "item":"thorium",
         "amount": 1
-    }
+    },
     "powerProduction": 100,
     "requirements": [
         {
