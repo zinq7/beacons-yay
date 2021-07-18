@@ -1,50 +1,26 @@
-name = Coil;
-description = Coiled;
-type = itemTurret;
-float brange = range = 300f;
-ammoTypes: {
-  copper: {
-                    shootEffect = Fx.instShoot;
-                    hitEffect = Fx.instHit;
-                    smokeEffect = Fx.smokeCloud;
-                    trailEffect = Fx.instTrail;
-                    despawnEffect = Fx.instBomb;
-                    trailSpacing = 20f;
-                    damage = 135;
-                    buildingDamageMultiplier = 0.25f;
-                    speed = brange;
-                    hitShake = 6f;
-                    ammoMultiplier = 1f;
-                }
-            );
-
-          requirements: [
-  copper/2300
-  silicon/275
-  metaglass/750
-  thorium/350
-  diamond/1000
-  surge-alloy/450
-  phase-fabric/450
-  cryogem/400
+type: itemTurret
+name: Coil
+description: Coild
+health: 150
+size: 1
+reloadtime: 240
+range: 250
+maxAmmo: 20
+rotateSpeed: 5
+shootSound: railgun
+ammoTypes : {
+    copper : {
+    type: PointBulletType
+    damage: 135
+    shootEffect: instShoot
+    smokeEffect: shootSmallSmoke
+	hitEffect: hitLancer
+    ammoMultiplier: 4
+             }
+}
+requirements: [
+  lead/50
+  copper/75
 ]
-
-            maxAmmo = 40;
-            ammoPerShot = 5;
-            rotateSpeed = 2f;
-            reloadTime = 200f;
-            ammoUseEffect = Fx.casing3Double;
-            recoilAmount = 1f;
-            restitution = 0.009f;
-            cooldown = 0.009f;
-            shootShake = 0.1f;
-            shots = 1;
-            size = 1;
-            shootCone = 2f;
-            shootSound = Sounds.railgun;
-
-            coolantMultiplier = 0.4f;
-
-            health = 150 * size * size;
-            coolantUsage = 1f;
-        }};
+category: turret
+research: duo
