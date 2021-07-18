@@ -1,0 +1,33 @@
+{
+    "type": "SolarGenerator",
+    "size": 2,
+    "health": 100,
+    "emitLight": false,
+    "hasPower": true,
+    "baseExplosiveness": 1000,
+    "itemDuration": 720,
+    "update": true,
+    "heating": 0.05,
+    "updateEffect": "melting",
+    "powerProduction": 100,
+    "requirements": [
+        {
+            "item": "lead",
+            "amount": 50
+        },
+        {
+            "item": "silicon",
+            "amount": 24
+        },
+        {
+            "item": "graphite",
+            "amount": 30
+        },
+        {
+            "item": "zinq",
+            "amount": 12
+        }
+    ],
+    "category": "power",
+    "research": "solar-panel"
+}
