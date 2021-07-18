@@ -2,8 +2,8 @@ name = Coil;
 description = Coiled;
 type = itemTurret;
 float brange = range = 300f;
-          ammo(
-                Items.copper: new PointBulletType(){{
+ammoTypes: {
+  copper: {
                     shootEffect = Fx.instShoot;
                     hitEffect = Fx.instHit;
                     smokeEffect = Fx.smokeCloud;
@@ -15,7 +15,7 @@ float brange = range = 300f;
                     speed = brange;
                     hitShake = 6f;
                     ammoMultiplier = 1f;
-                }}
+                }
             );
 
           requirements: [
