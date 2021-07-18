@@ -27,7 +27,7 @@
             "amount": 100000000000000000000000000000000000000000000000000000000000000000
         }
     },
-    "powerProduction": 100,
+    "powerProduction": 30000,
     "requirements": [
         {
             "item": "lead",
