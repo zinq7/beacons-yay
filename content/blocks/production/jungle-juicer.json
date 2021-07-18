@@ -12,7 +12,7 @@
     "drawLiquidLight": true,
     "outputLiquid": {
         "liquid": "jungle-juice",
-        "amount": 35
+        "amount": 48
     },
     "consumes": {
         "power": 1.2,
@@ -34,7 +34,7 @@
         },
         "liquid": {
             "liquid": "slag",
-            "amount": 0.25
+            "amount": 0.20
         }
     },
     "requirements": [
@@ -55,7 +55,6 @@
             "amount": 100
         }
     ],
-    "drawer": "DrawMixer",
     "category": "crafting",
     "research": "blast-mixer"
 }
