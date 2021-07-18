@@ -1,0 +1,66 @@
+{
+    "type": "ItemTurret",
+    "size": 1,
+    "health": 150,
+    "range": 250,
+    "minRange": 11,
+    "reloadTime": 200,
+    "shots": 1,
+    "spread": 0,
+    "velocityInaccuracy": 0,
+    "recoilAmount": 1,
+    "hasItems": true,
+    "itemCapacity": 20,
+    "inaccuracy": 0,
+    "maxAmmo": 24,
+	"ammoPerShot": 6,
+    "targetAir": false,
+    "rotateSpeed": 2,
+    "shootSound": "artillery",
+    "ammoTypes": {
+        "copper": {
+            "lifetime": 1000,
+            "type": "ArtilleryBulletType",
+            "height": 1,
+            "width": 1,
+            "collidesTiles": false,
+			"damage": 135,
+            "ammoMultiplier": 1,
+            "smokeEffect": "shootBigSmoke",
+            "shootEffect": "producesmoke"
+			"speed": 125
+        }
+    },
+    "requirements": [
+        {
+            "item": "lead",
+            "amount": 500
+        },
+        {
+            "item": "zinq",
+            "amount": 400
+        },
+        {
+            "item": "graphite",
+            "amount": 250
+        },
+        {
+            "item": "silicon",
+            "amount": 250
+        },
+        {
+            "item": "titanium",
+            "amount": 300
+        },
+        {
+            "item": "metaglass",
+            "amount": 200
+        },
+        {
+            "item": "surge-alloy",
+            "amount": 200
+        }
+    ],
+    "category": "turret",
+    "research": "ripple"
+}
