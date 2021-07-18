@@ -39,13 +39,15 @@
         },
         "quartz": {
             "type": "BasicBulletType",
-            "damage": 24,
+            "damage": 30,
             "height": 12,
+            "splashDamage": 12,
+            "splashRadius": 4,
             "width": 6,
             "speed": 1.5,
             "lifetime": 140,
             "collidesTiles": true,
-            "ammoMultiplier": 0.5
+            "ammoMultiplier": 1
         }
     },
     "requirements": [

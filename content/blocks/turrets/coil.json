@@ -1,0 +1,55 @@
+{
+    "type": "ItemTurret",
+    "size": 1,
+    "health": 100,
+    "range": 280,
+    "minRange": 50,
+    "reloadTime": 120,
+    "shots": 1,
+    "spread": 0,
+    "velocityInaccuracy": 0,
+    "recoilAmount": 1,
+    "hasItems": true,
+    "itemCapacity": 20,
+    "inaccuracy": 0,
+    "maxAmmo": 20,
+    "targetAir": true,
+    "rotateSpeed": 12,
+    "shootSound": "railgun",
+    "ammoTypes": {
+        "copper": {
+            "lifetime": 20,
+            "type": "PointBulletType",
+            "height": 30,
+            "width": 6,
+            "collidesTiles": false,
+            "damage": 180,
+            "ammoMultiplier": 4,
+            "smokeEffect": "shootBigSmoke",
+            "shootEffect": "producesmoke"
+        },
+        "quartz": {
+            "lifetime": 20,
+            "type": "PointBulletType",
+            "height": 30,
+            "width": 6,
+            "collidesTiles": false,
+            "damage": 300,
+            "ammoMultiplier": 4,
+            "smokeEffect": "shootBigSmoke",
+            "shootEffect": "producesmoke"
+        }
+    },
+    "requirements": [
+        {
+            "item": "lead",
+            "amount": 50
+        },
+        {
+            "item":  "copper",
+            "amount": 75
+        },
+    ],
+    "category": "turret",
+    "research": "arc"
+}

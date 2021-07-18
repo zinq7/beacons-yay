@@ -9,13 +9,12 @@ canOverdrive: false
 phaseUseTime: 270
 phaseRadiusBoost: 20
 radius: 20
-shieldHealth: 600
+shieldHealth: 300
 phaseShieldBoost: 300
 cooldownNormal: 1
 cooldownLiquid: 1
 cooldownBrokenBase: 1
 consumes: {
-  power: 0
   items: {
     items: [
       thorium/1
@@ -27,5 +26,5 @@ consumes: {
 requirements: [
   zinq-good/24
 ]
-category: wall
+category: defense
 research: titanium-wall-large

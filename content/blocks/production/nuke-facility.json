@@ -1,7 +1,7 @@
 {
     "type": "GenericCrafter",
     "health": 2400,
-    "size": 4,
+    "size": 3,
     "hasPower": true,
     "hasLiquids": true,
     "hasItems": true,
