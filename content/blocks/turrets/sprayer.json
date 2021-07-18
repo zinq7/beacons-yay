@@ -37,6 +37,16 @@
             "collidesTiles": true,
             "ammoMultiplier": 1
         }
+        "quartz": {
+            "type": "BasicBulletType",
+            "damage": 24,
+            "height": 12,
+            "width": 6,
+            "speed": 1.5,
+            "lifetime": 140,
+            "collidesTiles": true,
+            "ammoMultiplier": 0.5
+        },
     },
     "requirements": [
         {
