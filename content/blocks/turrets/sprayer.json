@@ -1,1 +1,49 @@
-
+{
+    "type": "ItemTurret",
+    "size": 2,
+    "health": 400,
+    "range": 100,
+    "minRange": 0,
+    "reloadTime": 10,
+    "shots": 5,
+    "spread": 0.07,
+    "velocityInnacuracy": 0.2,
+    "recoilAmount": 1,
+    "hasItems": true,
+    "itemCapacity": 50,
+    "targetAir": true,
+    "rotateSpeed": 12,
+    "shootSound": "artillery",
+    "ammoTypes": {
+        "scrap": {
+            "type": "BasicBulletType",
+            "damage": 8,
+            "height": 12,
+            "width": 6,
+            "speed": 50,
+            "lifetime": 120,
+            "collidesTiles": true,
+            "ammoMultiplier": 1
+        }
+    },
+    "requirements": [
+        {
+            "item": "metaglass",
+            "amount": 30
+        },
+        {
+            "item": "graphite",
+            "amount": 18
+        },
+        {
+            "item": "lead",
+            "amount": 50
+        },
+        {
+            "item": "copper",
+            "amount": 40
+        }
+    ],
+    "category": "turret",
+    "research": "arc"
+}
