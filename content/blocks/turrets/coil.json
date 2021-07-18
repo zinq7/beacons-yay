@@ -26,7 +26,7 @@
             "collidesTiles": false,
 			"damage": 135,
 		"splashDamage": 135,
-		"splashRadius": 1,
+		"splashRadius": 5,
             "ammoMultiplier": 1,
             "smokeEffect": "shootBigSmoke",
             "shootEffect": "producesmoke",
