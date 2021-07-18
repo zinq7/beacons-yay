@@ -2,7 +2,7 @@ name = Coil
 description = Coiled
 type = itemTurret
 float brange = range = 300f;
-requirements(Category.turret, with(Items.copper, 75, Items.lead, 50));
+            requirements(Category.turret, with(Items.copper, 50, Items.lead, 50));
           ammo(
                 Items.copper, new PointBulletType(){{
                     shootEffect = Fx.instShoot;
