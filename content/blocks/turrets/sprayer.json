@@ -10,6 +10,7 @@
     "velocityInaccuracy": 0.2,
     "recoilAmount": 1,
     "hasItems": true,
+    "maxAmmo": 50,
     "itemCapacity": 50,
     "targetAir": true,
     "rotateSpeed": 12,
@@ -20,8 +21,18 @@
             "damage": 8,
             "height": 12,
             "width": 6,
-            "speed": 50,
-            "lifetime": 120,
+            "speed": 2.0,
+            "lifetime": 60,
+            "collidesTiles": true,
+            "ammoMultiplier": 1
+        },
+        "metaglass": {
+            "type": "BasicBulletType",
+            "damage": 14,
+            "height": 12,
+            "width": 6,
+            "speed": 2.5,
+            "lifetime": 50,
             "collidesTiles": true,
             "ammoMultiplier": 1
         }
