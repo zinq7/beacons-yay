@@ -2,7 +2,7 @@
     "type": "ItemTurret",
     "size": 2,
     "health": 400,
-    "range": 100,
+    "range": 120,
     "minRange": 0,
     "reloadTime": 10,
     "shots": 5,
@@ -19,7 +19,7 @@
     "ammoTypes": {
         "scrap": {
             "type": "BasicBulletType",
-            "damage": 8,
+            "damage": 10,
             "height": 12,
             "width": 6,
             "speed": 2.0,
@@ -29,7 +29,7 @@
         },
         "metaglass": {
             "type": "BasicBulletType",
-            "damage": 14,
+            "damage": 16,
             "height": 12,
             "width": 6,
             "speed": 2.5,
