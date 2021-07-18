@@ -27,7 +27,7 @@
             "drag": 0.001,
 			"statusDuration": 240,
             "ammoMultiplier": 0.4,
-            "damage": 10,
+            "damage": 10
         },
         "cryofluid": {
             "type": "LiquidBulletType",
@@ -39,7 +39,7 @@
             "drag": 0.002,
 			"statusDuration": 240,
             "ammoMultiplier": 0.4,
-            "damage": 15,
+            "damage": 15
         },
         "oil": {
             "type": "LiquidBulletType",
@@ -51,7 +51,7 @@
             "drag": 0.002,
 			"statusDuration": 240,
             "ammoMultiplier": 0.4,
-            "damage": 20,
+            "damage": 20
         },
         "slag": {
             "type": "LiquidBulletType",
@@ -63,7 +63,7 @@
             "drag": 0.002,
 			"statusDuration": 240,
             "ammoMultiplier": 0.4,
-            "damage": 40,
+            "damage": 40
         },
         "jungle-juice": {
             "type": "LiquidBulletType",
@@ -75,7 +75,7 @@
             "drag": 0.002,
 			"statusDuration": 240,
             "ammoMultiplier": 0.4,
-            "damage": 50,
+            "damage": 50
         }
     },
     "requirements": [
