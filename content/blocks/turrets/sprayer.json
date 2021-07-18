@@ -7,7 +7,7 @@
     "reloadTime": 10,
     "shots": 5,
     "spread": 0.07,
-    "velocityInnacuracy": 0.2,
+    "velocityInaccuracy": 0.2,
     "recoilAmount": 1,
     "hasItems": true,
     "itemCapacity": 50,
