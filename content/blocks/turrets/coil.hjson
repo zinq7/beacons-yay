@@ -3,7 +3,7 @@ description = Coiled;
 type = itemTurret;
 float brange = range = 300f;
           ammo(
-                Items.copper, new PointBulletType(){{
+                Items.copper: new PointBulletType(){{
                     shootEffect = Fx.instShoot;
                     hitEffect = Fx.instHit;
                     smokeEffect = Fx.smokeCloud;
@@ -17,7 +17,17 @@ float brange = range = 300f;
                     ammoMultiplier = 1f;
                 }}
             );
-            requirements(Category.turret, with(Items.copper, 50, Items.lead, 50));
+
+          requirements: [
+  copper/2300
+  silicon/275
+  metaglass/750
+  thorium/350
+  diamond/1000
+  surge-alloy/450
+  phase-fabric/450
+  cryogem/400
+]
 
             maxAmmo = 40;
             ammoPerShot = 5;
@@ -32,7 +42,6 @@ float brange = range = 300f;
             size = 1;
             shootCone = 2f;
             shootSound = Sounds.railgun;
-            unitSort = (u, x, y) -> -u.maxHealth + Mathf.dst2(u.x, u.y, x, y) / 6400f;
 
             coolantMultiplier = 0.4f;
 
