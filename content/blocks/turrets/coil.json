@@ -25,10 +25,12 @@
             "width": 1,
             "collidesTiles": false,
 			"damage": 135,
+		"splashDamage": 135,
+		"splashRadius": 1,
             "ammoMultiplier": 1,
             "smokeEffect": "shootBigSmoke",
             "shootEffect": "producesmoke",
-			"speed": 125
+			"speed": 25
         }
     },
     "requirements": [
