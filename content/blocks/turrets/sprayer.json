@@ -36,7 +36,7 @@
             "lifetime": 70,
             "collidesTiles": true,
             "ammoMultiplier": 1
-        }
+        },
         "quartz": {
             "type": "BasicBulletType",
             "damage": 24,
@@ -46,7 +46,7 @@
             "lifetime": 140,
             "collidesTiles": true,
             "ammoMultiplier": 0.5
-        },
+        }
     },
     "requirements": [
         {
