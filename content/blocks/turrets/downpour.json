@@ -11,7 +11,6 @@
     "shootCone": 8,
     "recoilAmount": 0.1,
     "hasLiquids": true,
-    "maxAmmo": 500,
     "liquidCapacity": 500,
     "targetAir": true,
     "rotateSpeed": 12,
@@ -73,18 +72,17 @@
             "puddleSize": 3,
             "orbSize": 3,
             "drag": 0.002,
-			"statusDuration": 240,
             "ammoMultiplier": 1,
             "damage": 50
         }
     },
     "requirements": [
         {
-            "item": "plastanium",
-            "amount": 300
+            "item": "metaglass",
+            "amount": 350
         },
         {
-            "item": "quartz",
+            "item": "plastanium",
             "amount": 250
         },
         {
@@ -93,5 +91,5 @@
         }
     ],
     "category": "turret",
-    "research": "arc"
+    "research": "tsunami"
 }
