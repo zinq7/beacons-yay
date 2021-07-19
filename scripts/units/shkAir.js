@@ -73,23 +73,6 @@ shkStrikeBolt.despawnEffect = shkBoltDesp;
 shkStrikeBolt.status = StatusEffects.shocked;
 shkStrikeBolt.statusDuration = 30;
 
-const shkAirT1weapon = extend(Weapon, "strike-bolt", {});
-shkAirT1weapon.name = "strike-bolt";
-shkAirT1weapon.reload = 45;
-shkAirT1weapon.shots = 1;
-shkAirT1weapon.inaccuracy = 0;
-shkAirT1weapon.x = 0;
-shkAirT1weapon.y = 7;
-shkAirT1weapon.shootCone = 30;
-shkAirT1weapon.rotate = false;
-shkAirT1weapon.mirror = false;
-shkAirT1weapon.soundPitchMin = 0.7;
-shkAirT1weapon.soundPitchMax = 1.3;
-shkAirT1weapon.top = true;
-shkAirT1weapon.shootSound = loadSound("strikeZap");
-shkAirT1weapon.bullet = shkStrikeBolt;
-
-shkAirT1.weapons.add(shkAirT1weapon);
 shkAirT1.ammoType = AmmoTypes.powerHigh;
 
 Blocks.airFactory.plans.add(new UnitFactory.UnitPlan(shkAirT1, 60 * 20, ItemStack.with(Items.silicon, 10, Items.lead, 25, Items.copper, 15)));
