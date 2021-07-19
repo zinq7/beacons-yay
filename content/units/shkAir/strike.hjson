@@ -39,7 +39,7 @@ weapons:[
     ignoreRotation: false
     shootSound: scoutSalvo
     bullet:{
-      type: BasicBulletType
+      type: MissileBulletType
 	  hitColor: 888888
 	  hitEffect: hitLiquid
 	  collidesTiles: false
@@ -49,9 +49,9 @@ weapons:[
 	  frontColor: ffffff
 	  backColor: ffffff
      	  damage: 11
-	  width: 4.5
-	  height: 2
-	  shrinkY: 0
+	  width: 5
+	  height: 5
+	  shrinkY: 3
 	  speed: 4
 	  lifetime: 40
    	  homingPower: 1
