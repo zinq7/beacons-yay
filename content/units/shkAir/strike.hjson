@@ -39,19 +39,22 @@ weapons:[
     ignoreRotation: false
     shootSound: scoutSalvo
     bullet:{
-      type: MissileBulletType
+      type: BasicBulletType
 	  hitColor: 888888
 	  hitEffect: hitLiquid
+	  collidesTiles: false
+	  collidesGround: false
+	  collidesAir: true
 	  despawnEffect: none
 	  frontColor: ffffff
 	  backColor: ffffff
-      damage: 11
+     	  damage: 11
 	  width: 4.5
 	  height: 2
 	  shrinkY: 0
 	  speed: 4
-	  lifetime: 14
-    homingPower: 1
+	  lifetime: 40
+   	  homingPower: 1
     }
   }
 ]
