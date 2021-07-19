@@ -36,10 +36,10 @@
       "inaccuracy": 3,
       "rotate": true,
       "ignoreRotation": false,
-      "shootSound": "scoutSalvo",
       "bullet": {
         "type": "MissileBulletType",
         "hitColor": 888888,
+        "sprite": "missile",
         "hitEffect": "hitLiquid",
         "collidesTiles": false,
         "collidesGround": false,

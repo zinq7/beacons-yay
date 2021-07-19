@@ -28,8 +28,8 @@
       "type": "UnitSpawnAbility",
       "unit": "tempest",
       "time": 12,
-      "x": 12,
-      "y": 12
+      "x": 50,
+      "y": 0
     }
   ],
   "weapons": [
@@ -40,7 +40,7 @@
       "shootY": 7,
       "recoil": 0.1,
       "reload": 45,
-      "shots": 4,
+      "shots": 12,
       "shotDelay": 2,
       "spacing": 0,
       "inaccuracy": 7,
@@ -48,14 +48,15 @@
       "rotateSpeed": 8,
       "occlusion": 6,
       "rotate": true,
+      "top": false,
       "mirror": true,
       "soundPitchMin": 0.92,
       "soundPitchMax": 1.04,
       "bullet": {
         "type": "BasicBulletType",
-        "frontColor": "edff77",
-        "backColor": "eeee00",
-        "trailColor": "ffff00",
+        "frontColor": "ffffff",
+        "backColor": "ffffff",
+        "trailColor": "ffffff",
         "width": 8,
         "height": 8,
         "shrinkX": 0,

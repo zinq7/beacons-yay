@@ -1,5 +1,5 @@
 {
-  "localizedName": "Storm",
+  "localizedName": "Eagle Eye",
   "description": "Drops powerful bombs at a slow RoF. High speed.",
   "commandLimit": 10,
   "speed": 3.25,
@@ -15,15 +15,18 @@
   "hitSize": 8,
   "crashDamageMultiplier": 8,
   "fallEffect": "coreBurn",
-  "rotateShooting": false,
+  "rotateShooting": true,
   "circleTarget": true,
-  "immunities": ["wet", "shocked", "sapped", "sporeSlowed"],
-    "engineOffset": 0,
-    "engineSize": 0,
-    "lowAltitude": true,
-    "destructibleWreck": false,
-    "flying": true,
-    "weapons":[
+  "immunities": [
+    "wet",
+    "shocked"
+  ],
+  "engineOffset": 0,
+  "engineSize": 0,
+  "lowAltitude": true,
+  "destructibleWreck": false,
+  "flying": true,
+  "weapons": [
     {
       "name": "Magnofephefr Cluster Bomb",
       "x": 7,
@@ -31,6 +34,7 @@
       "shootY": 0,
       "recoil": 0,
       "reload": 180,
+      "top": false,
       "shots": 5,
       "shotDelay": 5,
       "spacing": 2,
@@ -39,8 +43,8 @@
       "ignoreRotation": true,
       "bullet": {
         "type": "BombBulletType",
-        "frontColor": "edff77",
-        "backColor": "ffff00",
+        "frontColor": "ffffff",
+        "backColor": "ffffff",
         "width": 10,
         "height": 10,
         "hitColor": 999999,
