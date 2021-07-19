@@ -82,7 +82,7 @@ const shkAirT2 = extendContent(UnitType, "storm", {
 shkAirT2.constructor = () => extend(UnitEntity, {});
 shkAirT2.ammoType = AmmoTypes.powerHigh;
 
-var upgradeA = new Seq([Vars.content.getByName(ContentType.unit, "work-pls-strike"), Vars.content.getByName(ContentType.unit, "work-pls-storm")]);
+var upgradeA = new Seq([Vars.content.getByName(ContentType.unit, "beacons-yay-strike"), Vars.content.getByName(ContentType.unit, "beacons-yay-storm")]);
 Blocks.additiveReconstructor.upgrades.add(upgradeA.toArray(UnitType));
 
 const shkAirT3 = extendContent(UnitType, "tempest", {
@@ -90,7 +90,7 @@ const shkAirT3 = extendContent(UnitType, "tempest", {
 shkAirT3.constructor = () => extend(UnitEntity, {});
 shkAirT3.ammoType = AmmoTypes.powerHigh;
 
-var upgradeB = new Seq([Vars.content.getByName(ContentType.unit, "work-pls-storm"), Vars.content.getByName(ContentType.unit, "work-pls-tempest")]);
+var upgradeB = new Seq([Vars.content.getByName(ContentType.unit, "beacons-yay-storm"), Vars.content.getByName(ContentType.unit, "beacons-yay-tempest")]);
 Blocks.multiplicativeReconstructor.upgrades.add(upgradeB.toArray(UnitType));
 
 const shkAirT4 = extendContent(UnitType, "hurricane", {
@@ -156,7 +156,7 @@ hurricanePlasmaFragment.hittable = false;
 hurricanePlasmaFragment.reflectable = false;
 hurricanePlasmaFragment.status = StatusEffects.shocked;
 hurricanePlasmaFragment.statusDuration = 45;
-hurricanePlasmaFragment.sprite = "work-pls-diamondbullet";
+hurricanePlasmaFragment.sprite = "beacons-yay-diamondbullet";
 hurricanePlasmaFragment.hitSound = Sounds.none;
 
 const hurricanePlasma = extend(BasicBulletType, {});
@@ -196,7 +196,7 @@ hurricanePlasma.reflectable = false;
 hurricanePlasma.absorbable = false;
 hurricanePlasma.status = StatusEffects.shocked;
 hurricanePlasma.statusDuration = 15;
-hurricanePlasma.sprite = "work-pls-plasma-sphere";
+hurricanePlasma.sprite = "beacons-yay-plasma-sphere";
 hurricanePlasma.hitSound = loadSound("tempestShockBullet");
 
 const shkStrikeBoltBig = extend(PointBulletType, {});
@@ -215,7 +215,7 @@ shkStrikeBoltBig.status = StatusEffects.shocked;
 shkStrikeBoltBig.statusDuration = 30;
 
 const shkAirT4weaponA = extend(Weapon, {
-	name: "work-pls-hurricane-bolt",
+	name: "beacons-yay-hurricane-bolt",
 	reload: 55,
 	shots: 1,
 	inaccuracy: 0,
@@ -232,7 +232,7 @@ const shkAirT4weaponA = extend(Weapon, {
 	bullet: shkStrikeBoltBig
 });
 const shkAirT4weaponB = extend(Weapon, {
-	name: "work-pls-hurricane-bolt",
+	name: "beacons-yay-hurricane-bolt",
 	reload: 55,
 	shots: 1,
 	inaccuracy: 0,
@@ -273,7 +273,7 @@ shkAirT4weaponB,
 shkAirT4plasma
 );
 
-var upgradeC = new Seq([Vars.content.getByName(ContentType.unit, "work-pls-tempest"), Vars.content.getByName(ContentType.unit, "work-pls-hurricane")]);
+var upgradeC = new Seq([Vars.content.getByName(ContentType.unit, "beacons-yay-tempest"), Vars.content.getByName(ContentType.unit, "beacons-yay-hurricane")]);
 Blocks.exponentialReconstructor.upgrades.add(upgradeC.toArray(UnitType));
 
 const shkAirT5 = extendContent(UnitType, "purger", {
@@ -339,7 +339,7 @@ purgerPlasmaFragment.reflectable = false;
 purgerPlasmaFragment.absorbable = false;
 purgerPlasmaFragment.status = StatusEffects.shocked;
 purgerPlasmaFragment.statusDuration = 300;
-purgerPlasmaFragment.sprite = "work-pls-diamondshard";
+purgerPlasmaFragment.sprite = "beacons-yay-diamondshard";
 purgerPlasmaFragment.homingPower = 0;
 purgerPlasmaFragment.homingRange = 0;
 purgerPlasmaFragment.hitSound = Sounds.none;
@@ -382,7 +382,7 @@ purgerPlasma.reflectable = false;
 purgerPlasma.absorbable = false;
 purgerPlasma.status = StatusEffects.shocked;
 purgerPlasma.statusDuration = 300;
-purgerPlasma.sprite = "work-pls-plasma-sphere";
+purgerPlasma.sprite = "beacons-yay-plasma-sphere";
 purgerPlasma.homingPower = 0.0925;
 purgerPlasma.homingRange = 180;
 purgerPlasma.homingDelay = 55;
@@ -428,5 +428,5 @@ const shkAirT5weapon = extend(Weapon, {
 });
 //	name = "purger-plasma";
 shkAirT5.weapons.add(shkAirT5weapon);
-var upgradeD = new Seq([Vars.content.getByName(ContentType.unit, "work-pls-hurricane"), Vars.content.getByName(ContentType.unit, "work-pls-purger")]);
+var upgradeD = new Seq([Vars.content.getByName(ContentType.unit, "beacons-yay-hurricane"), Vars.content.getByName(ContentType.unit, "beacons-yay-purger")]);
 Blocks.tetrativeReconstructor.upgrades.add(upgradeD.toArray(UnitType));
