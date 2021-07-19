@@ -19,7 +19,7 @@
     "shootSound": "artillery",
     "ammoTypes": {
         "copper": {
-		"type": "PointBulletType"
+		"type": "PointBulletType",
 		"reload": 120,
 		"shots": 1
 		"inaccuracy": 0
