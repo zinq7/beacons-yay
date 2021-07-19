@@ -1,0 +1,69 @@
+{
+  "localizedName": "Tempest",
+  "description": "Low range gunship with high health and medium DPS.",
+  "commandLimit": 8,
+  "speed": 2,
+  "drag": 0.1,
+  "accel": 0.108,
+  "strafePenalty": 0.9,
+  "rotateSpeed": 2,
+  "health": 1000,
+  "armor": 10,
+  "range": 120,
+  "itemCapacity": 70,
+  "hitSize": 19,
+  "crashDamageMultiplier": 12,
+  "fallEffect": "coreBurn",
+  "fallThrusterEffect": "none",
+  "rotateShooting": true,
+  "circleTarget": false,
+  "engineOffset": 0,
+  "engineSize": 3,
+  "lowAltitude": true,
+  "destructibleWreck": false,
+  "flying": true,
+  "hovering": true,
+  "weapons": [
+    {
+      "name": "Hells Fury Riot Gun",
+      "x": 0,
+      "y": 2,
+      "shootY": 7,
+      "recoil": 0.1,
+      "reload": 12,
+      "shots": 4,
+      "shotDelay": 2,
+      "spacing": 0,
+      "inaccuracy": 4,
+      "velocityRnd": 0.05,
+      "rotateSpeed": 8,
+      "occlusion": 6,
+      "rotate": true,
+      "mirror": true,
+      "soundPitchMin": 0.92,
+      "soundPitchMax": 1.04,
+      "shootSound": "tempestShoot",
+      "bullet": {
+        "type": "BasicBulletType",
+        "frontColor": "edff77",
+        "backColor": "eeee00",
+        "trailColor": "ffff00",
+        "width": 3,
+        "height": 3,
+        "shrinkX": 0,
+        "shrinkY": 0,
+        "speed": 8,
+        "sprite": "bullet",
+        "lifetime": 30,
+        "damage": 2,
+        "reflectable": true
+      }
+    }
+  ],
+  "research": {
+    "parent": "storm",
+    "requirements": [
+      "silicon/55000"
+    ]
+  }
+}

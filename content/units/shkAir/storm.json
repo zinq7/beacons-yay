@@ -1,0 +1,67 @@
+{
+  "localizedName": "Storm",
+  "description": "Drops powerful bombs at a slow RoF. High speed.",
+  "commandLimit": 10,
+  "speed": 3.25,
+  "drag": 0.1,
+  "accel": 0.108,
+  "strafePenalty": 1,
+  "lightRadius": 25,
+  "lightOpacity": 1.174,
+  "lightColor": "ffff00",
+  "health": 400,
+  "armor": 3,
+  "itemCapacity": 50,
+  "hitSize": 8,
+  "crashDamageMultiplier": 8,
+  "fallEffect": "coreBurn",
+  "rotateShooting": false,
+  "circleTarget": true,
+  "immunities": ["wet", "shocked", "sapped", "sporeSlowed"],
+    "engineOffset": 0,
+    "engineSize": 0,
+    "lowAltitude": true,
+    "destructibleWreck": false,
+    "flying": true,
+    "weapons":[
+    {
+      "name": "Magnofephefr Cluster Bomb",
+      "x": 7,
+      "y": 0,
+      "shootY": 0,
+      "recoil": 0,
+      "reload": 180,
+      "shots": 5,
+      "shotDelay": 5,
+      "spacing": 2,
+      "inaccuracy": 180,
+      "velocityInaccuracy": 1,
+      "ignoreRotation": true,
+      "bullet": {
+        "type": "BombBulletType",
+        "frontColor": "edff77",
+        "backColor": "ffff00",
+        "width": 10,
+        "height": 10,
+        "hitColor": 999999,
+        "lightColor": "ffffff",
+        "lightningColor": "ffffff",
+        "lightningLength": 0,
+        "lightningLengthRand": 1,
+        "lightningDamage": 9,
+        "lightning": 6,
+        "hitEffect": "mineBig",
+        "despawnEffect": "none",
+        "lifetime": 75,
+        "damage": 5,
+        "reflectable": false
+      }
+    }
+  ],
+  "research": {
+    "parent": "strike",
+    "requirements": [
+      "silicon/15000"
+    ]
+  }
+}

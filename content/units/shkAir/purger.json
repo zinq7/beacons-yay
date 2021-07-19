@@ -1,0 +1,77 @@
+{
+  "localizedName": "Mega Fortress",
+  "description": "Summons Flares at insanely high speed as well as being a powerful gunship",
+  "commandLimit": 8,
+  "speed": 0.71,
+  "drag": 0.2,
+  "accel": 0.205,
+  "strafePenalty": 1,
+  "rotateSpeed": 0.9,
+  "health": 22500,
+  "armor": 20,
+  "range": 200,
+  "itemCapacity": 220,
+  "hitSize": 31,
+  "crashDamageMultiplier": 20,
+  "fallEffect": "coreBurn",
+  "fallThrusterEffect": "none",
+  "rotateShooting": true,
+  "circleTarget": false,
+  "engineOffset": 0,
+  "engineSize": 0,
+  "lowAltitude": true,
+  "destructibleWreck": false,
+  "flying": true,
+  "hovering": true,
+  "abilities": [
+    {
+      "type": "UnitSpawnAbility",
+      "unit": "tempest",
+      "time": 12,
+      "x": 12,
+      "y": 12
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Hells Fury Riot Gun",
+      "x": 0,
+      "y": 2,
+      "shootY": 7,
+      "recoil": 0.1,
+      "reload": 45,
+      "shots": 4,
+      "shotDelay": 2,
+      "spacing": 0,
+      "inaccuracy": 7,
+      "velocityRnd": 0.05,
+      "rotateSpeed": 8,
+      "occlusion": 6,
+      "rotate": true,
+      "mirror": true,
+      "soundPitchMin": 0.92,
+      "soundPitchMax": 1.04,
+      "bullet": {
+        "type": "BasicBulletType",
+        "frontColor": "edff77",
+        "backColor": "eeee00",
+        "trailColor": "ffff00",
+        "width": 8,
+        "height": 8,
+        "shrinkX": 0,
+        "shrinkY": 0,
+        "speed": 6,
+        "sprite": "bullet",
+        "lifetime": 50,
+        "damage": 50,
+        "reflectable": true
+      }
+    }
+  ],
+  "research": {
+    "parent": "hurricane",
+    "requirements": [
+      "silicon/555000"
+    ]
+  }
+}
