@@ -18,6 +18,7 @@
     "ammoTypes": {
         "water": {
             "type": "LiquidBulletType",
+		"liquid": "water",
             "lifetime": 62,
             "speed": 4,
             "knockback": 1.7,
@@ -30,6 +31,7 @@
         },
         "cryofluid": {
             "type": "LiquidBulletType",
+	"liquid": "cryofluid",
             "lifetime": 62,
             "speed": 4,
             "knockback": 2,
@@ -42,6 +44,7 @@
         },
         "oil": {
             "type": "LiquidBulletType",
+	"liquid": "oil",
             "lifetime": 62,
             "speed": 4,
             "knockback": -5,
@@ -54,6 +57,7 @@
         },
         "slag": {
             "type": "LiquidBulletType",
+	"liquid": "slag",
             "lifetime": 62,
             "speed": 4,
             "knockback": 2,
@@ -66,6 +70,7 @@
         },
         "jungle-juice": {
             "type": "LiquidBulletType",
+	"liquid": "jungle-juice",
             "lifetime": 32,
             "speed": 8,
             "knockback": 3,
