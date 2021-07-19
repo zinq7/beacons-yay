@@ -21,6 +21,42 @@ lowAltitude: false
 destructibleWreck: false
 flying: true
 
+weapons:[
+  {
+    name: Linked Railgun AA
+    x: 2
+    y: 2
+    shootY: 2
+    recoil: 0.4
+    reload: 15
+    shootCone: 40
+    shots: 2
+    alternate: true
+    shotDelay: 4
+    spacing: 0
+    inaccuracy: 3
+    rotate: true
+    ignoreRotation: false
+    shootSound: scoutSalvo
+    bullet:{
+      type: MissileBulletType
+	  hitColor: 888888
+	  hitEffect: hitLiquid
+	  despawnEffect: none
+	  frontColor: ffffff
+	  backColor: ffffff
+      damage: 11
+	  width: 4.5
+	  height: 2
+	  shrinkY: 0
+	  speed: 4
+	  lifetime: 14
+    homingPower: 1
+    }
+  }
+]
+
+
 
 
 research:{
