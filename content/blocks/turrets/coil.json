@@ -23,7 +23,6 @@
 		"reload": 120,
 		"shots": 1,
 		"trailSpacing": 10,
-		"trailEffect": "shkBoltTrail",
 		"inaccuracy": 0,
 		"shootCone": 30,
 		"bullet": "shkStrikeBolt"
