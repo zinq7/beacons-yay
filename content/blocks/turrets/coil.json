@@ -19,13 +19,18 @@
     "shootSound": "artillery",
     "ammoTypes": {
         "copper": {
-		"type": "PointBulletType",
-		"reload": 120,
-		"shots": 1,
-		"trailSpacing": 10,
-		"inaccuracy": 0,
-		"shootCone": 30,
-		"bullet": "shkStrikeBolt"
+	            "lifetime": 1000,
+            "type": "ArtilleryBulletType",
+            "height": 1,
+            "width": 1,
+            "collidesTiles": false,
+			"damage": 135,
+		"splashDamage": 135,
+		"splashDamageRadius": 10,
+            "ammoMultiplier": 1,
+            "smokeEffect": "shootBigSmoke",
+            "shootEffect": "shootBig",
+			"speed": 10
 
         }
     },
