@@ -9,7 +9,7 @@
     "itemCapacity": 30,
     "liquidCapacity": 120,
     "craftEffect": "formsmoke",
-    "results": {
+    "results": with {
         "phase-fabric": 2,
         "surge-alloy": 2,
         "plastanium": 2,
