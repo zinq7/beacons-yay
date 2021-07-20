@@ -1,0 +1,45 @@
+{
+    "type": "Separator",
+    "health": 400,
+    "size": 3,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 15,
+    "itemCapacity": 30,
+    "liquidCapacity": 120,
+    "craftEffect": "formsmoke",
+    "results": {
+        "phase-fabric": 2,
+        "surge-alloy": 2,
+        "plastanium": 2,
+        "zinq": 5
+    },
+    "consumes": {
+        "power": 8,
+        "liquid": {
+            "liquid": "jungle-juice",
+            "amount": 0.12
+        }
+    },
+    "requirements": [
+        {
+            "item": "graphite",
+            "amount": 200
+        },
+        {
+            "item": "surge-alloy",
+            "amount": 75
+        },
+        {
+            "item": "titanium",
+            "amount": 150
+        },
+        {
+            "item": "thorium",
+            "amount": 100
+        }
+    ],
+    "category": "crafting",
+    "research": "jungle-juicer"
+}
