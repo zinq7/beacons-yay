@@ -9,7 +9,6 @@ l{
     "itemCapacity": 30,
     "liquidCapacity": 120,
     "craftEffect": "formsmoke",
-    "outputItem": {
         "results": {
         
             "item": "zinc",
@@ -17,8 +16,8 @@ l{
             "item": "surge-alloy",
             "item": "plastanium"
         
-        }
-    },
+        },
+   
     "consumes": {
         "power": 8,
         "liquid": {
