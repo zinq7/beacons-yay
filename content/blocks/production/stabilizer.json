@@ -1,4 +1,4 @@
-{
+l{
     "type": "Separator",
     "health": 400,
     "size": 3,
@@ -10,14 +10,14 @@
     "liquidCapacity": 120,
     "craftEffect": "formsmoke",
     "outputItem": {
-        "item": "zinq",
-        "amount": 2,
-        "item": "phase-fabric",
-        "amount": 1,
-        "item": "surge-alloy",
-        "amount": 1,
-        "item": "plastanium",
-        "amount": 1
+        "results": {
+        
+            "item": "zinc",
+            "item": "phase-fabric",
+            "item": "surge-alloy",
+            "item": "plastanium"
+        
+        }
     },
     "consumes": {
         "power": 8,
