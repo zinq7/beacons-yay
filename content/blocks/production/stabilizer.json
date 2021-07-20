@@ -5,21 +5,25 @@
     "hasPower": true,
     "hasLiquids": true,
     "hasItems": true,
-    "craftTime": 15,
+    "craftTime": 30,
     "itemCapacity": 30,
     "liquidCapacity": 120,
     "craftEffect": "formsmoke",
-    "results": with {
-        "phase-fabric": 2,
-        "surge-alloy": 2,
-        "plastanium": 2,
-        "zinq": 5
+    "outputItem": {
+        "item": "zinq",
+        "amount": 2,
+        "item": "phase-fabric",
+        "amount": 1,
+        "item": "surge-alloy",
+        "amount": 1,
+        "item": "plastanium",
+        "amount": 1
     },
     "consumes": {
         "power": 8,
         "liquid": {
             "liquid": "jungle-juice",
-            "amount": 0.12
+            "amount": 0.25
         }
     },
     "requirements": [
