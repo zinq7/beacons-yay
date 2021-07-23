@@ -1,20 +1,19 @@
 {
-    "localizedName": "MA-12 Striker",
-    "description": "Powerful land unit that is ineffective at turning.",
+    "localizedName": "Pillar",
+    "description": "Powerful t2 land unit that repairs nearby units.",
     "commandLimit": 9,
     "speed": 1,
     "drag": 0.5,
     "accel": 0.2,
     "strafePenalty": 0.2,
     "rotateSpeed": 3,
-    "health": 200,
-    "armor": 1,
+    "health": 500,
+    "armor": 5,
     "range": 180,
     "targetAir": false,
     "circleTarget": false,
-    "hitSize": 7,
-    "itemCapacity": 20,
-    "crashDamageMultiplier": 4,
+    "hitSize": 12,
+    "itemCapacity": 40,
     "rotateShooting": false,
     "lowAltitude": false,
     "destructibleWreck": false,
@@ -22,12 +21,15 @@
     "weapons": [
         {
             "name": "Direct-Fire Gauss Cannon",
-            "reload": 90,
-            "mirror": false,
-            "alternate": false,
-            "x": 0,
+            "reload": 120,
+            "shots": 2,
+            "spacing": 0,
+            "mirror": true,
+            "alternate": true,
+            "x": -0.1,
             "y": 2,
             "shootX": 0,
+            "top": true,
             "ignoreRotation": false,
             "shootY": 1,
             "bullet": {
@@ -36,7 +38,7 @@
                 "width": 1,
                 "lifetime": 60,
                 "speed": 3,
-                "damage": 50,
+                "damage": 100,
                 "pierceCap": 1,
                 "collidesTiles": false,
                 "collidesGround": false,
@@ -46,7 +48,7 @@
         }
     ],
     "research": {
-        "parent": "mace",
+        "parent": "ma12",
         "requirements": [
           "silicon/3000"
         ]
