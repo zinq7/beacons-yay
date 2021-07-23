@@ -15,7 +15,7 @@
   "hitSize": 8,
   "crashDamageMultiplier": 8,
   "fallEffect": "coreBurn",
-  "rotateShooting": true,
+  "rotateShooting": false,
   "circleTarget": true,
   "immunities": [
     "wet",

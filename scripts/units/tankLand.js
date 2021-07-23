@@ -2,7 +2,7 @@
 /* "tankLand" Unit path
 */
 const tankLandAI = prov(() => {
-    var u = extend(FlyingAI, {
+    var u = extend(GroundAI, {
       updateMovement(){
       }
     });
@@ -16,7 +16,7 @@ const tankLandAI = prov(() => {
   //register(tankLandT1);
   tankLandT1.ammoType = AmmoTypes.powerHigh;
   
-  Blocks.grpimdFactory.plans.add(new UnitFactory.UnitPlan(tankLandT1, 60 * 20, ItemStack.with(Items.silicon, 25, Items.lead, 25, Items.graphite, 25)));
+  Blocks.groundFactory.plans.add(new UnitFactory.UnitPlan(tankLandT1, 60 * 20, ItemStack.with(Items.silicon, 25, Items.lead, 25, Items.graphite, 25)));
   
   const tankLandT2 = extendContent(UnitType, "pillar", {
   });
