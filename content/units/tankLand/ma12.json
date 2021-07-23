@@ -15,7 +15,7 @@
     "hitSize": 7,
     "itemCapacity": 20,
     "crashDamageMultiplier": 4,
-    "rotateShooting": false,
+    "rotateShooting": true,
     "lowAltitude": false,
     "destructibleWreck": false,
     "flying": false,

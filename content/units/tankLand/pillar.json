@@ -14,7 +14,7 @@
     "circleTarget": false,
     "hitSize": 12,
     "itemCapacity": 40,
-    "rotateShooting": false,
+    "rotateShooting": true,
     "lowAltitude": false,
     "destructibleWreck": false,
     "flying": false,
