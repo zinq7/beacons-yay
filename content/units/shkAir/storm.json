@@ -37,8 +37,8 @@
       "minShootVelocity": 3,
       "top": false,
       "shots": 5,
-      "shotDelay": 5,
-      "spacing": 1,
+      "shotDelay": 3,
+      "spacing": 0.2,
       "rotate": true,
       "rotateSpeed": 100,
       "inaccuracy": 180,
@@ -47,6 +47,7 @@
       "bullet": {
         "type": "BombBulletType",
         "frontColor": "ffffff",
+        "sprite": "large-bomb",
         "backColor": "ffffff",
         "width": 10,
         "height": 10,
@@ -55,7 +56,7 @@
         "hitEffect": "mineBig",
         "despawnEffect": "none",
         "lifetime": 75,
-        "damage": 10,
+        "damage": 20,
         "splashDamage": 10,
         "splashDamageRadius": 12,
         "reflectable": false
