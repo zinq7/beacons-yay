@@ -1,1 +1,55 @@
 
+{
+    "localizedName": "Rock Head",
+    "description": "Heavy tank with splash damage.",
+    "commandLimit": 9,
+    "speed": 1,
+    "drag": 0.5,
+    "accel": 0.2,
+    "strafePenalty": 0.2,
+    "rotateSpeed": 3,
+    "health": 1500,
+    "armor": 12,
+    "range": 180,
+    "targetAir": false,
+    "circleTarget": false,
+    "hitSize": 12,
+    "itemCapacity": 40,
+    "rotateShooting": false,
+    "lowAltitude": false,
+    "destructibleWreck": false,
+    "flying": false,
+    "weapons": [
+        {
+            "name": "Direct-Fire Gauss Cannon",
+            "reload": 120,
+            "x": -0.1,
+            "y": 2,
+            "shootX": 0,
+            "top": true,
+            "ignoreRotation": false,
+            "shootY": 1,
+            "bullet": {
+                "type": "BasicBulletType",
+                "height": 8,
+                "width": 8,
+                "lifetime": 60,
+                "speed": 3,
+                "damage": 100,
+                "splashDamage": 75,
+                "splashDamageRadius": 25,
+                "pierceCap": 1,
+                "collidesTiles": true,
+                "collidesGround": true,
+                "collidesAir": true,
+                "reflectable": true
+            }
+        }
+    ],
+    "research": {
+        "parent": "pillar",
+        "requirements": [
+          "silicon/3000"
+        ]
+      }
+}

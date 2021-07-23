@@ -28,7 +28,7 @@
             "x": 0,
             "y": 2,
             "shootX": 0,
-            "ignoreRotation": true,
+            "ignoreRotation": false,
             "shootY": 1,
             "bullet": {
                 "type": "BasicBulletType",
@@ -38,8 +38,8 @@
                 "speed": 3,
                 "damage": 50,
                 "pierceCap": 1,
-                "collidesTiles": false,
-                "collidesGround": false,
+                "collidesTiles": true,
+                "collidesGround": true,
                 "collidesAir": true,
                 "reflectable": true
             }

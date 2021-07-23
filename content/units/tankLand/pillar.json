@@ -1,6 +1,6 @@
 {
     "localizedName": "Pillar",
-    "description": "Powerful t2 land unit that repairs nearby units.",
+    "description": "Powerful t2 land unit.",
     "commandLimit": 9,
     "speed": 1,
     "drag": 0.5,
@@ -30,7 +30,7 @@
             "y": 2,
             "shootX": 0,
             "top": true,
-            "ignoreRotation": true,
+            "ignoreRotation": false,
             "shootY": 1,
             "bullet": {
                 "type": "BasicBulletType",
@@ -40,8 +40,8 @@
                 "speed": 3,
                 "damage": 100,
                 "pierceCap": 1,
-                "collidesTiles": false,
-                "collidesGround": false,
+                "collidesTiles": true,
+                "collidesGround": true,
                 "collidesAir": true,
                 "reflectable": true
             }
