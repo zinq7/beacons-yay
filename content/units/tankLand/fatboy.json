@@ -36,15 +36,15 @@
                 "type": "ArtilleryBulletType",
                 "height": 16,
                 "width": 16,
-                "speed": 2,
+                "speed": 8,
                 "scaleVelocity": true,
                 "damage": 20,
                 "splashDamage": 200,
                 "splashDamageRadius": 100,
-                "collidesTiles": true,
-                "collidesGround": true,
-                "collidesAir": true,
-                "reflectable": true
+                "collidesTiles": false,
+                "collidesGround": false,
+                "collidesAir": false,
+                "reflectable": false
             }
         },
         {

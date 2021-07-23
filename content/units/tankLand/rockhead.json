@@ -31,8 +31,8 @@
             "shootY": 1,
             "bullet": {
                 "type": "BasicBulletType",
-                "height": 8,
-                "width": 8,
+                "height": 14,
+                "width": 14,
                 "lifetime": 60,
                 "speed": 3,
                 "damage": 100,
