@@ -1,6 +1,6 @@
 heatCapacity: 2.7
-explosiveness: 4.0
-temperature: 4
+explosiveness: 1
+temperature: 100
 viscosity: 0.5
 effect: corroded
 color: ff4500

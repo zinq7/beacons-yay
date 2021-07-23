@@ -1,4 +1,4 @@
-/*l{
+/*{
     "type": "Separator",
     "health": 400,
     "size": 3,
@@ -9,15 +9,26 @@
     "itemCapacity": 30,
     "liquidCapacity": 120,
     "craftEffect": "formsmoke",
-        "results": {
-        
-            "item": "zinc",
-            "item": "phase-fabric",
-            "item": "surge-alloy",
-            "item": "plastanium"
-        
-        },
-   
+    "results": {
+            "items": [
+                {
+                    "item": "zinq",
+                    "amount": 1
+                },
+                {
+                    "item": "plastanium",
+                    "amount": 1
+                },
+                {
+                    "item": "phase-fabric",
+                    "amount": 1
+                },
+                {
+                    "item": "surge-alloy",
+                    "amount": 1
+                }
+            ]
+    },
     "consumes": {
         "power": 8,
         "liquid": {
@@ -31,16 +42,16 @@
             "amount": 200
         },
         {
-            "item": "surge-alloy",
-            "amount": 75
-        },
-        {
             "item": "titanium",
             "amount": 150
         },
         {
             "item": "thorium",
             "amount": 100
+        },
+        {
+            "item": "surge-alloy",
+            "amount": 75
         }
     ],
     "category": "crafting",

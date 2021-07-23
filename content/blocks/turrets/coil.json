@@ -13,25 +13,26 @@
     "itemCapacity": 20,
     "inaccuracy": 0,
     "maxAmmo": 24,
-	"ammoPerShot": 6,
+    "ammoPerShot": 6,
     "targetAir": false,
     "rotateSpeed": 2,
     "shootSound": "artillery",
     "ammoTypes": {
         "copper": {
-	            "lifetime": 1000,
+            "lifetime": 1000,
             "type": "ArtilleryBulletType",
             "height": 1,
             "width": 1,
             "collidesTiles": false,
-			"damage": 135,
-		"splashDamage": 135,
-		"splashDamageRadius": 10,
+            "damage": 135,
+            "splashDamage": 135,
+            "splashDamageRadius": 10,
             "ammoMultiplier": 1,
+            "trailInterval": 0.1,
+            "trailLength": 1,
             "smokeEffect": "shootBigSmoke",
             "shootEffect": "shootBig",
-			"speed": 10
-
+            "speed": 10
         }
     },
     "requirements": [
@@ -42,7 +43,7 @@
         {
             "item": "lead",
             "amount": 50
-	}
+        }
     ],
     "category": "turret",
     "research": "hail"

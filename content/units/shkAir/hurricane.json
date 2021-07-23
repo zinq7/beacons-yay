@@ -9,7 +9,7 @@
   "rotateSpeed": 5,
   "health": 7500,
   "armor": 10,
-  "range": 200,
+  "range": 135,
   "itemCapacity": 140,
   "hitSize": 23,
   "crashDamageMultiplier": 16,
@@ -78,10 +78,12 @@
       "soundPitchMax": 1.04,
       "bullet": {
         "type": "ArtilleryBulletType",
-        "frontColor": "ffffff",
-        "backColor": "ffffff",
-        "trailColor": "ffffff",
+        "frontColor": "de5246",
+        "backColor": "de5246",
+        "trailColor": "de5246",
         "collidesTiles": false,
+        "scaleVelocity": true,
+        "speed": 5,
         "width": 12,
         "height": 12,
         "shrinkX": 0,
@@ -89,7 +91,7 @@
         "sprite": "bullet",
         "damage": 100,
         "splashDamage": 100,
-        "splashRadius": 60,
+        "splashDamageRadius": 60,
         "reflectable": true
       }
     }

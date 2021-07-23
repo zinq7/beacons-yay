@@ -21,6 +21,7 @@
     "shootType": {
         "type": "LaserBulletType",
         "damage": 150,
+        "pierceCap": 3,
         "speed": 0.1,
         "height": 35,
         "width": 15,

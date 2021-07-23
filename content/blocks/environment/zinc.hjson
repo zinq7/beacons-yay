@@ -5,5 +5,5 @@ itemDrop: zinq
 playerUnmineable: false
 oreDefault: true
 variants: 8
-oreScale: 8
+oreScale: 12
 oreThreshold: 0.8

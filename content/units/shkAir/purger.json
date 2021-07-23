@@ -27,9 +27,9 @@
     {
       "type": "UnitSpawnAbility",
       "unit": "tempest",
-      "time": 12,
-      "x": 50,
-      "y": 0
+      "spawnTime": 150,
+      "spawnx": 0,
+      "spawny": 40
     }
   ],
   "weapons": [
