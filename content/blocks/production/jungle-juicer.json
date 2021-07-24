@@ -34,7 +34,7 @@
         },
         "liquid": {
             "liquid": "slag",
-            "amount": 0.20
+            "amount": 0.60
         }
     },
     "requirements": [
