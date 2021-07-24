@@ -70,7 +70,7 @@
                 "speed": 3,
                 "lifetime": 1000,
                 "scaleVelocity": true,
-                "damage": 25,
+                "damage": 25, 
                 "collidesTiles": true,
                 "collidesGround": true,
                 "collidesAir": true,
