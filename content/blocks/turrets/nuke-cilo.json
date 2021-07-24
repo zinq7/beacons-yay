@@ -21,7 +21,7 @@
             "lifetime": 1000,
             "type": "ArtilleryBulletType",
             "height": 30,
-            "hittable": false,
+            "hittable": true,
             "absorbable": false,
             "makeFire": true,
             "width": 12,
@@ -64,5 +64,5 @@
         }
     ],
     "category": "turret",
-    "research": "ripple"
+    "research": "LRA"
 }
