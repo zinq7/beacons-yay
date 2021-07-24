@@ -5,12 +5,13 @@
     "reload": 60,
     "healPercent": 5,
     "range": 1,
+    "maxRange": 1,
     "requirements": [
         {
             "item": "zinq",
             "amount": 24
         }
     ],
-    "catagory": "wall",
+    "catagory": "defense",
     "research": "titanium-wall-large"
 }
