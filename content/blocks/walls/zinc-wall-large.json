@@ -1,5 +1,5 @@
 {
-    "type": "Mender",
+    "type": "MendProjector",
     "size": 2,
     "health": 1600,
     "reload": 60,
@@ -11,6 +11,6 @@
             "amount": 24
         }
     ],
-    "catagory": "defense",
+    "catagory": "wall",
     "research": "titanium-wall-large"
 }

@@ -1,5 +1,5 @@
 {
-    "type": "Mender",
+    "type": "MendProjector",
     "size": 1,
     "health": 400,
     "reload": 60,
