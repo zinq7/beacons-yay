@@ -1,0 +1,9 @@
+name: Large Zinc Wall
+description: "A bigger wall that self-repairs."
+health: 2400
+size: 2
+requirements: [
+  zinq/24
+]
+category: defense
+research: titanium-wall-large

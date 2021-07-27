@@ -1,0 +1,10 @@
+  
+name: Zinc Wall
+description: "A wall that self-repairs"
+health: 600
+size: 1
+requirements: [
+  zinq/6
+]
+category: defense
+research: titanium-wall
