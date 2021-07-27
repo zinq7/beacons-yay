@@ -1,0 +1,18 @@
+{
+  "type": "floor",
+  "name": "Jungle Juice",
+  "variants": 6,
+  "dragMultiplier": 2.5,
+  "speedMultiplier": 0.25,
+  "status": "melting",
+  "statusDuration": 150,
+  "cacheLayer": "slag",
+  "isLiquid": true,
+  "flammability": 2,
+  "liquidDrop": "jungle-juice",
+  "blendGroup": "slag",
+  "edge": "jj-edge",
+  "attributes": {
+    "heat": 120
+  }
+}
