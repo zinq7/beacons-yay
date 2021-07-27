@@ -1,0 +1,12 @@
+{
+    "type": "Floor",
+    "name": "Straight",
+    "variants": 1,
+    "dragMultiplier": 1,
+    "speedMultiplier": 3,
+    "attributes": {
+      "spores": -0.5,
+      "water": -0.5,
+      "oil": 1.2
+    }
+  }
