@@ -2,7 +2,7 @@
     "type": "ItemTurret",
     "size": 2,
     "health": 300,
-    "range": 150,
+    "range": 175,
     "reloadTime": 5,
     "shots": 2,
     "inaccuracy": 5,
@@ -13,16 +13,20 @@
     "restitution": 0.05,
     "rotateSpeed": 3,
     "shootSound": "laser",
-    "powerUse": 5,
     "emitLight": true,
     "lightRadius": 100,
     "hasPower": true,
+    "consumes": {
+        "power": 5,
+        "optional": false,
+        "powerCond": "isActive"
+    },
     "ammoTypes": {
         "zinq": {
             "lifetime": 60,
             "type": "LightningBulletType",
-            "lightningLength": 40,
-            "damage": 90,
+            "lightningLength": 30,
+            "damage": 20,
             "ammoMultiplier": 1
         }
     },

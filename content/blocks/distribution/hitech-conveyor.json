@@ -1,11 +1,10 @@
 {
-    "insulated": false,
     "size": 1,
     "solid": true,
     "health": 75,
     "speed": 0.24,
     "displayedSpeed": 33,
-    "hasPower": true,
+    "hasPower": false,
     "requirements": [
         {
             "item": "phase-fabric",
