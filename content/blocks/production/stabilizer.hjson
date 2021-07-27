@@ -1,0 +1,38 @@
+type: Separator
+name: Stabilizer
+description: Separates jungle juice into a variety of valuable resources
+itemCapacity: 30
+liquidCapacity: 30
+health: 400
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 20
+spinnerSpeed: 16
+consumes: {
+  power: 6
+  liquid: {
+    liquid: jungle-juice
+    amount: 0.20
+  }
+}
+requirements: [
+  lead/75
+  silicon/105
+  thorium/75
+  phase-fabric/75
+  zinq-good/50
+]
+category: crafting
+research: disassembler
+loopSound: respawning
+loopSoundVolume: 1.95
+ambientSound: respawning
+ambientSoundVolume: 0.5
+results: [
+    plastanium/5
+    phase-fabric/3
+    surge-alloy/1
+    zinq-good/1
+]

@@ -3,6 +3,7 @@
     "name": "Straight",
     "variants": 1,
     "dragMultiplier": 1,
+    "blendGroup": "water",
     "speedMultiplier": 3,
     "attributes": {
       "spores": -0.5,

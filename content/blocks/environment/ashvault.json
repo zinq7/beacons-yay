@@ -3,6 +3,7 @@
     "name": "Asphalt",
     "variants": 3,
     "dragMultiplier": 1,
+    "blendGroup": "water",
     "speedMultiplier": 3,
     "attributes": {
       "spores": -0.5,
