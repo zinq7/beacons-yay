@@ -1,5 +1,4 @@
 {
-    "type": "Wall",
     "size": 1,
     "health": 400,
     "update": true,
