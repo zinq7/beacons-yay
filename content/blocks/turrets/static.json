@@ -1,0 +1,49 @@
+{
+    "type": "ItemTurret",
+    "size": 2,
+    "health": 300,
+    "range": 150,
+    "reloadTime": 5,
+    "shots": 2,
+    "inaccuracy": 5,
+    "targetAir": false,
+    "targetGround": true,
+    "shootCone": 4,
+    "spread": 2,
+    "restitution": 0.05,
+    "rotateSpeed": 3,
+    "shootSound": "laser",
+    "powerUse": 5,
+    "emitLight": true,
+    "lightRadius": 100,
+    "hasPower": true,
+    "ammoTypes": {
+        "zinq": {
+            "lifetime": 1000,
+            "type": "LightningBulletType",
+            "lightningLength": 40,
+            "damage": 90,
+            "ammoMultiplier": 1,
+        }
+    },
+    "requirements": [
+        {
+            "item": "zinq",
+            "amount": 200
+        },
+        {
+            "item": "silicon",
+            "amount": 80
+        },
+        {
+            "item": "graphite",
+            "amount": 80
+        },
+        {
+            "item": "lead",
+            "amount": 200
+        }
+    ],
+    "category": "turret",
+    "research": "lancer"
+}
