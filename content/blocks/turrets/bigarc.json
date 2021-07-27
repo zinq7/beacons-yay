@@ -15,7 +15,6 @@
     "shootSound": "laser",
     "emitLight": true,
     "lightRadius": 100,
-    "hasPower": true,
     "ammoTypes": {
         "zinq": {
             "lifetime": 60,
