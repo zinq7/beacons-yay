@@ -10,7 +10,7 @@ zincwall.buildType = () => extendContent(Wall.WallBuild, zincwall, {
     updateTile() {
         //when health is lower than max health
         if ((this.healthf() < 1) && (Mathf.chance(slowerregen))) {
-            this.heal(10);
+            this.heal(30);
         }
     },
 });
@@ -20,7 +20,7 @@ ZincWallLarge.buildType = () => extendContent(Wall.WallBuild, ZincWallLarge, {
     updateTile() {
         //when health is lower than max health
         if ((this.healthf() < 1) && (Mathf.chance(slowerregen))) {
-            this.heal(10);
+            this.heal(30);
         }
     },
 });

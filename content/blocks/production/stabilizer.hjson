@@ -31,7 +31,7 @@ loopSoundVolume: 1.95
 ambientSound: respawning
 ambientSoundVolume: 0.5
 results: [
-    plastanium/5
+    thorium/5
     phase-fabric/3
     surge-alloy/1
     zinq-good/1
