@@ -1,6 +1,6 @@
 {
     "cost": 2.5,
-    "color": "7575C8",
+    "color": "8888C8",
     "research": {
         "parent": "zinq",
         "requirements": [

@@ -30,6 +30,7 @@
             "ammoMultiplier": 1,
             "trailInterval": 0.1,
             "trailLength": 1,
+            "trailColor": "b87333",
             "smokeEffect": "shootBigSmoke",
             "shootEffect": "shootBig",
             "speed": 10
@@ -46,6 +47,7 @@
             "ammoMultiplier": 1,
             "trailInterval": 0.1,
             "trailLength": 1,
+            "trailColor": "7575C8",
             "smokeEffect": "shootBigSmoke",
             "shootEffect": "shootBig",
             "speed": 10
@@ -62,6 +64,7 @@
             "ammoMultiplier": 1,
             "trailInterval": 0.1,
             "trailLength": 1,
+            "trailColor": "fffff",
             "smokeEffect": "shootBigSmoke",
             "shootEffect": "shootBig",
             "speed": 10
