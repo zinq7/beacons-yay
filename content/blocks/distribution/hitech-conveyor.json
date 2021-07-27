@@ -1,28 +1,21 @@
 {
     "insulated": false,
-    "consumes": {
-        "power": 0.05
-    },
     "size": 1,
     "solid": true,
-    "health": 5,
-    "speed": 0.12,
-    "displayedSpeed": 16,
+    "health": 75,
+    "speed": 0.24,
+    "displayedSpeed": 33,
     "hasPower": true,
     "requirements": [
         {
-            "item": "lead",
+            "item": "phase-fabric",
             "amount": 1
         },
         {
-            "item": "zinq",
-            "amount": 2
-        },
-        {
-            "item": "silicon",
+            "item": "zinq-good",
             "amount": 1
         }
     ],
     "category": "distribution",
-    "research": "titanium-conveyor"
+    "research": "armoured-conveyor"
 }
