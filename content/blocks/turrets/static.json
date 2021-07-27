@@ -23,7 +23,7 @@
             "type": "LightningBulletType",
             "lightningLength": 40,
             "damage": 90,
-            "ammoMultiplier": 1,
+            "ammoMultiplier": 1
         }
     },
     "requirements": [
