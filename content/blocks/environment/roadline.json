@@ -1,12 +1,12 @@
 {
     "type": "Floor",
-    "name": "Asphalt",
-    "variants": 3,
+    "name": "Straight",
+    "variants": 1,
     "dragMultiplier": 1,
     "speedMultiplier": 3,
     "attributes": {
       "spores": -0.5,
       "water": -0.5,
-      "oil": 1
+      "oil": 1.2
     }
   }
