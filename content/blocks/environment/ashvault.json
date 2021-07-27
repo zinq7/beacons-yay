@@ -4,9 +4,6 @@
     "variants": 1,
     "dragMultiplier": 1,
     "speedMultiplier": 3,
-    "walkEffect": "none",
-    "wall": "none",
-    "decoration": "none",
     "attributes": {
       "spores": -0.5,
       "water": -0.5,

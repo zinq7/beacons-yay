@@ -2,12 +2,13 @@
     "type": "Wall",
     "size": 2,
     "health": 1600,
+    "update": true,
     "requirements": [
         {
             "item": "zinq",
             "amount": 24
         }
     ],
-    "catagory": "defense",
-    "research": "titanium-wall-large"
+    "research": "titanium-wall-large",
+    "catagory": "defense"
 }
