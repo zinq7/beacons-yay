@@ -19,7 +19,7 @@
     "hasPower": true,
     "ammoTypes": {
         "zinq": {
-            "lifetime": 1000,
+            "lifetime": 60,
             "type": "LightningBulletType",
             "lightningLength": 40,
             "damage": 90,
