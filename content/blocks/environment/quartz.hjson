@@ -1,0 +1,9 @@
+type: OverlayFloor
+localizedName: Quartz
+name: Quartz
+itemDrop: quartz
+playerUnmineable: false
+oreDefault: false
+variants: 8
+oreScale: 14
+oreThreshold: 0.9
