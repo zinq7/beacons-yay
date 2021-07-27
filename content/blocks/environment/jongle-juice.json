@@ -8,12 +8,12 @@
   "statusDuration": 150,
   "cacheLayer": "slag",
   "isLiquid": true,
-  "flammability": 0.9,
+  "flammability": 0.92,
   "liquidDrop": "jungle-juice",
   "blendGroup": "slag",
   "edge": "jj-edge",
   "drownTime": 1,
   "attributes": {
-    "heat": 120
+    "heat": 5
   }
 }
