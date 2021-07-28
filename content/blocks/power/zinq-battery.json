@@ -1,7 +1,7 @@
 {
     "type": "Battery",
     "size": 2,
-    "health": 300,
+    "health": 2000,
     "emitLight": true,
     "hasPower": true,
     "baseExplosiveness": 200,
@@ -12,13 +12,13 @@
             "amount": 100
         },
         {
-            "item": "zinq",
-            "amount": 100
+            "item": "zinq-good",
+            "amount": 50
         }
     ],
     "consumes": {
-        "powerBuffered": 60000
+        "powerBuffered": 2000000
     },
     "category": "power",
-    "research": "battery-large"
+    "research": "zinc-battery"
 }
