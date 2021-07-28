@@ -7,14 +7,15 @@
     "hasLiquids": true,
     "hasItems": true,
     "baseExplosiveness": 1000,
-    "itemDuration": 720,
+    "itemDuration": 840,
+    "buildCostMultiplier": 1.5,
     "update": true,
     "updateEffect": "melting",
     "consumes": {
         "items": {
             "items": [
                 {
-                    "item": "phase-fabric",
+                    "item": "thorium",
                     "amount": 1
                 }
             ]
@@ -24,7 +25,7 @@
             "amount": 1
         }
     },
-    "powerProduction": 500,
+    "powerProduction": 250,
     "requirements": [
         {
             "item": "lead",

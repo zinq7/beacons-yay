@@ -1,42 +1,70 @@
 {
     "type": "ItemTurret",
     "size": 2,
-    "health": 1200,
-    "range": 200,
+    "health": 1400,
+    "range": 150,
     "reloadTime": 20,
     "shots": 1,
     "spread": 0,
     "velocityInaccuracy": 0.1,
     "recoilAmount": 1,
     "hasItems": true,
-    "itemCapacity": 12,
+    "itemCapacity": 50,
     "inaccuracy": 2,
-    "maxAmmo": 12,
+    "maxAmmo": 50,
     "targetAir": true,
-    "rotateSpeed": 2,
+    "rotateSpeed": 3,
     "shootSound": "artillery",
     "ammoTypes": {
         "copper": {
-            "lifetime": 40,
+            "lifetime": 30,
             "type": "BasicBulletType",
             "height": 16,
             "width": 10,
             "speed": 6,
             "collidesTiles": true,
-            "damage": 60,
+            "damage": 20,
             "ammoMultiplier": 1,
             "smokeEffect": "shootBigSmoke",
             "shootEffect": "producesmoke"
         },
         "graphite": {
-            "lifetime": 40,
+            "lifetime": 30,
             "type": "BasicBulletType",
             "height": 20,
             "width": 14,
             "speed": 6,
             "collidesTiles": true,
-            "damage": 90,
-            "ammoMultiplier": 1,
+            "damage": 50,
+            "ammoMultiplier": 1.5,
+            "smokeEffect": "shootBigSmoke",
+            "shootEffect": "producesmoke"
+        },
+        "pyratite": {
+            "lifetime": 30,
+            "type": "BasicBulletType",
+            "height": 20,
+            "width": 14,
+            "speed": 6,
+            "status": "burning",
+            "statusDuration": 120,
+            "collidesTiles": true,
+            "damage": 40,
+            "ammoMultiplier": 2,
+            "makeFire": true,
+            "smokeEffect": "shootBigSmoke",
+            "shootEffect": "producesmoke"
+        },
+        "quartz": {
+            "lifetime": 30,
+            "type": "BasicBulletType",
+            "height": 20,
+            "width": 14,
+            "speed": 6,
+            "collidesTiles": true,
+            "damage": 150,
+            "reloadMultiplier": 0.4,
+            "ammoMultiplier": 2,
             "smokeEffect": "shootBigSmoke",
             "shootEffect": "producesmoke"
         }
@@ -45,6 +73,10 @@
         {
             "item": "copper",
             "amount": 50
+        },
+        {
+            "item": "lead",
+            "amount": 25
         }
     ],
     "category": "turret",

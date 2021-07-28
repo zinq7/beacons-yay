@@ -1,0 +1,24 @@
+{
+    "type": "PowerNode",
+    "size": 2,
+    "health": 100,
+    "emitLight": true,
+    "hasPower": true,
+    "laserColor": "ffffff",
+    "laserRange": 100000,
+    "baseExplosiveness": 250,
+    "insulated": false,
+    "maxNodes": 15,
+    "requirements": [
+        {
+            "item": "phase-fabric",
+            "amount": 20
+        },
+        {
+            "item": "zinq-good",
+            "amount": 10
+        }
+    ],
+    "category": "power",
+    "research": "zinc-node"
+}

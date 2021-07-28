@@ -22,6 +22,7 @@
             "type": "BasicBulletType",
             "height": 12,
             "width": 12,
+            "pierce": true,
             "collidesTiles": false,
             "damage": 750,
             "splashDamage": 1,

@@ -68,6 +68,23 @@
             "smokeEffect": "shootBigSmoke",
             "shootEffect": "shootBig",
             "speed": 10
+        },
+        "zinq-good": {
+            "lifetime": 1000,
+            "type": "ArtilleryBulletType",
+            "height": 1,
+            "width": 1,
+            "collidesTiles": false,
+            "damage": 500,
+            "splashDamage": 500,
+            "splashDamageRadius": 100,
+            "ammoMultiplier": 1,
+            "trailInterval": 0.1,
+            "trailLength": 1,
+            "trailColor": "7575C8",
+            "smokeEffect": "shootBigSmoke",
+            "shootEffect": "shootBig",
+            "speed": 10
         }
     },
     "requirements": [

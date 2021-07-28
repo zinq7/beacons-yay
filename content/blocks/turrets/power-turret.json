@@ -1,0 +1,41 @@
+{
+    "type": "PowerTurret",
+    "size": 2,
+    "health": 1400,
+    "range": 200,
+    "reloadTime": 20,
+    "shots": 1,
+    "spread": 0,
+    "velocityInaccuracy": 0.1,
+    "recoilAmount": 0.2,
+    "inaccuracy": 2,
+    "targetAir": true,
+    "alternate": true,
+    "rotateSpeed": 3,
+    "powerUse": 0.5,
+    "shootSound": "artillery",
+    "shootType": {
+        "type": "LaserBoltBulletType",
+        "collidesTeam": true,
+        "damage": 50,
+        "speed": 3.5,
+        "height": 8,
+        "width": 5,
+        "healPercent": 10,
+        "lifetime": 60,
+        "frontColor": "90ee90",
+        "backColor": "90ee90"
+    },
+    "requirements": [
+        {
+            "item": "copper",
+            "amount": 50
+        },
+        {
+            "item": "silicon",
+            "amount": 25
+        }
+    ],
+    "category": "turret",
+    "research": "turret"
+}

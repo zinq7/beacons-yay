@@ -1,0 +1,21 @@
+{
+  "type": "SolarGenerator",
+  "name": "Compact Solar Array",
+  "description": "Provides a large amount of power, for its size",
+  "details": "So compact!",
+  "health": 300,
+  "size": 1,
+  "powerProduction": 1.7,
+  "requirements": [
+    {
+      "item": "silicon",
+      "amount": 40
+    },
+    {
+      "item": "zinq-good",
+      "amount": 20
+    }
+  ],
+  "category": "power",
+  "research": "solar-panel"
+}

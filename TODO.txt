@@ -32,10 +32,5 @@ adding sc2 units into the game, starting at UEF.
 		
 		UEF Structures:
 		
-		Aegis (force projector) !!!!DONE
-		LRA (gooooood seige structure) ||| In progress
-		Disrupter Station (ripple 2.0)
-		Nuke Production Complex (makes nukes for the cilo at high time and resource cost) ||| In progress
-		Nuke Missile Cilo(long range death bullet that must be player controlled [takes nukes to shoot]) ||| in progress
 		
 		

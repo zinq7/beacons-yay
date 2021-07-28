@@ -12,6 +12,8 @@
     "spread": 2,
     "restitution": 0.05,
     "rotateSpeed": 3,
+    "maxAmmo": 100,
+    "itemCapacity": 100,
     "shootSound": "laser",
     "emitLight": true,
     "lightRadius": 100,
@@ -22,6 +24,22 @@
             "lightningLength": 30,
             "damage": 20,
             "ammoMultiplier": 2
+        },
+        "nuke": {
+            "lifetime": 100,
+            "type": "LightningBulletType",
+            "lightningLength": 100,
+            "maxRange": 600, 
+            "damage": 150,
+            "ammoMultiplier": 100
+        },
+        "zinq-good": {
+            "lifetime": 60,
+            "type": "LightningBulletType",
+            "lightningLength": 30,
+            "damage": 50,
+            "ammoMultiplier": 4,
+            "reloadMultiplier": 0.5
         }
     },
     "requirements": [

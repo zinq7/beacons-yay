@@ -1,0 +1,73 @@
+{
+    "type": "ItemTurret",
+    "size": 1,
+    "health": 100,
+    "range": 100,
+    "reloadTime": 60,
+    "shots": 1,
+    "recoilAmount": 6,
+    "hasItems": true,
+    "itemCapacity": 50,
+    "inaccuracy": 2,
+    "maxAmmo": 50,
+    "targetAir": true,
+    "rotateSpeed": 3,
+    "shootSound": "artillery",
+    "ammoTypes": {
+        "graphite": {
+            "lifetime": 20,
+            "type": "BasicBulletType",
+            "height": 10,
+            "width": 10,
+            "speed": 6,
+            "collidesTiles": false,
+            "damage": 1,
+            "knockback": 100,
+            "ammoMultiplier": 1,
+            "smokeEffect": "shootBigSmoke",
+            "shootEffect": "producesmoke"
+        },
+        "silicon": {
+            "lifetime": 20,
+            "type": "BasicBulletType",
+            "height": 10,
+            "width": 10,
+            "speed": 6,
+            "collidesTiles": false,
+            "damage": 1,
+            "knockback": 150,
+            "ammoMultiplier": 2,
+            "smokeEffect": "shootBigSmoke",
+            "shootEffect": "producesmoke"
+        },
+        "quartz": {
+            "lifetime": 20,
+            "type": "BasicBulletType",
+            "height": 10,
+            "width": 10,
+            "speed": 6,
+            "collidesTiles": false,
+            "damage": 100,
+            "knockback": -150,
+            "ammoMultiplier": 1,
+            "smokeEffect": "shootBigSmoke",
+            "shootEffect": "producesmoke"
+        }
+    },
+    "requirements": [
+        {
+            "item": "lead",
+            "amount": 75
+        },
+        {
+            "item": "graphite",
+            "amount": 24
+        },
+        {
+            "item": "zinq",
+            "amount": 24
+        }
+    ],
+    "category": "turret",
+    "research": "coil"
+}

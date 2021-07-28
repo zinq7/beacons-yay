@@ -1,0 +1,24 @@
+{
+    "type": "Battery",
+    "size": 2,
+    "health": 300,
+    "emitLight": true,
+    "hasPower": true,
+    "baseExplosiveness": 200,
+    "insulated": false,
+    "requirements": [
+        {
+            "item": "lead",
+            "amount": 100
+        },
+        {
+            "item": "zinq",
+            "amount": 100
+        }
+    ],
+    "consumes": {
+        "powerBuffered": 60000
+    },
+    "category": "power",
+    "research": "battery-large"
+}

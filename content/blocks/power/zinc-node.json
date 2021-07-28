@@ -5,7 +5,7 @@
     "emitLight": true,
     "hasPower": true,
     "laserRange": 12,
-    "baseExplosiveness": 15,
+    "baseExplosiveness": 25,
     "insulated": false,
     "maxNodes": 20,
     "requirements": [
