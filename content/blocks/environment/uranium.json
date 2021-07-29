@@ -4,8 +4,8 @@
   "name": "Uranium",
   "itemDrop": "uranium",
   "playerUnmineable": false,
-  "oreDefault": false,
+  "oreDefault": true,
   "variants": 6,
-  "oreScale": 6,
-  "oreThreshold": 0.95
+  "oreScale": 16,
+  "oreThreshold": 0.92
 }
