@@ -1,0 +1,11 @@
+{
+  "type": "OverlayFloor",
+  "localizedName": "Uranium",
+  "name": "Uranium",
+  "itemDrop": "uranium",
+  "playerUnmineable": false,
+  "oreDefault": false,
+  "variants": 6,
+  "oreScale": 6,
+  "oreThreshold": 0.95
+}
