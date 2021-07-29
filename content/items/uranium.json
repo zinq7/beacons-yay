@@ -1,0 +1,14 @@
+{
+    "cost": 7,
+    "color": "33DD33",
+    "research": {
+        "parent": "surge-alloy",
+        "requirements": [
+            {
+                "item": "uranium",
+                "amount": 1
+            }
+        ]
+    },
+    "hardness": 6
+}
