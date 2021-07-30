@@ -13,7 +13,7 @@
     "alternate": true,
     "hasItems": true,
     "itemCapacity": 200,
-    "maxAmmo": 200
+    "maxAmmo": 200,
     "rotateSpeed": 3,
     "hasPower": false,
     "shootSound": "artillery",
@@ -24,7 +24,7 @@
             "height": 30,
             "width": 18,
             "pierceCap": 3,
-            "speed": 5
+            "speed": 5,
             "collidesTiles": true,
             "damage": 80,
             "splashDamage": 30,
