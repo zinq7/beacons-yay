@@ -1,3 +1,7 @@
+
+require("units/uefAir")
+require("units/tankLand")
+require("units/unitReg")
 //Items
 new Item("bullet");
 new Item("nuke");
@@ -11,6 +15,3 @@ new Liquid("jungle-juice");
 require("blocks/hitech-conveyor")
 require("blocks/zinc-wall")
 require("blocks/ammo")
-
-require("units/uefAir")
-require("units/tankLand")

@@ -21,7 +21,7 @@
     "flying": false,
     "weapons": [
         {
-            "name": "Direct-Fire Gauss Cannon",
+            "name": "ma12-weapon",
             "reload": 90,
             "mirror": false,
             "alternate": false,

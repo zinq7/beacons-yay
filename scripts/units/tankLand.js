@@ -15,6 +15,7 @@ const tankLandAI = prov(() => {
   });
   //register(tankLandT1);
   tankLandT1.ammoType = AmmoTypes.powerHigh;
+  tankLandT1.weapons.add();
   
   Blocks.groundFactory.plans.add(new UnitFactory.UnitPlan(tankLandT1, 60 * 20, ItemStack.with(Items.silicon, 25, Items.lead, 25, Items.graphite, 25)));
   
