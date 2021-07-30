@@ -6,12 +6,13 @@ size: 1
 absorbLasers: true
 buildCostMultiplier: 1.8
 hasPower: false
+update: false
 updateEffect: none
 canOverdrive: true
 
 reload: 60
 range: 40
-healPercent: 2
+healPercent: 1
 
 requirements: [
   radicite/6
