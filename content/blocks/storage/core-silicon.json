@@ -1,0 +1,18 @@
+{
+    "type": "CoreBlock",
+    "size": 6,
+    "health": 8000,
+    "itemCapacity": 18000,
+    "hasItems": true,
+    "unitType": "radicite-player",
+    "unitCapModifier": 40,
+    "researchCostMultiplier": 0.2,
+    "requirements": [
+        {
+            "item": "silicon",
+            "amount": 14000
+        }
+    ],
+    "category": "effect",
+    "research": "core-lead"
+}
