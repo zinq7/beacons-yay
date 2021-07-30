@@ -4,6 +4,7 @@
     "flying": true,
     "health": 450,
     "mineSpeed": 3,
+    "name": "Titanium Dudo",
     "mineTier": 4,
     "buildSpeed": 1,
     "drag": 0.05,

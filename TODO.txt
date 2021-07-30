@@ -1,7 +1,12 @@
-SC2 UNITS:
+TODO ATM:
 
-Ok so you know how ancient energy nodes have the different coloured power lines?
-Well, if you can address the node lines, you can make like a barbed wire node that uses power to deal damage using connections.
+Make custom Unit spirtes for all uefAir and tankLand
+
+
+
+IDEAS:
+
+SC2 UNITS:
 
 adding sc2 units into the game, starting at UEF.
 
@@ -32,5 +37,6 @@ adding sc2 units into the game, starting at UEF.
 		
 		UEF Structures:
 		
-		
+
+
 		

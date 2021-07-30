@@ -1,6 +1,7 @@
 {
     "type": "flying",
     "isCounted": false,
+    "name": "Copper Lad",
     "flying": true,
     "health": 220,
     "mineSpeed": 15,

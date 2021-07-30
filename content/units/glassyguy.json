@@ -1,6 +1,7 @@
 {
     "type": "flying",
     "isCounted": false,
+    "name": "GlassyGuy",
     "flying": true,
     "health": 150,
     "mineSpeed": 15,

@@ -3,6 +3,8 @@
     "isCounted": false,
     "flying": true,
     "health": 360,
+    "name": "Leadguy",
+    "description": "ah",
     "mineSpeed": 8,
     "mineTier": 3,
     "buildSpeed": 1,
