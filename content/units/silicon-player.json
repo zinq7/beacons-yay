@@ -15,6 +15,14 @@
     "engineOffset": 6,
     "hitSize": 11,
     "commandLimit": 5,
+    "abilities": [
+        {
+            "type": "ForceFieldAbility",
+            "radius": 20,
+            "regen": 0.2,
+            "max": 400,
+            "cooldown": 200
+        },
     "weapons": [
         {
             "name": "small-mount-weapon",
