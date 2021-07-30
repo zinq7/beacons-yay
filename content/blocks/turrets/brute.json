@@ -11,7 +11,7 @@
     "recoilAmount": 6,
     "hasItems": true,
     "itemCapacity": 20,
-    "shake": 5,
+    "shake": 2,
     "inaccuracy": 18,
     "maxAmmo": 20,
     "targetAir": true,
