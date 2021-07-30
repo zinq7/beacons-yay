@@ -28,6 +28,7 @@
             "x": 0,
             "y": 2,
             "shootX": 0,
+            "rotate": true,
             "ignoreRotation": false,
             "shootY": 1,
             "bullet": {

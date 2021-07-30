@@ -16,7 +16,7 @@ bulletSalvo.ammoMultiplier = 6;
 bulletSalvo.damage = 20;
 bulletSalvo.frontColor = "d3d3d3";
 bulletSalvo.backColor = "d3d3d3";
-Blocks.salvo.ammoTypes.put(bulletItem,bulletSalvo);
+
 //duo with Nuke
 const standardNuke = extend(BasicBulletType, {});
 standardNuke.height = 12;
@@ -29,4 +29,7 @@ standardNuke.splashDamage = 200;
 standardNuke.splashDamageRadius = 20;
 standardNuke.frontColor = "d3d3d3";
 standardNuke.backColor = "d3d3d3";
+
+//regestering the ammos
 Blocks.duo.ammoTypes.put(nukeItem,standardNuke);
+Blocks.salvo.ammoTypes.put(bulletItem,bulletSalvo);

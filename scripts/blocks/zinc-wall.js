@@ -4,7 +4,7 @@ const slowregen = 1 / 45;
 const normalregen = 1 / 35;
 const fastregen = 1 / 25;
 
-const zincwall = extendContent(Wall, "zinc-wall", {
+const zincwall = extendContent(Wall, "zinc-barrier", {
 });
 zincwall.buildType = () => extendContent(Wall.WallBuild, zincwall, {
     updateTile() {
@@ -14,7 +14,7 @@ zincwall.buildType = () => extendContent(Wall.WallBuild, zincwall, {
         }
     },
 });
-const ZincWallLarge = extendContent(Wall, "zinc-wall-large", {
+const ZincWallLarge = extendContent(Wall, "zinc-barrier-large", {
 });
 ZincWallLarge.buildType = () => extendContent(Wall.WallBuild, ZincWallLarge, {
     updateTile() {
