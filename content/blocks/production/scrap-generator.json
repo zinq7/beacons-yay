@@ -1,0 +1,36 @@
+  
+{
+    "type": "GenericCrafter",
+    "health": 500,
+    "size": 3,
+    "drawFloor": false,
+    "hasPower": true,
+    "hasItems": true,
+    "craftTime": 12,
+    "itemCapacity": 100,
+    "craftEffect": "formsmoke",
+    "outputItem": {
+        "item": "scrap",
+        "amount": 2
+    },
+    "consumes": {
+        "power": 0.5
+    },
+ 
+    "requirements": [
+        {
+            "item": "graphite",
+            "amount": 60
+        },
+        {
+            "item": "titanium",
+            "amount": 80
+        },
+        {
+            "item": "radicite",
+            "amount": 5
+        }
+    ],
+    "category": "production",
+    "research": "scrap-excavator"
+}
