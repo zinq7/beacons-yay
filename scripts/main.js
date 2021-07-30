@@ -12,6 +12,5 @@ new Item("zinq-good");
 new Item("radicite");
 new Liquid("jungle-juice");
 // Blocks
-require("blocks/hitech-conveyor")
 require("blocks/zinc-wall")
 require("blocks/ammo")

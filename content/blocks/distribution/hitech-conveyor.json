@@ -1,4 +1,5 @@
 {
+    "type": "Conveyor",
     "size": 1,
     "solid": true,
     "health": 75,

@@ -1,6 +1,7 @@
 
 //available items and liquids
 const nukeItem = Vars.content.getByName(ContentType.item, "beacons-yay-nuke");
+const nukeItem = Vars.content.getByName(ContentType.item, "nuke");
 const bulletItem = Vars.content.getByName(ContentType.item, "beacons-yay-bullet");
 const zincItem = Vars.content.getByName(ContentType.item, "beacons-yay-zinq");
 const zinqItem = Vars.content.getByName(ContentType.item, "beacons-yay-zinq-good");
@@ -16,3 +17,16 @@ bulletSalvo.damage = 20;
 bulletSalvo.frontColor = "d3d3d3";
 bulletSalvo.backColor = "d3d3d3";
 Blocks.salvo.ammoTypes.put(bulletItem,bulletSalvo);
+//duo with Nuke
+const standardNuke = extend(BasicBulletType, {});
+standardNuke.height = 12;
+standardNuke.width = 14;
+standardNuke.lifetime = 60;
+standardNuke.speed = 4;
+standardNuke.ammoMultiplier = 10;
+standardNuke.damage = 20;
+standardNuke.splashDamage = 200;
+standardNuke.splashDamageRadius = 20;
+standardNuke.frontColor = "d3d3d3";
+standardNuke.backColor = "d3d3d3";
+Blocks.duo.ammoTypes.put(nukeItem,standardNuke);
