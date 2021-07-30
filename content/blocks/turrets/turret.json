@@ -40,6 +40,21 @@
             "smokeEffect": "shootBigSmoke",
             "shootEffect": "producesmoke"
         },
+        "bullet": {
+            "lifetime": 30,
+            "type": "BasicBulletType",
+            "height": 30,
+            "width": 20,
+            "speed": 8,
+            "status": "blasted",
+            "statusDuration": 120,
+            "collidesTiles": true,
+            "damage": 90,
+            "ammoMultiplier": 4,
+            "reloadMultiplier": 0.6,
+            "smokeEffect": "shootBigSmoke",
+            "shootEffect": "producesmoke"
+        },
         "pyratite": {
             "lifetime": 30,
             "type": "BasicBulletType",
