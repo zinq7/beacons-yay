@@ -27,6 +27,19 @@
             "smokeEffect": "shootBigSmoke",
             "shootEffect": "producesmoke"
         },
+        "bullet": {
+            "lifetime": 30,
+            "type": "BasicBulletType",
+            "height": 10,
+            "width": 10,
+            "speed": 6,
+            "collidesTiles": false,
+            "damage": 40,
+            "knockback": 120,
+            "ammoMultiplier": 4,
+            "smokeEffect": "shootBigSmoke",
+            "shootEffect": "producesmoke"
+        },
         "silicon": {
             "lifetime": 20,
             "type": "BasicBulletType",
