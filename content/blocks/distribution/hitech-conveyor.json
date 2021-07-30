@@ -4,7 +4,9 @@
     "health": 75,
     "speed": 0.24,
     "displayedSpeed": 33,
+    "rotate": true,
     "hasPower": false,
+    "desctructible": true,
     "requirements": [
         {
             "item": "phase-fabric",
