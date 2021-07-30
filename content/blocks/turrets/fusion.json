@@ -1,0 +1,70 @@
+{
+    "type": "ItemTurret",
+    "size": 4,
+    "health": 1800,
+    "range": 300,
+    "reloadTime": 60,
+    "shots": 1,
+    "inaccuracy": 0,
+    "targetAir": false,
+    "targetGround": true,
+    "shootCone": 4,
+    "spread": 2,
+    "restitution": 0.05,
+    "rotateSpeed": 3,
+    "maxAmmo": 50,
+    "itemCapacity": 50,
+    "shootSound": "laser",
+    "emitLight": true,
+    "lightRadius": 100,
+    "ammoTypes": {
+        "radicite": {
+            "type": "LaserBulletType",
+            "damage": 1800,
+            "pierceCap": 20,
+            "speed": 0.1,
+            "height": 100,
+            "width": 60,
+            "length": 350,
+            "hitSize": 60,
+            "drawSize": 600,
+            "lifetime": 30,
+            "frontColor": "AA00AA",
+            "backColor": "FFFFFF"
+        }
+        "nuke": {
+            "type": "LaserBulletType",
+            "damage": 5000,
+            "pierceCap": 20,
+            "speed": 0.1,
+            "height": 100,
+            "width": 60,
+            "length": 400,
+            "hitSize": 60,
+            "drawSize": 600,
+            "lifetime": 30,
+            "frontColor": "220022",
+            "backColor": "000000"
+        }
+    },
+    "requirements": [
+        {
+            "item": "lead",
+            "amount": 2000
+        },
+        {
+            "item": "silicon",
+            "amount": 600
+        },
+        {
+            "item": "uranium",
+            "amount": 500
+        },
+        {
+            "item": "radicite",
+            "amount": 250
+        }
+    ],
+    "category": "turret",
+    "research": "meltdown"
+}
