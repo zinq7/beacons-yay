@@ -1,6 +1,7 @@
 {
     "cost": 7,
     "color": "33DD33",
+    "radioactivity": 1.6,
     "research": {
         "parent": "surge-alloy",
         "requirements": [
