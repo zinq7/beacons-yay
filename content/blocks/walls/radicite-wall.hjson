@@ -6,6 +6,7 @@ size: 1
 absorbLasers: true
 buildCostMultiplier: 1.8
 hasPower: false
+updateEffect: none
 canOverdrive: true
 
 reload: 60
