@@ -97,7 +97,7 @@
     }
   ],
   "research": {
-    "parent": "tempest",
+    "parent": "broadsword",
     "requirements": [
       "silicon/220000"
     ]

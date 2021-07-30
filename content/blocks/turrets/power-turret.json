@@ -12,7 +12,6 @@
     "targetAir": true,
     "alternate": true,
     "rotateSpeed": 3,
-    "group": "wall",
     "powerUse": 0.5,
     "shootSound": "artillery",
     "shootType": {

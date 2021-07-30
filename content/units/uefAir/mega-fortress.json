@@ -70,7 +70,7 @@
     }
   ],
   "research": {
-    "parent": "hurricane",
+    "parent": "ac1k",
     "requirements": [
       "silicon/555000"
     ]

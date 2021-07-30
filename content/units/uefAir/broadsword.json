@@ -62,7 +62,7 @@
     }
   ],
   "research": {
-    "parent": "storm",
+    "parent": "eagle-eye",
     "requirements": [
       "silicon/55000"
     ]

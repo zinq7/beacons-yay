@@ -64,7 +64,7 @@
     }
   ],
   "research": {
-    "parent": "strike",
+    "parent": "wasp",
     "requirements": [
       "silicon/15000"
     ]
