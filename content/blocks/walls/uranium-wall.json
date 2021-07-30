@@ -1,0 +1,18 @@
+{
+  "type": "Wall",
+  "name": "Uranium Wall",
+  "description": "A very sturdy wall that takes considerable time to build",
+  "details": "Do not eat.",
+  "health": 1400,
+  "size": 1,
+  "buildCostMultiplier": 5,
+  "destructible": true,
+  "requirements": [
+    {
+      "item": "uranium",
+      "amount": 6
+    }
+  ],
+  "category": "defense",
+  "research": "thorium-wall"
+}

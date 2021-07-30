@@ -1,0 +1,18 @@
+{
+  "type": "Wall",
+  "name": "Large Uranium Wall",
+  "description": "The sturdiest wall, but takes a long time to build.",
+  "details": "Do not eat.",
+  "health": 5600,
+  "size": 2,
+  "buildCostMultiplier": 6,
+  "destructible": true,
+  "requirements": [
+    {
+      "item": "uranium",
+      "amount": 24
+    }
+  ],
+  "category": "defense",
+  "research": "uranium-wall"
+}

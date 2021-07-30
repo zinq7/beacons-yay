@@ -1,0 +1,21 @@
+{
+  "type": "SolarGenerator",
+  "name": "Radicite Wall",
+  "description": "Absorbs lasers, and provides a small amount of power",
+  "details": "An upgrade to the popular plastanium wall.",
+  "health": 1200,
+  "size": 1,
+  "powerProduction": 0.25,
+  "buildCostMultiplier": 4,
+  "hasPower": true,
+  "destructible": true,
+  "absorbLasers": true,
+  "requirements": [
+    {
+      "item": "radicite",
+      "amount": 6
+    }
+  ],
+  "category": "defense",
+  "research": "surge-wall-large"
+}
