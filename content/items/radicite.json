@@ -1,0 +1,14 @@
+{
+    "cost": 7,
+    "color": "A020F0",
+    "research": {
+        "parent": "uranium",
+        "requirements": [
+            {
+                "item": "radicite",
+                "amount": 1
+            }
+        ]
+    },
+    "hardness": 8
+}

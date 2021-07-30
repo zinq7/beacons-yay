@@ -1,0 +1,14 @@
+{
+    "cost": 4,
+    "color": "444444",
+    "research": {
+        "parent": "blast-compound",
+        "requirements": [
+            {
+                "item": "bullet",
+                "amount": 1
+            }
+        ]
+    },
+    "hardness": 4
+}
