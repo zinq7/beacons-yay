@@ -8,10 +8,10 @@ buildCostMultiplier: 1.8
 hasPower: false
 update: false
 updateEffect: none
-canOverdrive: true
+canOverdrive: false
 
-reload: 60
-range: 40
+reload: 80
+range: 60
 healPercent: 1
 
 requirements: [
