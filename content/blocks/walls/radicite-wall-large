@@ -1,0 +1,21 @@
+
+name: Large Radicite Wall
+description: "An larger sturdy wall that can stop lasers and repair structures."
+type: MendProjector
+health: 3200
+size: 2
+absorbLasers = true
+buildCostMultiplier: 1.8
+hasPower: false
+canOverdrive: true
+
+reload = 60
+range = 70
+healPercent = 5
+
+requirements: [
+  radicite/6
+]
+
+category: defense
+research: radicite-wall
