@@ -1,5 +1,5 @@
 {
-    "type": "PowerTurret",
+    "type": "ItemTurret",
     "size": 2,
     "health": 1400,
     "range": 240,
@@ -11,22 +11,28 @@
     "inaccuracy": 0,
     "targetAir": true,
     "alternate": true,
+    "hasItems": true,
+    "itemCapacity": 200,
+    "maxAmmo": 200
     "rotateSpeed": 3,
     "hasPower": false,
-    "powerUse": 0,
     "shootSound": "artillery",
-    "shootType": {
-        "type": "BasicBulletType",
-        "collidesTeam": false,
-        "damage": 80,
-        "speed": 4,
-        "pierceCap": 3,
-        "height": 8,
-        "width": 5,
-        "healPercent": 6,
-        "lifetime": 70,
-        "frontColor": "90ee90",
-        "backColor": "90ee90"
+    "ammoTypes": {
+        "bullet": {
+            "lifetime": 55,
+            "type": "BasicBulletType",
+            "height": 30,
+            "width": 18,
+            "pierceCap": 3,
+            "speed": 5
+            "collidesTiles": true,
+            "damage": 80,
+            "splashDamage": 30,
+            "splashDamageRadius": 15,
+            "ammoMultiplier": 200,
+            "smokeEffect": "shootBigSmoke",
+            "shootEffect": "producesmoke"
+        }
     },
     "requirements": [
         {
