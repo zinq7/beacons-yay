@@ -27,6 +27,18 @@
             "collidesTiles": true,
             "ammoMultiplier": 1
         },
+        "bullet": {
+            "type": "BasicBulletType",
+            "damage": 36,
+            "height": 12,
+            "width": 6,
+            "speed": 3,
+            "lifetime": 80,
+            "knockback": 18,
+            "reloadMultiplier": 2,
+            "collidesTiles": true,
+            "ammoMultiplier": 8
+        },
         "metaglass": {
             "type": "BasicBulletType",
             "damage": 16,
