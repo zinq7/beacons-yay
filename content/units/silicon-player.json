@@ -1,0 +1,44 @@
+{
+    "type": "flying",
+    "isCounted": false,
+    "name": "Radicopter",
+    "flying": true,
+    "health": 400,
+    "mineSpeed": 15,
+    "mineTier": 4,
+    "buildSpeed": 3,
+    "drag": 0.2,
+    "speed": 5,
+    "rotateSpeed": 40,
+    "accel": 1,
+    "itemCapacity": 200,
+    "engineOffset": 6,
+    "hitSize": 11,
+    "commandLimit": 5,
+    "weapons": [
+        {
+            "name": "small-mount-weapon",
+            "top": false,
+            "reload": 40,
+            "x": 1,
+            "y": 2,
+            "shots": 6,
+            "spacing": 2,
+            "inaccuracy": 24,
+            "shotDelay": 3,
+            "ejectEffect": "casing2Double",
+            "bullet": {
+                "type": "MissileBulletType",
+                "width": 6.5,
+                "speed": 3,
+                "collidesTiles": true,
+                "damage": 70,
+                "height": 11,
+                "lifetime": 40,
+                "buildingDamageMultiplier": 0.2,
+                "homingPower": 0.5
+            }
+            
+        }
+    ]
+}
