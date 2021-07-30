@@ -1,6 +1,7 @@
 {
     "cost": 20,
     "color": "000000",
+    "explosiveness": 1,
     "research": {
         "parent": "blast-compound",
         "requirements": [
