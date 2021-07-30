@@ -12,8 +12,8 @@
     "spread": 2,
     "restitution": 0.05,
     "rotateSpeed": 3,
-    "maxAmmo": 50,
-    "itemCapacity": 50,
+    "maxAmmo": 10,
+    "itemCapacity": 10,
     "shootSound": "laser",
     "emitLight": true,
     "lightRadius": 100,
@@ -21,21 +21,21 @@
         "radicite": {
             "type": "LaserBulletType",
             "damage": 1800,
-            "pierceCap": 20,
+            "pierceCap": 100,
             "speed": 0.1,
             "height": 100,
             "width": 60,
             "length": 350,
-            "hitSize": 60,
+            "hitSize": 70,
             "drawSize": 600,
             "lifetime": 30,
             "frontColor": "AA00AA",
             "backColor": "FFFFFF"
-        }
+        },
         "nuke": {
             "type": "LaserBulletType",
             "damage": 5000,
-            "pierceCap": 20,
+            "pierceCap": 200,
             "speed": 0.1,
             "height": 100,
             "width": 60,
@@ -43,6 +43,7 @@
             "hitSize": 60,
             "drawSize": 600,
             "lifetime": 30,
+            "ammoMultiplier": 10,
             "frontColor": "220022",
             "backColor": "000000"
         }
