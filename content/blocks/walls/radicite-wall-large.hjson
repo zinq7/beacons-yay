@@ -8,11 +8,11 @@ updateEffect: none
 absorbLasers: true
 buildCostMultiplier: 1.8
 hasPower: false
-canOverdrive: true
+canOverdrive: false
 
 reload: 60
 range: 70
-healPercent: 5
+healPercent: 3
 
 requirements: [
   radicite/24
