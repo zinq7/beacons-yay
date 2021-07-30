@@ -1,0 +1,49 @@
+{
+    "type": "GenericCrafter",
+    "health": 240,
+    "size": 2,
+    "hasPower": true,
+    "hasItems": true,
+    "craftTime": 60,
+    "itemCapacity": 20,
+    "craftEffect": "smeltsmoke",
+    "outputItem": {
+        "item": "bullet",
+        "amount": 1
+    },
+    "consumes": {
+        "power": 3,
+        "items": {
+            "items": [
+                {
+                    "item": "blast-compound",
+                    "amount": 1
+                },
+                {
+                    "item": "graphite",
+                    "amount": 2
+                },
+                {
+                    "item": "titanium",
+                    "amount": 2
+                }
+            ]
+        },
+    },
+    "requirements": [
+        {
+            "item": "silicon",
+            "amount": 50
+        },
+        {
+            "item": "titanium",
+            "amount": 80
+        },
+        {
+            "item": "lead",
+            "amount": 100
+        }
+    ],
+    "category": "crafting",
+    "research": "blast-mixer"
+}
