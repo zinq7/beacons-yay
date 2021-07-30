@@ -1,6 +1,8 @@
 {
     "cost": 7,
     "color": "A020F0",
+    "radioactivity": 1,
+    "flamability": 1,
     "research": {
         "parent": "uranium",
         "requirements": [
