@@ -1,0 +1,19 @@
+{
+    "type": "Unloader",
+    "health": 200,
+    "size": 1,
+    "speed": 240,
+    "group": "transportation",
+    "requirements": [
+        {
+            "item": "thorium",
+            "amount": 50
+        },
+        {
+            "item": "zinq-good",
+            "amount": 25
+        }
+    ],
+    "catagory": "effect",
+    "research": "unloader"
+}

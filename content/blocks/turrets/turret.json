@@ -12,6 +12,7 @@
     "itemCapacity": 50,
     "inaccuracy": 2,
     "maxAmmo": 50,
+    "group": "wall",
     "targetAir": true,
     "rotateSpeed": 3,
     "shootSound": "artillery",
