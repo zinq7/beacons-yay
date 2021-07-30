@@ -15,6 +15,15 @@
     "engineOffset": 6,
     "hitSize": 11,
     "commandLimit": 5,
+    "abilities": [
+        {
+            "type": "UnitSpawnAbility",
+            "unit": "poly",
+            "spawnTime": 900,
+            "spawnx": 0,
+            "spawny": 10
+        }
+    ],
     "weapons": [
         {
             "name": "small-mount-weapon",
