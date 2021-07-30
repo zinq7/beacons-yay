@@ -4,7 +4,7 @@ description: "An larger sturdy wall that can stop lasers and repair structures."
 type: MendProjector
 health: 3200
 size: 2
-update: false
+updateEffect: none
 absorbLasers: true
 buildCostMultiplier: 1.8
 hasPower: false
