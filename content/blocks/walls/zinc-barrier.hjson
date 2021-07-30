@@ -4,7 +4,6 @@ description: "A wall that self-repairs"
 health: 600
 size: 1
 destructible: true
-group: wall
 requirements: [
   zinq/6
 ]
