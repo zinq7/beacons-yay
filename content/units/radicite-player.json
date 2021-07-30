@@ -1,0 +1,45 @@
+{
+    "type": "flying",
+    "isCounted": false,
+    "flying": true,
+    "health": 320,
+    "name": "Constructor",
+    "mineSpeed": 20,
+    "mineTier": 3,
+    "buildSpeed": 4,
+    "drag": 0.05,
+    "speed": 5,
+    "rotateSpeed": 30,
+    "accel": 0.2,
+    "itemCapacity": 300,
+    "engineOffset": 6,
+    "hitSize": 11,
+    "commandLimit": 5,
+    "weapons": [
+        {
+            "name": "small-mount-weapon",
+            "top": false,
+            "reload": 15,
+            "x": 1,
+            "y": 2,
+            "shots": 1,
+            "inaccuracy": 3,
+            "shotDelay": 3,
+            "ejectEffect": "casing2Double",
+            "bullet": {
+                "type": "BasicBulletType",
+                "width": 6.5,
+                "height": 11,
+                "speed": 6,
+                "damage": 30,
+                "collidesTeam": true,
+                "healingPower": 20,
+                "lifetime": 40,
+                "shootEffect": "shootSmall",
+                "smokeEffect": "shootSmallSmoke",
+                "buildingDamageMultiplier": 0.10,
+                "homingPower": 0.1
+            }
+        }
+    ]
+}
