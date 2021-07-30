@@ -1,0 +1,68 @@
+{
+    "type": "ItemTurret",
+    "size": 4,
+    "health": 3000,
+    "range": 240,
+    "minRange": 0,
+    "reloadTime": 90,
+    "shots": 9,
+    "spread": 0,
+    "velocityInaccuracy": 0.1,
+    "recoilAmount": 1,
+    "hasItems": true,
+    "itemCapacity": 20,
+    "inaccuracy": 24,
+    "maxAmmo": 20,
+    "targetAir": true,
+    "rotateSpeed": 2,
+    "shootSound": "artillery",
+    "ammoTypes": {
+        "uranium": {
+            "lifetime": 90,
+            "type": "BasicBulletType",
+            "height": 40,
+            "width": 20,
+            "pierceCap": 3,
+            "collidesTiles": true,
+            "damage": 320,
+            "speed": 3,
+            "ammoMultiplier": 1,
+            "smokeEffect": "shootBigSmoke",
+            "shootEffect": "producesmoke"
+        },
+        "bullet": {
+            "lifetime": 75,
+            "type": "BasicBulletType",
+            "height": 40,
+            "width": 20,
+            "collidesTiles": true,
+            "damage": 200,
+            "splashDamage": 100,
+            "splashDamageRadius": 15,
+            "speed": 4,
+            "ammoMultiplier": 2,
+            "smokeEffect": "shootBigSmoke",
+            "shootEffect": "producesmoke"
+        }
+    },
+    "requirements": [
+        {
+            "item": "lead",
+            "amount": 2000
+        },
+        {
+            "item":  "plastanium",
+            "amount": 600
+        },
+        {
+            "item": "thorium",
+            "amount": 1000
+        },
+        {
+            "item": "radicite",
+            "amount": 250
+        }
+    ],
+    "category": "turret",
+    "research": "spectre"
+}
