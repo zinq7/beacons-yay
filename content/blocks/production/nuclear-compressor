@@ -1,0 +1,49 @@
+{
+    "type": "GenericCrafter",
+    "health": 200,
+    "size": 3,
+    "hasPower": true,
+    "hasItems": true,
+    "craftTime": 40,
+    "itemCapacity": 30,
+    "craftEffect": "smeltsmoke",
+    "outputItem": {
+        "item": "radicite",
+        "amount": 1
+    },
+    "consumes": {
+        "power": 60,
+        "items": {
+            "items": [
+                {
+                    "item": "uranium",
+                    "amount": 3
+                },
+                {
+                    "item": "graphite",
+                    "amount": 4
+                }
+            ]
+        }
+    },
+    "requirements": [
+        {
+            "item": "silicon",
+            "amount": 250
+        },
+        {
+            "item": "uranium",
+            "amount": 100
+        },
+        {
+            "item": "zinq-good",
+            "amount": 150
+        },
+        {
+            "item": "surge-alloy",
+            "amount": 200
+        }
+    ],
+    "category": "crafting",
+    "research": "crystal-centrifuge"
+}
