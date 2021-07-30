@@ -1,0 +1,39 @@
+{
+    "type": "PowerTurret",
+    "size": 2,
+    "health": 1400,
+    "range": 240,
+    "reloadTime": 20,
+    "shots": 1,
+    "spread": 0,
+    "velocityInaccuracy": 0,
+    "recoilAmount": 0.4,
+    "inaccuracy": 0,
+    "targetAir": true,
+    "alternate": true,
+    "rotateSpeed": 3,
+    "hasPower": false,
+    "powerUse": 0,
+    "shootSound": "artillery",
+    "shootType": {
+        "type": "BasicBulletType",
+        "collidesTeam": false,
+        "damage": 80,
+        "speed": 4,
+        "pierceCap": 3,
+        "height": 8,
+        "width": 5,
+        "healPercent": 6,
+        "lifetime": 70,
+        "frontColor": "90ee90",
+        "backColor": "90ee90"
+    },
+    "requirements": [
+        {
+            "item": "bullet",
+            "amount": 24
+        }
+    ],
+    "category": "defence",
+    "research": "titanium-wall-large"
+}

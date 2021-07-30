@@ -1,5 +1,5 @@
 {
-    "type": "DecayGenerator",
+    "type": "BurnerGenerator",
     "size": 4,
     "health": 1800,
     "emitLight": false,
@@ -7,7 +7,7 @@
     "hasLiquids": true,
     "hasItems": true,
     "baseExplosiveness": 1000,
-    "itemDuration": 840,
+    "itemDuration": 300,
     "buildCostMultiplier": 1.5,
     "update": true,
     "updateEffect": "melting",
@@ -15,17 +15,17 @@
         "items": {
             "items": [
                 {
-                    "item": "thorium",
+                    "item": "radicite",
                     "amount": 1
                 }
             ]
         },
         "liquid": {
             "liquid": "water",
-            "amount": 1
+            "amount": 0.2
         }
     },
-    "powerProduction": 250,
+    "powerProduction": 420,
     "requirements": [
         {
             "item": "lead",
@@ -49,11 +49,11 @@
         },
         {
             "item": "phase-fabric",
-            "amount": 3000
+            "amount": 1000
         },
         {
-            "item": "zinq",
-            "amount": 3000
+            "item": "radicite",
+            "amount": 400
         }
     ],
     "category": "power",
