@@ -6,6 +6,7 @@
     "health": 400,
     "mineSpeed": 15,
     "mineTier": 4,
+    "payloadCapacity": 60,
     "buildSpeed": 3,
     "drag": 0.2,
     "speed": 5,
