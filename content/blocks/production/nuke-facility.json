@@ -34,12 +34,8 @@
                     "amount": 500
                 },
                 {
-                    "item": "pyratite",
-                    "amount": 300
-                },
-                {
-                    "item": "thorium",
-                    "amount": 300
+                    "item": "uranium",
+                    "amount": 150
                 }
             ]
         }
