@@ -1,0 +1,18 @@
+{
+    "type": "CoreBlock",
+    "size": 6,
+    "health": 14000,
+    "itemCapacity": 20000,
+    "hasItems": true,
+    "unitType": "silicon-player",
+    "unitCapModifier": 30,
+    "researchCostMultiplier": 0.2,
+    "requirements": [
+        {
+            "item": "radicite",
+            "amount": 14000
+        }
+    ],
+    "category": "effect",
+    "research": "core-titanium"
+}
