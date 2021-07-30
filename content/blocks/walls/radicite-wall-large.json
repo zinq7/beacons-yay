@@ -1,7 +1,7 @@
 {
   "type": "SolarGenerator",
-  "name": "Radicite Wall",
-  "description": "Absorbs lasers, and provides a small amount of power",
+  "name": "Large Radicite Wall",
+  "description": "Absorbs lasers, and provides a medium amount of power",
   "details": "An upgrade to the popular large plastanium wall.",
   "health": 4800,
   "size": 2,
