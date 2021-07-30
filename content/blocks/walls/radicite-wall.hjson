@@ -3,14 +3,14 @@ description: "An extremely sturdy wall that can stop lasers and repair structure
 type: MendProjector
 health: 800
 size: 1
-absorbLasers = true
+absorbLasers: true
 buildCostMultiplier: 1.8
 hasPower: false
 canOverdrive: true
 
-reload = 60
-range = 40
-healPercent = 2
+reload: 60
+range: 40
+healPercent: 2
 
 requirements: [
   radicite/6
