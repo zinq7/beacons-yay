@@ -4,7 +4,7 @@
   "description": "Absorbs lasers, and provides a small amount of power",
   "details": "An upgrade to the popular large plastanium wall.",
   "health": 4800,
-  "size": 1,
+  "size": 2,
   "powerProduction": 1,
   "buildCostMultiplier": 4,
   "hasPower": true,
