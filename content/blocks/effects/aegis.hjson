@@ -20,7 +20,7 @@ consumes: {
   power: 18
   items: {
     items: [
-      thorium/1
+      uranium/1
     ]
     booster: true
 	optional: true
@@ -31,9 +31,9 @@ requirements: [
   lead/2000
   silicon/2000
   plastanium/500
-  metaglass/1000
+  radicite/300
   surge-alloy/250
-  thorium/1000
+  uranium/700
 ]
 category: effect
 research: lancer
