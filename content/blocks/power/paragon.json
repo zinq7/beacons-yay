@@ -1,5 +1,5 @@
 {
-    "type": "BurnerGenerator",
+    "type": "DecayGenerator",
     "size": 4,
     "health": 1800,
     "emitLight": false,
@@ -10,6 +10,7 @@
     "itemDuration": 300,
     "buildCostMultiplier": 1.5,
     "update": true,
+    "powerProduction": 420,
     "updateEffect": "melting",
     "consumes": {
         "items": {
@@ -25,7 +26,7 @@
             "amount": 0.2
         }
     },
-    "powerProduction": 420,
+
     "requirements": [
         {
             "item": "lead",
