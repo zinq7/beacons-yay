@@ -26,10 +26,17 @@
   "abilities": [
     {
       "type": "UnitSpawnAbility",
-      "unit": "tempest",
-      "spawnTime": 150,
+      "unit": "broadsword",
+      "spawnTime": 300,
       "spawnx": 0,
       "spawny": 40
+    },
+    {
+      "type": "UnitSpawnAbility",
+      "unit": "eagle-eye",
+      "spawnTime": 175,
+      "spawnx": 0,
+      "spawny": 60
     }
   ],
   "weapons": [
