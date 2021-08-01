@@ -16,7 +16,9 @@ Thank you so much! I'll give 90% of the credit to both those mods for helping me
 
 ---
 
-Discord server: 
+##Discord server: 
+
+https://discord.gg/juaRAGaQ
 
 ---
 
