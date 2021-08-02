@@ -107,7 +107,7 @@
       }
     ],
     "research": {
-        "parent": "toxopid",
+        "parent": "silicon-player",
         "requirements": [
           "uranium/100000"
         ]
