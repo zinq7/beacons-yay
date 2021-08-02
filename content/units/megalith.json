@@ -1,5 +1,5 @@
 {
-    "localizedName": "Megalith",
+    "localizedName": "megalith",
     "description": "Experimental T6 megabot capable of mass destruction. Cannot be built at reconstructors.",
     "commandLimit": 1,
     "speed": 0.5,
