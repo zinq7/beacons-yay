@@ -12,7 +12,7 @@
     "range": 300,
     "targetAir": true,
     "circleTarget": false,
-    "hitSize": 24,
+    "hitSize": 48,
     "itemCapacity": 1000,
     
     "legCount": 8,
