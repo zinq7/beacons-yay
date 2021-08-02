@@ -28,7 +28,7 @@
     "legSpeed": 0.19,
     "ammoType": "uranium",
 
-    "legSplashDamage": 80,
+    "legSplashDamage": 400,
     "legSplashRange": 60,
 
     "hovering": true,
@@ -83,7 +83,7 @@
             "shootY": 1,
             "bullet": {
                 "type": "LaserBulletType",
-                "damage": 1800,
+                "damage": 2000,
                 "pierceCap": 100,
                 "speed": 0.1,
                 "height": 100,
@@ -91,7 +91,7 @@
                 "length": 350,
                 "hitSize": 70,
                 "drawSize": 600,
-                "lifetime": 50,
+                "lifetime": 30,
                 "frontColor": "AA0000",
                 "backColor": "AA0000"
             }
