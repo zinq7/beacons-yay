@@ -1,0 +1,86 @@
+{
+    "type": "flying",
+    "isCounted": true,
+    "name": "Soul Ripper",
+    "flying": true,
+    "health": 84000,
+    "armor": 20,
+    "drag": 0.05,
+    "speed": 1,
+    "rotateSpeed": 2,
+    "accel": 0.11,
+    "itemCapacity": 1500,
+    "ealt": 220,
+    "engineOffset": 6,
+    "hitSize": 150,
+    "commandLimit": 1,
+    "weapons": [
+        {
+            "name": "Hyper Cannon",
+            "reload": 60,
+            "x": 0,
+            "y": 6,
+            "mirror": false,
+            "inaccuracy": 4,
+            "velocityInaccuracy": 0.1,
+            "shootY": -2,
+            "top": true,
+            "ignoreRotation": true,
+            "shootX": 0,
+            "bullet": {
+                "type": "BasicBulletType",
+                "height": 40,
+                "width": 40,
+                "speed": 5,
+                "lifetime": 65,
+                "scaleVelocity": true,
+                "shootShake": 2,
+                "damage": 800,
+                "splashDamage": 800,
+                "splashDamageRadius": 50,
+                "collidesTiles": true,
+                "collidesAir": true,
+                "reflectable": false
+            }
+        },
+        {
+            "name": "Heat Laser",
+            "reload": 180,
+            "x": 0,
+            "y": 8,
+            "mirror": false,
+            "shots": 1,
+            "spacing": 0,
+            "spread": 0.5,
+            "inaccuracy": 0,
+            "velocityInaccuracy": 0,
+            "shootX": 0,
+            "top": true,
+            "ignoreRotation": false,
+            "shootY": 1,
+            "bullet": {
+                "type": "LaserBulletType",
+                "damage": 2600,
+                "pierceCap": 100,
+                "speed": 0.1,
+                "height": 100,
+                "width": 60,
+                "length": 350,
+                "hitSize": 70,
+                "drawSize": 600,
+                "lifetime": 30,
+                "frontColor": "AA0000",
+                "backColor": "AA0000"
+            }
+        }
+     ],
+      "abilities": [
+      {
+          "type": "UnitSpawnAbility",
+          "unit": "horizon",
+          "spawnTime": 25,
+          "spawnx": 0,
+          "spawny": -12
+      }
+    ]
+}
