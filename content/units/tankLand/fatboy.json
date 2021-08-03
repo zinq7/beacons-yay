@@ -1,7 +1,7 @@
 
 {
     "localizedName": "FatBoy Mk II",
-    "description": "Minor 'Experimental' seige tank capable of destroying bases without taking a hit.",
+    "description": "Minor 'Experimental' siege tank capable of destroying bases without taking a hit.",
     "commandLimit": 9,
     "speed": 0.5,
     "drag": 0.5,

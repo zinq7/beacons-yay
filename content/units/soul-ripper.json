@@ -1,0 +1,56 @@
+{
+    "type": "flying",
+    "isCounted": true,
+    "name": "Soul Ripper",
+    "flying": true,
+    "health": 90000,
+    "armor": 20,
+    "drag": 0.05,
+    "speed": 1,
+    "rotateSpeed": 2,
+    "accel": 0.11,
+    "itemCapacity": 1500,
+    "ealt": 220,
+    "engineOffset": 6,
+    "hitSize": 120,
+    "commandLimit": 1,
+    "weapons": [
+        {
+            "name": "Chain Shredder",
+            "reload": 5,
+            "x": 0,
+            "y": 20,
+            "mirror": false,
+            "inaccuracy": 4,
+            "velocityInaccuracy": 0.2,
+            "shootY": -2,
+            "top": true,
+            "ignoreRotation": true,
+            "shootX": 0,
+            "bullet": {
+                "type": "BasicBulletType",
+                "height": 20,
+                "width": 20,
+                "speed": 8,
+                "lifetime": 65,
+                "scaleVelocity": true,
+                "shootShake": 2,
+                "damage": 120,
+                "splashDamage": 120,
+                "splashDamageRadius": 30,
+                "collidesTiles": true,
+                "collidesAir": true,
+                "reflectable": true
+            }
+        }
+     ],
+      "abilities": [
+      {
+          "type": "UnitSpawnAbility",
+          "unit": "horizon",
+          "spawnTime": 20,
+          "spawnx": 0,
+          "spawny": -40
+      }
+    ]
+}

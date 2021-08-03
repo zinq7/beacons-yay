@@ -33,8 +33,9 @@
         "bullet": {
             "lifetime": 1000,
             "type": "ArtilleryBulletType",
-            "height": 30,
-            "width": 12,
+            "height": 60,
+            "width": 22,
+"knockback": 200,
             "collidesTiles": false,
             "damage": 100,
             "splashDamage": 75,
