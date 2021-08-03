@@ -105,11 +105,5 @@
           "spawnx": 0,
           "spawny": -40
       }
-    ],
-    "research": {
-        "parent": "silicon-player",
-        "requirements": [
-          "uranium/100000"
-        ]
-      }
+    ]
 }
