@@ -6,7 +6,7 @@
     "drag": 0.5,
     "accel": 0.2,
     "strafePenalty": 0.2,
-    "rotateSpeed": 3,
+    "rotateSpeed": 0.8,
     "health": 200,
     "armor": 1,
     "range": 180,
@@ -28,7 +28,7 @@
             "x": 0,
             "y": 2,
             "shootX": 0,
-            "rotate": true,
+            "rotate": false,
             "ignoreRotation": false,
             "shootY": 1,
             "bullet": {
