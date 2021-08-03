@@ -2,6 +2,7 @@
     "localizedName": "megalith",
     "description": "Experimental T6 megabot capable of mass destruction. Cannot be built at reconstructors.",
     "commandLimit": 1,
+    "type": "legUnitType",
     "speed": 0.5,
     "drag": 0.5,
     "accel": 0.2,
@@ -100,7 +101,7 @@
       {
           "type": "UnitSpawnAbility",
           "unit": "scepter",
-          "spawnTime": 360,
+          "spawnTime": 420,
           "spawnx": 0,
           "spawny": -12
       }
