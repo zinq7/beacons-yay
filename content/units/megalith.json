@@ -2,7 +2,7 @@
     "localizedName": "megalith",
     "description": "Experimental T6 megabot capable of mass destruction. Cannot be built at reconstructors.",
     "commandLimit": 1,
-    "type": "legUnitType",
+    "type": "legs",
     "speed": 0.5,
     "drag": 0.5,
     "accel": 0.2,
