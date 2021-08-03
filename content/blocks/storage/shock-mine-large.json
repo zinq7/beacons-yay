@@ -8,7 +8,7 @@
     "damage": 280,
     "tileDamage": 7,
     "length": 40,
-    "tendrils" 10,
+    "tendrils": 10,
     "researchCostMultiplier": 0.2,
     "requirements": [
         {
