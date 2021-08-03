@@ -26,7 +26,6 @@
     "legLengthScl": 0.93,
     "rippleScale": 3,
     "legSpeed": 0.19,
-    "ammoType": "uranium",
 
     "legSplashDamage": 400,
     "legSplashRange": 60,
