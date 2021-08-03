@@ -1,0 +1,18 @@
+{
+    "type": "CoreBlock",
+    "size": 8,
+    "health": 12000,
+    "itemCapacity": 22000,
+    "hasItems": true,
+    "unitType": "soul-ripper",
+    "unitCapModifier": 22,
+    "researchCostMultiplier": 0.2,
+    "requirements": [
+        {
+            "item": "bullet",
+            "amount": 900000
+        }
+    ],
+    "category": "effect",
+    "research": "core-radicite"
+}
