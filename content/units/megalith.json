@@ -99,10 +99,10 @@
       "abilities": [
       {
           "type": "UnitSpawnAbility",
-          "unit": "sceptre",
+          "unit": "scepter",
           "spawnTime": 360,
           "spawnx": 0,
-          "spawny": -40
+          "spawny": -12
       }
     ]
 }
