@@ -1,3 +1,67 @@
 {
-
+    "type": "Reconstructor",
+    "health": 12000,
+    "size": 11,
+    "constructTime": 10000,
+    "liquidCapacity": 20000,
+    "buildCostMultiplier": 0.2,
+    "upgrades": [
+        ["toxopid","megalith"],
+        ["eclipse","soul-ripper"]
+    ],
+    "consumes": {
+        "power": 4,
+        "items": {
+            "items": [
+                {
+                    "item": "silicon",
+                    "amount": 8000
+                },
+                {
+                    "item": "surge-alloy",
+                    "amount": 2000
+                },
+                {
+                    "item": "radicite",
+                    "amount": 1000
+                },
+                {
+                    "item": "zinq-good",
+                    "amount": 750
+                },
+                {
+                    "item": "nuke",
+                    "amount": 1
+                }
+            ]
+        },
+        "liquid": {
+            "liquid": "cryofluid",
+            "amount": 10
+        }
+    },
+    "requirements": [
+        {
+            "item": "silicon",
+            "amount": 4000
+        },
+        {
+            "item": "titanium",
+            "amount": 3000
+        },
+        {
+            "item": "thorium",
+            "amount": 2000
+        },
+        {
+            "item": "surge-alloy",
+            "amount": 1000
+        },
+        {
+            "item": "phase-fabric",
+            "amount": 500
+        }
+    ],
+    "category": "units",
+    "research": "tetrative-reconstructor"
 }
