@@ -3,7 +3,7 @@
     "isCounted": true,
     "name": "Soul Ripper",
     "flying": true,
-    "health": 84000,
+    "health": 110000,
     "armor": 20,
     "drag": 0.05,
     "speed": 1,
