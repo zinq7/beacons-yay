@@ -5,10 +5,10 @@
     "unitType": "titanguy",
     "unitCapModifier": 22,
     "hasShadow": false,
-    "damage": 280,
-    "tileDamage": 7,
-    "length": 40,
-    "tendrils": 10,
+    "damage": 100,
+    "tileDamage": 20,
+    "length": 20,
+    "tendrils": 8,
     "researchCostMultiplier": 0.2,
     "requirements": [
         {
