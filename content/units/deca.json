@@ -1,0 +1,63 @@
+{
+    "type": "flying",
+    "isCounted": false,
+    "name": "Deca",
+    "flying": true,
+    "health": 94000,
+    "armor": 20,
+    "mineSpeed": 200,
+    "mineTier": 7,
+    "payloadCapacity": 1000,
+    "buildSpeed": 20,
+    "drag": 0.2,
+    "speed": 3,
+    "rotateSpeed": 3,
+    "accel": 1,
+    "itemCapacity": 2000,
+    "engineOffset": 6,
+    "hitSize": 48,
+    "commandLimit": 1,
+    "abilities": [
+        {
+            "type": "ForceFieldAbility",
+            "radius": 100,
+            "regen": 10,
+            "max": 4000,
+            "cooldown": 200
+        },
+        {
+            "type": "RepairFieldAbility",
+            "amount": 200,
+            "reload": 120,
+            "range": 200
+        },
+        {
+            "type": "UnitSpawnAbility",
+            "unit": "mega",
+            "spawnTime": 180,
+            "spawnx": 0,
+            "spawny": -22
+        }
+    "weapons": [
+        {
+            "name": "small-mount-weapon",
+            "top": false,
+            "reload": 90,
+            "x": 1,
+            "y": 2,
+            "shots": 1,
+            "ejectEffect": "casing2Double",
+            "bullet": {
+                "lifetime": 300,
+                "type": "ArtilleryBulletType",
+                "height": 30,
+                "width": 12,
+                "collidesTiles": false,
+                "damage": 2000,
+                "splashDamage": 2000,
+                "splashDamageRadius": 70
+            }
+            
+        }
+    ]
+}
