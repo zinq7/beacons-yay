@@ -1,0 +1,46 @@
+{
+    "type": "GenericCrafter",
+    "health": 240,
+    "size": 4,
+    "drawFloor": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "boostEfficiency": 1.9,
+    "craftTime": 25,
+    "itemCapacity": 30,
+    "liquidCapacity": 120,
+    "craftEffect": "formsmoke",
+    "outputItem": {
+        "item": "uranium",
+        "amount": 1
+    },
+    "consumes": {
+        "liquid": {
+            "liquid": "water",
+            "amount": 0.1,
+            "booster": true,
+            "optional": true
+        }
+    },
+ 
+    "requirements": [
+        {
+            "item": "phase-fabric",
+            "amount": 20
+        },
+        {
+            "item": "lead",
+            "amount": 500
+        },
+        {
+            "item": "silicon",
+            "amount": 80
+        },
+        {
+            "item": "graphite",
+            "amount": 150
+        }
+    ],
+    "category": "drill",
+    "research": "airblast-drill"
+}
