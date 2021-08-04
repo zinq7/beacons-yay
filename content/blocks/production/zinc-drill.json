@@ -1,0 +1,38 @@
+{
+    "type": "GenericCrafter",
+    "health": 240,
+    "size": 2,
+    "drawFloor": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "boostEfficiency": 1.9,
+    "craftTime": 70,
+    "itemCapacity": 30,
+    "liquidCapacity": 120,
+    "craftEffect": "formsmoke",
+    "outputItem": {
+        "item": "zinq",
+        "amount": 1
+    },
+    "consumes": {
+        "liquid": {
+            "liquid": "water",
+            "amount": 0.1,
+            "booster": true,
+            "optional": true
+        }
+    },
+ 
+    "requirements": [
+        {
+            "item": "graphite",
+            "amount": 10
+        }
+        {
+            "item": "lead",
+            "amount": 50
+        }
+    ],
+    "category": "production",
+    "research": "pneumatic-drill"
+}
