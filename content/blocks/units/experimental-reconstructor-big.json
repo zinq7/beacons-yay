@@ -1,7 +1,7 @@
 {
     "type": "Reconstructor",
     "health": 12000,
-    "size": 9,
+    "size": 11,
     "constructTime": 10000,
     "liquidCapacity": 20000,
     "buildCostMultiplier": 0.2,

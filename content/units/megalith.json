@@ -1,6 +1,6 @@
 {
-    "localizedName": "megalith",
-    "description": "Experimental T6 megabot capable of mass destruction. Cannot be built at reconstructors.",
+    "localizedName": "Megalith",
+    "description": "Experimental T6 megabot capable of mass destruction.",
     "commandLimit": 1,
     "type": "legs",
     "speed": 0.5,
@@ -23,7 +23,6 @@
     "legExtension": -20,
     "legBaseOffset": 8,
     "landShake": 1,
-    "legSpeed": 0.1,
     "legLengthScl": 0.93,
     "rippleScale": 3,
     "legSpeed": 0.19,
@@ -92,8 +91,7 @@
                 "hitSize": 70,
                 "drawSize": 600,
                 "lifetime": 30,
-                "frontColor": "AA0000",
-                "backColor": "AA0000"
+                "color": "ff4444aa"
             }
         }
      ],
