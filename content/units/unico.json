@@ -72,7 +72,10 @@
                 "lifetime": 60,
                 "type": "LightningBulletType",
                 "lightningLength": 40,
-                "damage": 500
+                "damage": 500,
+                "lightningColor": "44ff44aa",
+                "collidesTeam": true,
+                "healPercent": 10
             }
         },
         {
