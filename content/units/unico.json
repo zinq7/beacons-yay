@@ -107,6 +107,7 @@
      ],
       "abilities": [
       {
+          "type": "ForceFieldAbility",
           "radius": 80,
           "regen": 8,
           "max": 10000,
