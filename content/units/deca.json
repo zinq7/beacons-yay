@@ -38,6 +38,7 @@
             "spawnx": 0,
             "spawny": -22
         }
+    ],
     "weapons": [
         {
             "name": "small-mount-weapon",
