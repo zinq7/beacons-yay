@@ -14,7 +14,7 @@
     "rotateSpeed": 3,
     "maxAmmo": 10,
     "itemCapacity": 10,
-    "targetAir" true,
+    "targetAir": true,
     "shootSound": "laser",
     "emitLight": true,
     "lightRadius": 100,
