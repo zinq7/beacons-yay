@@ -7,10 +7,12 @@
     "buildCostMultiplier": 0.2,
     "upgrades": [
         ["toxopid","megalith"],
-        ["eclipse","soul-ripper"]
+        ["eclipse","soul-ripper"],
+        ["corvus","unico"],
+        ["oct","deca"]
     ],
     "consumes": {
-        "power": 4,
+        "power": 80,
         "items": {
             "items": [
                 {
