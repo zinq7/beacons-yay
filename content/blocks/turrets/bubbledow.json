@@ -10,6 +10,7 @@
     "velocityInaccuracy": 12,
     "recoilAmount": 0,
     "hasItems": true,
+    "targetAir": true,
     "itemCapacity": 12,
     "inaccuracy": 0,
     "maxAmmo": 1,
