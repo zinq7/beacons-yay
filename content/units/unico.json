@@ -1,0 +1,116 @@
+{
+    "localizedName": "unico",
+    "description": "Experimental T6 assault bot capable of mass destruction.",
+    "commandLimit": 1,
+    "type": "legs",
+    "speed": 0.3,
+    "drag": 0.5,
+    "accel": 0.2,
+    "strafePenalty": 0,
+    "rotateSpeed": 2,
+    "health": 64000,
+    "armor": 26,
+    "range": 350,
+    "targetAir": false,
+    "circleTarget": false,
+    "hitSize": 48,
+    "itemCapacity": 1000,
+    
+    "legCount": 4,
+    "legMoveSpace": 1.5,
+    "legLength": 14,
+    "legExtension": -20,
+    "legBaseOffset": 11,
+    "landShake": 1,
+    "legSpeed": 0.1,
+    "legTrns": 0.58,
+    "legLengthScl": 0.93,
+    "rippleScale": 3,
+    "legSpeed": 0.19,
+
+    "legSplashDamage": 400,
+    "legSplashRange": 60,
+
+    "hovering": true,
+    "allowLegStep": true,
+    "visualElevation": 0.2,
+  
+    "destructibleWreck": false,
+    "flying": false,
+    "weapons": [
+        {
+            "name": "Mega Capacitor",
+            "reload": 10,
+            "x": 70,
+            "y": 0,
+            "mirror": false,
+            "inaccuracy": 4,
+            "shootY": -2,
+            "top": true,
+            "ignoreRotation": false,
+            "shootX": 0,
+            "bullet": {
+                "lifetime": 60,
+                "type": "LightningBulletType",
+                "lightningLength": 50,
+                "damage": 500,
+            }
+        },
+        {
+            "name": "Mega Capacitor",
+            "reload": 10,
+            "x": -70,
+            "y": 0,
+            "mirror": false,
+            "inaccuracy": 4,
+            "shootY": -2,
+            "top": true,
+            "ignoreRotation": false,
+            "shootX": 0,
+            "bullet": {
+                "lifetime": 60,
+                "type": "LightningBulletType",
+                "lightningLength": 50,
+                "damage": 500,
+            }
+        },
+        {
+            "name": "Hyper Beam",
+            "reload": 300,
+            "x": 0,
+            "y": 0,
+            "mirror": false,
+            "shots": 1,
+            "spacing": 0,
+            "spread": 0.5,
+            "inaccuracy": 0,
+            "velocityInaccuracy": 0,
+            "shootX": 0,
+            "top": true,
+            "ignoreRotation": false,
+            "shootY": 1,
+            "bullet": {
+                "type": "LaserBulletType",
+                "damage": 2400,
+                "pierceCap": 5,
+                "speed": 0.1,
+                "height": 140,
+                "width": 100,
+                "length": 400,
+                "hitSize": 70,
+                "drawSize": 700,
+                "lifetime": 30,
+                "frontColor": "44FF44",
+                "backColor": "44FF44"
+            }
+        }
+     ],
+      "abilities": [
+      {
+          "radius": 80,
+          "regen": 8,
+          "max": 10000,
+          "cooldown": 360
+      }
+    ]
+}
