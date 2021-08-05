@@ -61,7 +61,7 @@
                 "damage": 800,
                 "splashDamage": 800,
                 "frontColor": "444444",
-                "backColor": "444444",
+                "backColor": "bbbbbb",
                 "splashDamageRadius": 50,
                 "collidesTiles": true,
                 "collidesAir": true,
