@@ -1,0 +1,84 @@
+{
+    "localizedName": "King Kryptor",
+    "description": "Experimental T6 assault bot capable of mass destruction.",
+    "commandLimit": 1,
+    "type": "mech",
+    "speed": 0.4,
+    "drag": 0.5,
+    "accel": 0.2,
+    "strafePenalty": 0.2,
+    "rotateSpeed": 2,
+    "health": 80000,
+    "armor": 26,
+    "range": 300,
+    "targetAir": true,
+    "circleTarget": false,
+    "hitSize": 48,
+    "itemCapacity": 1000,
+   
+
+    "hovering": false,
+    "allowLegStep": true,
+    "visualElevation": 0.2,
+  
+    "destructibleWreck": false,
+    "flying": false,
+    "weapons": [
+        {
+            "name": "king-kryptor-weapon",
+            "reload": 20,
+            "x": 36,
+            "y": 2,
+            "shots": 2,
+            "mirror": false,
+            "inaccuracy": 9,
+            "shootY": -2,
+            "top": true,
+            "ignoreRotation": false,
+            "shootX": 0,
+            "bullet": {
+                "type": "BasicBulletType",
+                "height": 40,
+                "width": 20,
+                "speed": 8,
+                "lifetime": 50,
+                "scaleVelocity": false,
+                "shootShake": 2,
+                "damage": 300,
+                "frontColor": "ff4444",
+                "backColor": "ff4444",
+                "collidesTiles": true,
+                "collidesAir": true,
+                "reflectable": false
+            }
+        },
+        {
+            "name": "king-kryptor-weapon",
+            "reload": 20,
+            "x": -36,
+            "y": 2,
+            "shots": 2,
+            "mirror": true,
+            "inaccuracy": 9,
+            "shootY": -2,
+            "top": true,
+            "ignoreRotation": false,
+            "shootX": 0,
+            "bullet": {
+                "type": "BasicBulletType",
+                "height": 40,
+                "width": 20,
+                "speed": 8,
+                "lifetime": 50,
+                "scaleVelocity": false,
+                "shootShake": 2,
+                "damage": 300,
+                "frontColor": "ff4444",
+                "backColor": "ff4444",
+                "collidesTiles": true,
+                "collidesAir": true,
+                "reflectable": false
+            }
+        }
+     ]
+}
