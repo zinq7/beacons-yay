@@ -1,5 +1,6 @@
 {
     "type": "GenericCrafter",
+    "buildVisibility": "campaignOnly",
     "health": 240,
     "size": 2,
     "drawFloor": true,
