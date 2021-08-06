@@ -1,6 +1,6 @@
   
 name: Zinc Wall
-description: "A wall that self-repairs"
+description: "A wall that blocks projectiles, but not units"
 health: 600
 size: 1
 destructible: true
