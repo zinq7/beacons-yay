@@ -26,7 +26,7 @@
     "weapons": [
         {
             "name": "king-kryptor-weapon",
-            "reload": 20,
+            "reload": 15,
             "x": 36,
             "y": 2,
             "shots": 2,
@@ -54,11 +54,11 @@
         },
         {
             "name": "king-kryptor-weapon",
-            "reload": 20,
+            "reload": 15,
             "x": -36,
             "y": 2,
             "shots": 2,
-            "mirror": true,
+            "mirror": false,
             "inaccuracy": 9,
             "shootY": -2,
             "top": true,
