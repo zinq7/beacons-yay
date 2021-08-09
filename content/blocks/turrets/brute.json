@@ -1,6 +1,6 @@
 {
     "type": "ItemTurret",
-    "size": 4,
+    "size": 5,
     "health": 3000,
     "range": 240,
     "minRange": 0,
