@@ -104,7 +104,7 @@
                 "status": {
                    "name": "chunked",
                    "damage": 12,
-                   "opposites": ["experimental"],
+    //               "opposites": ["experimental"],
                    "transitionDamage": 10000,
                    "speedMultiplier": 0,
                    "show": true,
