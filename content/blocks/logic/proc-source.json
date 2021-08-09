@@ -1,7 +1,7 @@
 {
     "type": "LogicBlock",
-    "size": 1000,
-    "range": 200,
+    "size": 1,
+    "range": 1500,
     "instructionsPerTick": 1000,
     "buildVisibility": "sandboxOnly",
     "requirements" : [
