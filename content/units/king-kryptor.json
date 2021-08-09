@@ -88,13 +88,13 @@
             "y": 0,
             "shots": 6,
             "burstSpacing": 12,
-            "inaccuracy": 6
+            "inaccuracy": 6,
             "top": true,
             "bullet": {
-                "type": "MissileBulletType"
+                "type": "MissileBulletType",
                 "height": 12,
                 "width": 12,
-                "speed" 12,
+                "speed": 12,
                 "damage": 180,
                 "splashDamage": 180,
                 "splashDamageRadius": 30,
