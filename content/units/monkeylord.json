@@ -52,7 +52,6 @@
             "ignoreRotation": false,
             "shootY": 10,
 
-            "shootStatusEffect": 
             "bullet": {
                 "lifetime": 30,
                 "type": "BasicBulletType",
