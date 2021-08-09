@@ -86,8 +86,7 @@
             "reload": 75,
             "x": 0,
             "y": 0,
-            "shots": 6,
-            "burstSpacing": 12,
+            "shots": 1,
             "inaccuracy": 6,
             "top": true,
             "bullet": {
@@ -95,16 +94,16 @@
                 "height": 12,
                 "width": 12,
                 "speed": 12,
-                "damage": 180,
-                "splashDamage": 180,
-                "splashDamageRadius": 30,
+                "frontColor": "add8e6",
+                "backColor": "add8e6",
+                "damage": 0,
                 "homingPower": 0.7,
                 "lifetime": 40,
                 "knockback": 10,
                 "statusDuration": 80
                 "status": {
                    "name": "chunked",
-                   "transitionDamage": 1000,    
+                   "transitionDamage": 5000,    
                 }
             }
         }
