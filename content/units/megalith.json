@@ -93,7 +93,7 @@
                 "hitSize": 70,
                 "drawSize": 600,
                 "lifetime": 30,
-                "color": "ff4444aa"
+                "colors": [ "ff4444aa", "ff3333aa", "ff2222aa" ]
             }
         }
      ],
