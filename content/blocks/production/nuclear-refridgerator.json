@@ -1,0 +1,53 @@
+  
+{
+    "type": "LiquidConverter",
+    "health": 400,
+    "size": 3,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 120,
+    "itemCapacity": 10,
+    "liquidCapacity" : 120,
+    "craftEffect": "smeltsmoke",
+    "drawLiquidLight": true,
+    "outputLiquid": {
+        "liquid": "fryzenite",
+        "amount": 48
+    },
+    "consumes": {
+        "power": 1.2,
+        "items": {
+            "items": [
+                {
+                    "item": "uranium",
+                    "amount": 2
+                }
+            ]
+        },
+        "liquid": {
+            "liquid": "cryofluid",
+            "amount": 0.5
+        }
+    },
+    "requirements": [
+        {
+            "item": "silicon",
+            "amount": 120
+        },
+        {
+            "item": "titanium",
+            "amount": 400
+        },
+        {
+            "item": "radicite",
+            "amount": 150
+        },
+        {
+            "item": "zinq-good",
+            "amount": 100
+        }
+    ],
+    "category": "crafting",
+    "research": "blast-mixer"
+}
