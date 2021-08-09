@@ -101,8 +101,11 @@
                 "homingPower": 0.7,
                 "lifetime": 40,
                 "knockback": 10,
-                "statusEffect": "gottem",
                 "statusDuration": 80
+                "status": {
+                   "name": "chunked",
+                   "transitionDamage": 1000,    
+                }
             }
         }
      ]
