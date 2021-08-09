@@ -1,0 +1,14 @@
+{
+    "type": "LogicBlock",
+    "size": 1000,
+    "range": 200
+    "instructionsPerTick": 1000,
+    "buildVisibility": "Sandbox",
+    "requirements" : [
+              {
+                "item": "copper",
+                "amount": 15
+              }
+          ],
+    "catagory": "logic"
+}
