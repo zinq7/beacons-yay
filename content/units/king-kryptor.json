@@ -10,7 +10,7 @@
     "rotateSpeed": 2,
     "health": 80000,
     "armor": 26,
-    "range": 300,
+    "range": -1,
     "targetAir": true,
     "circleTarget": false,
     "hitSize": 48,
