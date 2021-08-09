@@ -3,7 +3,7 @@
     "size": 1000,
     "range": 200
     "instructionsPerTick": 1000,
-    "buildVisibility": "Sandbox",
+    "buildVisibility": "sandboxOnly",
     "requirements" : [
               {
                 "item": "copper",
