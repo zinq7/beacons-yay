@@ -39,7 +39,6 @@
     "flying": false,
     "weapons": [
         {
-        {
             "name": "microwave-Laser",
             "reload": 1,
             "x": 0,
@@ -55,7 +54,7 @@
             "bullet": {
                 "type": "BasicBulletType",
                 "damage": 50,
-                "sprite": "microwave"
+                "sprite": "microwave",
                 "speed": 3,
                 "height": 100,
                 "width": 1,
