@@ -39,62 +39,32 @@
     "flying": false,
     "weapons": [
         {
-            "name": "Hyper-Cannon",
-            "reload": 80,
-            "x": 0,
-            "y": -10,
-            "mirror": false,
-            "inaccuracy": 4,
-            "velocityInaccuracy": 0.1,
-            "shootY": -2,
-            "top": true,
-            "ignoreRotation": false,
-            "shootX": 0,
-            "bullet": {
-                "type": "BasicBulletType",
-                "height": 40,
-                "width": 40,
-                "speed": 8,
-                "lifetime": 50,
-                "scaleVelocity": false,
-                "shootShake": 2,
-                "damage": 800,
-                "splashDamage": 800,
-                "frontColor": "444444",
-                "backColor": "bbbbbb",
-                "splashDamageRadius": 50,
-                "collidesTiles": true,
-                "collidesAir": true,
-                "reflectable": false
-            }
-        },
         {
-            "name": "Heat-Laser",
-            "reload": 200,
+            "name": "microwave-Laser",
+            "reload": 1,
             "x": 0,
             "y": 0,
             "mirror": false,
             "shots": 1,
             "spacing": 0,
             "spread": 0.5,
-            "inaccuracy": 0,
-            "velocityInaccuracy": 0,
             "shootX": 0,
             "top": true,
             "ignoreRotation": false,
             "shootY": 1,
             "bullet": {
-                "type": "LaserBulletType",
-                "damage": 1500,
-                "pierceCap": 100,
-                "speed": 0.1,
+                "type": "BasicBulletType",
+                "damage": 50,
+                "sprite": "microwave"
+                "speed": 3,
                 "height": 100,
-                "width": 60,
-                "length": 350,
+                "width": 1,
+                "length": 30,
+                "scaleVelocity": true,
                 "hitSize": 70,
-                "drawSize": 600,
                 "lifetime": 30,
-                "color": "ff4444aa"
+                "frontColor": "ff4444",
+                "backColor": "ff4444"
             }
         }
      ]
