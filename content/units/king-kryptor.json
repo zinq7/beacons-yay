@@ -31,9 +31,10 @@
             "y": 2,
             "shots": 2,
             "mirror": false,
-            "inaccuracy": 9,
+            "inaccuracy": 3,
             "shootY": -2,
             "top": true,
+            "recoil": 12,
             "ignoreRotation": false,
             "shootX": 0,
             "bullet": {
@@ -43,10 +44,10 @@
                 "speed": 8,
                 "lifetime": 50,
                 "scaleVelocity": false,
-                "shootShake": 2,
+                "shootShake": 5,
                 "damage": 300,
-                "frontColor": "ff4444",
-                "backColor": "ff4444",
+                "frontColor": "add8e6",
+                "backColor": "add8e6",
                 "collidesTiles": true,
                 "collidesAir": true,
                 "reflectable": false
@@ -59,7 +60,7 @@
             "y": 2,
             "shots": 2,
             "mirror": false,
-            "inaccuracy": 9,
+            "inaccuracy": 3,
             "shootY": -2,
             "top": true,
             "ignoreRotation": false,
@@ -73,11 +74,35 @@
                 "scaleVelocity": false,
                 "shootShake": 2,
                 "damage": 300,
-                "frontColor": "ff4444",
-                "backColor": "ff4444",
+                "frontColor": "add8e6",
+                "backColor": "add8e6",
                 "collidesTiles": true,
                 "collidesAir": true,
                 "reflectable": false
+            }
+        },
+        {
+            "name": "missile-launcher",
+            "reload": 75,
+            "x": 0,
+            "y": 0,
+            "shots": 6,
+            "burstSpacing": 12,
+            "inaccuracy": 6
+            "top": true,
+            "bullet": {
+                "type": "MissileBulletType"
+                "height": 12,
+                "width": 12,
+                "speed" 12,
+                "damage": 180,
+                "splashDamage": 180,
+                "splashDamageRadius": 30,
+                "homingPower": 0.7,
+                "lifetime": 40,
+                "knockback": 10,
+                "statusEffect": "gottem",
+                "statusDuration": 80
             }
         }
      ]
