@@ -43,7 +43,7 @@
                 "collidesTiles": true,
                 "collidesAir": true,
                 "reflectable": true,
-                "statusDuration": 5,
+               /* "statusDuration": 5,
                 "status": {
                     "name": "scared",
                     "disarm": "true",
@@ -51,7 +51,7 @@
                     "damageMultiplier": 0.3,
                     "damage": 6,
                     "opposites": ["burning"]
-                }
+                }*/
             }
         }
      ],
