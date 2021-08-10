@@ -99,7 +99,7 @@
 
             "bullet": {
                 "type": "ContinuousLaserBulletType",
-                "damage": 2400,
+                "damage": 100,
                 "shake": 2,
                 "length": 300,
                 "drawSize": 700,
