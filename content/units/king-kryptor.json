@@ -80,7 +80,7 @@
                 "collidesAir": true,
                 "reflectable": false
             }
-        },
+        }/*,
         {
             "name": "missile-launcher",
             "reload": 75,
@@ -104,13 +104,13 @@
                 "status": {
                    "name": "chunked",
                    "damage": 12,
-    //               "opposites": ["experimental"],
+                   "opposites": ["experimental"],
                    "transitionDamage": 10000,
                    "speedMultiplier": 0,
                    "show": true,
                    "disarm": true
                 }
             }
-        }
+        }*/
      ]
 }
