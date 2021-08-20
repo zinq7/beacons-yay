@@ -10,7 +10,7 @@
   "isLiquid": true,
   "flammability": 0.92,
   "liquidDrop": "jungle-juice",
-  "blendGroup": "slag",
+  "blendGroup": "jongle-juice",
   "edge": "jj-edge",
   "drownTime": 1,
   "attributes": {
