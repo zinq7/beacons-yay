@@ -1,0 +1,37 @@
+  
+{
+    "type": "flying",
+    "isCounted": true,
+    "name": "Mothership",
+    "localisedName": "Mothership",
+    "description": "Experimental T6 air fortress that creates massive amounts of guided missiles",
+    "flying": true,
+    "health": 90000,
+    "armor": 20,
+    "drag": 0.05,
+    "speed": 1,
+    "rotateSpeed": 2,
+    "accel": 0.11,
+    "itemCapacity": 1500,
+    "ealt": 220,
+    "engineOffset": 6,
+    "hitSize": 120,
+    "commandLimit": 20,
+
+      "abilities": [
+      {
+          "type": "UnitSpawnAbility",
+          "unit": "mercy",
+          "spawnTime": 20,
+          "spawnx": 50,
+          "spawny": -30
+      },
+      {
+          "type": "UnitSpawnAbility",
+          "unit": "mercy",
+          "spawnTime": 20,
+          "spawnx": -50,
+          "spawny": -30
+      }
+    ]
+}
