@@ -1,0 +1,42 @@
+
+{
+    "type": "flying",
+    "isCounted": false,
+    "flying": true,
+    "health": 160,
+    "armor": 10,
+    "name": "Mercy",
+    "drag": 0.05,
+    "speed": 6,
+    "rotateSpeed": 3,
+    "accel": 0.3,
+    "itemCapacity": 10,
+    "engineOffset": 4,
+    "hitSize": 11,
+    "commandLimit": 20,
+    "weapons": [
+        {
+            "name": "the-shot",
+            "top": false,
+            "reload": 15,
+            "x": 1,
+            "y": 2,
+            "shots": 1,
+            "inaccuracy": 0,
+            "ejectEffect": "casing2Double",
+            "bullet": {
+                "type": "BasicBulletType",
+                "width": 6.5,
+                "height": 11,
+                "speed": 4,
+                "killShooter": true,
+                "damage": 500,
+                "splashDamage": 300,
+                "splashDamageRadius": 10,
+                "lifetime": 40,
+                "shootEffect": "shootSmall",
+                "smokeEffect": "shootSmallSmoke"
+            }
+        }
+    ]
+}
