@@ -42,6 +42,20 @@
             "ammoMultiplier": 1,
             "damage": 15
         },
+        "fryzenite": {
+            "type": "LiquidBulletType",
+            "liquid": "fryzenite",
+            "lifetime": 50,
+            "speed": 5,
+            "knockback": 5,
+            "puddleSize": 6,
+            "orbSize": 8,
+            "drag": 0.002,
+            "statusDuration": 480,
+            "reloadMultiplier": 2,
+            "ammoMultiplier": 1,
+            "damage": 90
+        },
         "oil": {
             "type": "LiquidBulletType",
             "liquid": "oil",
