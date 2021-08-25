@@ -1,0 +1,87 @@
+{
+  "localizedName": "Asteroid",
+  "description": "A powerful but slow gunship",
+  "commandLimit": 7,
+  "speed": 1.8,
+  "accel": 0.08,
+  "drag": 0.01,
+  "health": 130,
+  "engineOffset": 5.5,
+  "engineSize": 2.5,
+  "range": 160,
+  "hitSize": 10,
+  "itemCapacity": 50,
+  "crashDamageMultiplier": 4,
+  "fallEffect": "coreBurn",
+  "fallThrusterEffect": "none",
+  "rotateShooting": true,
+  "lowAltitude": false,
+  "destructibleWreck": false,
+  "flying": true,
+  "weapons": [
+    {
+      "name": "laderino-5000",
+      "x": 12,
+      "y": 3,
+      "shootY": 2,
+      "recoil": 0.4,
+      "reload": 10,
+      "shots": 1,
+      "inaccuracy": 10,
+      "mirror": true,
+      "ignoreRotation": false,
+      "bullet": {
+        "type": "MissileBulletType",
+        "hitColor": 888888,
+        "sprite": "missile",
+        "hitEffect": "hitLiquid",
+        "collidesTiles": true,
+        "collidesGround": true,
+        "collidesAir": true,
+        "despawnEffect": "none",
+        "frontColor": "6666ff",
+        "backColor": "6666ff",
+        "damage": 10,
+        "width": 5,
+        "height": 5,
+        "shrinkY": 3,
+        "speed": 3,
+        "lifetime": 50,
+        "homingPower": 2
+      }
+    },
+    {
+      "name": "rail-weapon",
+      "x": 0,
+      "y": 8,
+      "shootY": 2,
+      "recoil": 0.8,
+      "reload": 120,
+      "shots": 1,
+      "inaccuracy": 14,
+      "rotate": true,
+      "ignoreRotation": true,
+      "bullet": {
+        "type": "BasicBulletType",
+        "hitColor": 888888,
+        "collidesTiles": true,
+        "collidesGround": true,
+        "collidesAir": true,
+        "frontColor": "6666ff",
+        "backColor": "ffffff",
+        "damage": 50,
+        "width": 10,
+        "height": 20,
+        "speed": 4,
+        "lifetime": 50
+      }
+    },
+  ],
+  "research": {
+    "parent": "satellite",
+    "requirements": [
+      "silicon/4000",
+      "zinq/2000"
+    ]
+  }
+}
