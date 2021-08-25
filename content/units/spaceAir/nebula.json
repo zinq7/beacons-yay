@@ -9,7 +9,7 @@
   "armor": 10,
   "engineOffset": 5.5,
   "engineSize": 4,
-  "range": 220,
+  "range": 280,
   "hitSize": 25,
   "itemCapacity": 200,
   "crashDamageMultiplier": 8,
@@ -49,7 +49,7 @@
         "height": 10,
         "shrinkY": 3,
         "speed": 2,
-        "lifetime": 120,
+        "lifetime": 140,
         "homingPower": 4
       }
     },
@@ -83,7 +83,7 @@
     },
     {
       "name": "seeker-weapon",
-      "x": -9,
+      "x": -13,
       "y": 3,
       "shootY": 2,
       "recoil": 0.8,
@@ -105,7 +105,7 @@
         "width": 10,
         "height": 20,
         "speed": 5,
-        "lifetime": 50
+        "lifetime": 60
       }
     }
   ],
