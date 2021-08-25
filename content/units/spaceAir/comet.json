@@ -110,7 +110,7 @@
     "parent": "asteroid",
     "requirements": [
       "silicon/7000",
-      "thorium/3000"
+      "thorium/3000",
       "zinq/4000"
     ]
   }

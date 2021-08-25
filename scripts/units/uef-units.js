@@ -28,12 +28,12 @@ Events.on(ContentInitEvent, () => {
   const fatbUp = Seq.with(fatboy, jackhammer).toArray(UnitType);
   //factories
   Blocks.airFactory.plans.addAll(
-    new UnitFactory.UnitPlan(wasp, 2000, ItemStack.with(Items.silicon, 30, Items.lead, 20, Items.graphite, 10)),
+    new UnitFactory.UnitPlan(wasp, 1000, ItemStack.with(Items.silicon, 30, Items.copper, 20)),
   );
   Blocks.airFactory.init();
 
   Blocks.groundFactory.plans.addAll(
-    new UnitFactory.UnitPlan(ma12, 2500, ItemStack.with(Items.silicon, 30, zinc, 20)),
+    new UnitFactory.UnitPlan(ma12, 1000, ItemStack.with(Items.silicon, 30, zinc, 20)),
   );
   Blocks.groundFactory.init();
   //reconstructors

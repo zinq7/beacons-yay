@@ -1,0 +1,44 @@
+{
+    "type": "UnitFactory",
+    "size": 3,
+    "health": 360,
+    "consumes": {
+        "power": 1.2
+    },
+    "plans": [
+        {
+            "unit": "satellite",
+            "time": 2100,
+            "requirements": [
+                {
+                    "item": "silicon",
+                    "amount": 50
+                },
+                {
+                    "item": "metaglass",
+                    "amount": 30
+                },
+                {
+                    "item": "zinq",
+                    "amount": 20
+                }
+            ]
+        }
+    ],
+    "requirements": [
+        {
+            "item": "copper",
+            "amount": 150
+        },
+        {
+            "item": "lead",
+            "amount": 75
+        },
+        {
+            "item": "zinq",
+            "amount": 50
+        }
+    ],
+    "category": "units",
+    "research": "air-factory"
+}
