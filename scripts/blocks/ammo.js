@@ -20,8 +20,9 @@ standardNuke.frontColor = "d3d3d3";
 standardNuke.backColor = "d3d3d3";
 
 //testing
-const nukeduo = ObjectMap.with(nukeItem,standardNuke).toArray(ammoTypes);
 //regestering the ammos
-Blocks.duo.ammoTypes.addAll(nukeduo);
+Blocks.duo.ammoTypes.addAll(
+    new ItemTurret.ammoType(nukeItem, standardNuke),
+);
 Blocks.duo.init();
 });
