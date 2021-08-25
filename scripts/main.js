@@ -1,5 +1,5 @@
 
-require("units/uef-units")
+require("units/units")
 //Items
 new Item("bullet");
 new Item("nuke");
