@@ -21,8 +21,8 @@ standardNuke.backColor = "d3d3d3";
 
 //testing
 //regestering the ammos
-Blocks.duo.ammoTypes.addAll(
-    new ItemTurret.ammoType(nukeItem, standardNuke),
+Blocks.duo.ammo.addAll(
+    new ItemTurret.ammoType(Items.metaglass, standardNuke),
 );
 Blocks.duo.init();
 });
