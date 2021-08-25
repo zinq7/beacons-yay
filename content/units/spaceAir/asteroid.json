@@ -75,7 +75,7 @@
         "speed": 4,
         "lifetime": 50
       }
-    },
+    }
   ],
   "research": {
     "parent": "satellite",
