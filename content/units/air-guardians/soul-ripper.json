@@ -47,8 +47,9 @@
                 "status": {
                     "name": "scared",
                     "disarm": "true",
-                    "speedMultiplier": 0.3,
-                    "damageMultiplier": 0.3,
+                    "speedMultiplier": 0.5,
+                    "damageMultiplier": 0.5,
+                    "reloadMultiplier": 0.5,
                     "damage": 6
                 }
             }
