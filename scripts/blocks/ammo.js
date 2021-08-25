@@ -30,6 +30,8 @@ standardNuke.splashDamageRadius = 20;
 standardNuke.frontColor = "d3d3d3";
 standardNuke.backColor = "d3d3d3";
 
+//testing
+const nukeduo = Seq.with(nukeItem,standardNuke).toArray(ammoTypes);
 //regestering the ammos
-Blocks.duo.ammoTypes.put(nukeItem,standardNuke);
-Blocks.salvo.ammoTypes.put(bulletItem,bulletSalvo);
+Blocks.duo.ammoTypes.addAll(nukeItem,standardNuke);
+Blocks.salvo.ammoTypes.addAll(bulletItem,bulletSalvo);
