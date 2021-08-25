@@ -3,26 +3,22 @@
 */
 const uefAirAI = prov(() => {
   var u = extend(FlyingAI, {
-    updateMovement(){
-    }
+    updateMovement(){}
   });
   
   return u;
-});
-// Add wasp 
-const uefAirT1 = extendContent(UnitType, "wasp", {
-});
-uefAirT1.constructor = () => extend(UnitEntity, {
+  
 });
 
-uefAirT1.ammoType = AmmoTypes.powerHigh;
+// Add wasp 
+const uefAirT1 = extendContent(UnitType, "wasp", {});
+uefAirT1.constructor = () => extend(UnitEntity, {});
 
 Blocks.airFactory.plans.add(new UnitFactory.UnitPlan(uefAirT1, 60 * 20, ItemStack.with(Items.silicon, 10, Items.lead, 25, Items.copper, 15)));
+
 //Add Eagle Eye
-const uefAirT2 = extendContent(UnitType, "eagle-eye", {
-});
+const uefAirT2 = extendContent(UnitType, "eagle-eye", {});
 uefAirT2.constructor = () => extend(UnitEntity, {});
-uefAirT2.ammoType = AmmoTypes.powerHigh;
 
 var upgradeA = new Seq([Vars.content.getByName(ContentType.unit, "beacons-yay-wasp"), Vars.content.getByName(ContentType.unit, "beacons-yay-eagle-eye")]);
 Blocks.additiveReconstructor.upgrades.add(upgradeA.toArray(UnitType));
@@ -31,7 +27,6 @@ Blocks.additiveReconstructor.upgrades.add(upgradeA.toArray(UnitType));
 const uefAirT3 = extendContent(UnitType, "broadsword", {
 });
 uefAirT3.constructor = () => extend(UnitEntity, {});
-uefAirT3.ammoType = AmmoTypes.powerHigh;
 
 var upgradeB = new Seq([Vars.content.getByName(ContentType.unit, "beacons-yay-eagle-eye"), Vars.content.getByName(ContentType.unit, "beacons-yay-broadsword")]);
 Blocks.multiplicativeReconstructor.upgrades.add(upgradeB.toArray(UnitType));
@@ -40,7 +35,6 @@ Blocks.multiplicativeReconstructor.upgrades.add(upgradeB.toArray(UnitType));
 const uefAirT4 = extendContent(UnitType, "ac1k", {
 });
 uefAirT4.constructor = () => extend(UnitEntity, {});
-uefAirT4.ammoType = AmmoTypes.powerHigh;
 
 
 var upgradeC = new Seq([Vars.content.getByName(ContentType.unit, "beacons-yay-broadsword"), Vars.content.getByName(ContentType.unit, "beacons-yay-ac1k")]);
@@ -51,7 +45,6 @@ const uefAirT5 = extendContent(UnitType, "mega-fortress", {
 });
 uefAirT5.constructor = () => extend(UnitEntity, {});
 uefAirT5.targetFlag = BlockFlag.core;
-uefAirT5.ammoType = AmmoTypes.powerHigh;
 
 var upgradeD = new Seq([Vars.content.getByName(ContentType.unit, "beacons-yay-ac1k"), Vars.content.getByName(ContentType.unit, "beacons-yay-mega-fortress")]);
 Blocks.tetrativeReconstructor.upgrades.add(upgradeD.toArray(UnitType));
