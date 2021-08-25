@@ -2,7 +2,7 @@
   "localizedName": "Asteroid",
   "description": "A powerful but slow gunship",
   "commandLimit": 7,
-  "speed": 1.8,
+  "speed": 1.2,
   "accel": 0.08,
   "drag": 0.01,
   "health": 400,
@@ -22,7 +22,7 @@
   "weapons": [
     {
       "name": "laderino-5000",
-      "x": 12,
+      "x": 5,
       "y": 3,
       "shootY": 2,
       "recoil": 0.4,
@@ -41,6 +41,7 @@
         "collidesAir": true,
         "despawnEffect": "none",
         "frontColor": "6666ff",
+        "trailColor": "6666ff",
         "backColor": "6666ff",
         "damage": 10,
         "width": 5,
@@ -54,7 +55,7 @@
     {
       "name": "rail-weapon",
       "x": 0,
-      "y": 8,
+      "y": 4,
       "shootY": 2,
       "recoil": 0.8,
       "reload": 120,
