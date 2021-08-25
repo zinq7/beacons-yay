@@ -83,7 +83,7 @@
     },
     {
       "name": "heavy-rail-weapon",
-      "x": 12,
+      "x": 20,
       "y": 6,
       "shootY": 2,
       "recoil": 1,
@@ -113,7 +113,7 @@
     {
       "name": "seeker-weapon",
       "x": -13,
-      "y": -10,
+      "y": -12,
       "shootY": 2,
       "recoil": 0.8,
       "reload": 40,
@@ -140,7 +140,7 @@
     {
       "name": "seeker-weapon",
       "x": -13,
-      "y": 10,
+      "y": 17,
       "shootY": 2,
       "recoil": 0.8,
       "reload": 40,
