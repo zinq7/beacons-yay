@@ -45,7 +45,7 @@ Events.on(ContentInitEvent, () => {
   Blocks.airFactory.init();
 
   Blocks.groundFactory.plans.addAll(
-    new UnitFactory.UnitPlan(ma12, 1000, ItemStack.with(Items.silicon, 30, zinc, 20)),
+    new UnitFactory.UnitPlan(ma12, 1000, ItemStack.with(Items.silicon, 30, zinc, 20)), 
   );
   Blocks.groundFactory.init();
 

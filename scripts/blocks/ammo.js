@@ -1,7 +1,6 @@
 
 //available items and liquids
 const nukeItem = Vars.content.getByName(ContentType.item, "beacons-yay-nuke");
-const nukeItem = Vars.content.getByName(ContentType.item, "nuke");
 const bulletItem = Vars.content.getByName(ContentType.item, "beacons-yay-bullet");
 const zincItem = Vars.content.getByName(ContentType.item, "beacons-yay-zinq");
 const zinqItem = Vars.content.getByName(ContentType.item, "beacons-yay-zinq-good");
