@@ -1,7 +1,5 @@
 
-require("units/uefAir")
-require("units/tankLand")
-require("units/unitReg")
+require("units/uef-units")
 //Items
 new Item("bullet");
 new Item("nuke");

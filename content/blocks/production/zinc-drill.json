@@ -27,12 +27,12 @@
         {
             "item": "graphite",
             "amount": 10
-        }
+        },
         {
             "item": "lead",
             "amount": 50
         }
     ],
-    "category": "drill",
+    "category": "production",
     "research": "pneumatic-drill"
 }
