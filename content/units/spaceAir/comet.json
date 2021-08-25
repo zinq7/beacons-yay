@@ -81,7 +81,7 @@
     },
     {
       "name": "side-rail-weapon",
-      "x": -6,
+      "x": -4,
       "y": 5,
       "shootY": 2,
       "recoil": 0.8,
