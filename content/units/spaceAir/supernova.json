@@ -135,8 +135,9 @@
         "height": 20,
         "speed": 5,
         "lifetime": 60
-      },
-      {
+      }
+    },
+    {
       "name": "seeker-weapon",
       "x": -13,
       "y": 10,
