@@ -33,5 +33,5 @@ standardNuke.backColor = "d3d3d3";
 //testing
 const nukeduo = Seq.with(nukeItem,standardNuke).toArray(ammoTypes);
 //regestering the ammos
-Blocks.duo.ammoTypes.addAll(nukeItem,standardNuke);
+Blocks.duo.ammoTypes.addAll(nukeduo);
 Blocks.salvo.ammoTypes.addAll(bulletItem,bulletSalvo);
