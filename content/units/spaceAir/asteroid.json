@@ -59,9 +59,9 @@
       "recoil": 0.8,
       "reload": 120,
       "shots": 1,
-      "inaccuracy": 14,
+      "inaccuracy": 0,
       "rotate": true,
-      "ignoreRotation": true,
+      "ignoreRotation": false,
       "bullet": {
         "type": "BasicBulletType",
         "hitColor": 888888,
