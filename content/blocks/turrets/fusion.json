@@ -1,6 +1,6 @@
 {
     "type": "ItemTurret",
-    "size": 4,
+    "size": 5,
     "health": 1800,
     "range": 300,
     "reloadTime": 60,
@@ -14,6 +14,7 @@
     "rotateSpeed": 3,
     "maxAmmo": 10,
     "itemCapacity": 10,
+    "targetAir": true,
     "shootSound": "laser",
     "emitLight": true,
     "lightRadius": 100,

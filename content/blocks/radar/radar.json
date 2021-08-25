@@ -1,0 +1,37 @@
+{
+    "type": "PowerTurret",
+    "size": 1,
+    "health": 50,
+    "range": 800,
+    "reloadTime": 5000,
+    "targetAir": true,
+    "targetGround": true,
+    "powerUse": 1,
+    "emitLight": true,
+    "lightRadius": 100,
+    "hasPower": true,
+    "shootType": {
+        "type": "BasicBulletType",
+        "damage": 0,
+        "speed": 0.1,
+        "height": 1,
+        "width": 1,
+        "lifetime": 0.1,
+    },
+    "requirements": [
+        {
+            "item": "lead",
+            "amount": 50
+        },
+        {
+            "item": "silicon",
+            "amount": 30
+        },
+        {
+            "item": "graphite",
+            "amount": 15
+        }
+    ],
+    "category": "logic",
+    "research": "memory-cell"
+}

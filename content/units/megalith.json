@@ -9,7 +9,7 @@
     "strafePenalty": 0,
     "rotateSpeed": 2,
     "health": 84000,
-    "armor": 30,
+    "armor": 20,
     "range": 300,
     "targetAir": true,
     "circleTarget": false,
@@ -93,7 +93,7 @@
                 "hitSize": 70,
                 "drawSize": 600,
                 "lifetime": 30,
-                "color": "ff4444aa"
+                "colors": [ "ff4444aa", "ff3333aa", "ff2222aa" ]
             }
         }
      ],

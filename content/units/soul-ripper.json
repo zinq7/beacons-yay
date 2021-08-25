@@ -31,18 +31,27 @@
             "shootX": 0,
             "bullet": {
                 "type": "BasicBulletType",
-                "height": 40,
-                "width": 40,
+                "height": 30,
+                "width": 25,
                 "speed": 8,
                 "lifetime": 65,
-                "scaleVelocity": true,
+                "scaleVelocity": false,
                 "shootShake": 2,
                 "damage": 150,
                 "splashDamage": 120,
                 "splashDamageRadius": 30,
                 "collidesTiles": true,
                 "collidesAir": true,
-                "reflectable": true
+                "reflectable": true,
+               /* "statusDuration": 5,
+                "status": {
+                    "name": "scared",
+                    "disarm": "true",
+                    "speedMultiplier": 0.3,
+                    "damageMultiplier": 0.3,
+                    "damage": 6,
+                    "opposites": ["burning"]
+                }*/
             }
         }
      ],

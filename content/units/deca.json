@@ -22,9 +22,9 @@
     "abilities": [
         {
             "type": "ForceFieldAbility",
-            "radius": 100,
-            "regen": 10,
-            "max": 4000,
+            "radius": 150,
+            "regen": 30,
+            "max": 8000,
             "cooldown": 200
         },
         {
@@ -51,7 +51,7 @@
             "shots": 1,
             "ejectEffect": "casing2Double",
             "bullet": {
-                "lifetime": 300,
+                "lifetime": 100,
                 "type": "ArtilleryBulletType",
                 "height": 60,
                 "width": 60,

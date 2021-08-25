@@ -1,0 +1,92 @@
+{
+    "type": "ItemTurret",
+    "size": 5,
+    "health": 2000,
+    "range": 480,
+    "minRange": 40,
+    "reloadTime": 80,
+    "shots": 6,
+    "velocityInaccuracy": 0.2,
+    "recoilAmount": 4,
+    "hasItems": true,
+    "itemCapacity": 50,
+    "inaccuracy": 8,
+    "maxAmmo": 50,
+    "targetAir": false,
+    "rotateSpeed": 2,
+    "shootSound": "artillery",
+    "ammoTypes": {
+        "quartz": {
+            "lifetime": 1000,
+            "type": "ArtilleryBulletType",
+            "height": 50,
+            "width": 20,
+            "collidesTiles": false,
+            "damage": 350,
+            "speed": 8,
+            "splashDamage": 350,
+            "splashDamageRadius": 50,
+            "ammoMultiplier": 2,
+            "frontColor": "dddddd",
+            "backColor": "ee44ee",
+            "smokeEffect": "shootBigSmoke",
+            "shootEffect": "producesmoke"
+        },
+        "bullet": {
+            "lifetime": 1000,
+            "type": "ArtilleryBulletType",
+            "height": 50,
+            "width": 20,
+            "collidesTiles": false,
+            "damage": 250,
+            "speed": 10,
+            "splashDamage": 250,
+            "frontColor": "eeaaaa",
+            "backColor": "ee44ee",
+            "splashDamageRadius": 70,
+            "ammoMultiplier": 3,
+            "smokeEffect": "shootBigSmoke",
+            "shootEffect": "producesmoke"
+        },
+        "radicite": {
+            "lifetime": 1000,
+            "type": "ArtilleryBulletType",
+            "height": 50,
+            "width": 20,
+            "collidesTiles": false,
+            "damage": 400,
+            "speed": 9,
+            "frontColor": "dd66dd",
+            "backColor": "ff88ff",
+            "splashDamage": 400,
+            "splashDamageRadius": 70,
+            "ammoMultiplier": 4,
+            "smokeEffect": "shootBigSmoke",
+            "shootEffect": "producesmoke"
+        }
+    },
+    "requirements": [
+        {
+            "item": "lead",
+            "amount": 1000
+        },
+        {
+            "item":  "graphite",
+            "amount": 800
+        },
+        {
+            "item":  "silicon",
+            "amount": 600
+        },
+        {
+            "item": "radicite",
+            "amount": 350
+        },
+        {
+            "item": "phase-fabric",
+            "amount": 200
+        }
+    ],
+    "category": "turret",
+    "research": "ripple"
+}

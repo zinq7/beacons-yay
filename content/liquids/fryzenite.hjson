@@ -1,0 +1,15 @@
+name: Fryzenite  
+heatCapacity: 1.8
+explosiveness: 0
+temperature: 0.1
+viscosity: 0.6
+effect: freezing
+color: 44ffaa
+lightColor: 44ffaabb
+research:{
+  parent: cryofluid
+  requirements:[
+      uranium/100
+      titanium/100
+  ]
+}

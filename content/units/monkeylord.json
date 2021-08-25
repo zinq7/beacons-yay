@@ -1,0 +1,73 @@
+  
+{
+    "localizedName": "Monkeylord",
+    "description": "A weaker version of the Megalith, though still powerful.",
+    "commandLimit": 1,
+    "type": "legs",
+    "speed": 1,
+    "drag": 0.5,
+    "accel": 0.2,
+    "strafePenalty": 0,
+    "rotateSpeed": 1.5,
+    "health": 52000,
+    "armor": 17,
+    "range": 400,
+    "targetAir": true,
+    "circleTarget": false,
+    "hitSize": 48,
+    "itemCapacity": 1000,
+    
+    "legCount": 8,
+    "legMoveSpace": 0.8,
+    "legPairOffset": 3,
+    "legLength": 75,
+    "legExtension": -20,
+    "legBaseOffset": 8,
+    "landShake": 1,
+    "legLengthScl": 0.93,
+    "rippleScale": 3,
+    "legSpeed": 0.4,
+
+    "legSplashDamage": 200,
+    "legSplashRange": 60,
+
+    "hovering": true,
+    "allowLegStep": true,
+    "visualElevation": 0.95,
+  
+    "destructibleWreck": false,
+    "flying": false,
+    "weapons": [
+        {
+            "name": "microwave-Laser",
+            "reload": 1,
+            "x": 0,
+            "y": 15,
+            "mirror": false,
+            "shots": 1,
+            "spacing": 0,
+            "spread": 0.5,
+            "shootX": 0,
+            "top": true,
+            "ignoreRotation": false,
+            "shootY": 10,
+
+            "bullet": {
+                "lifetime": 30,
+                "type": "BasicBulletType",
+                "damage": 50,
+                "sprite": "microwave",
+                "speed": 10,
+                "height": 100,
+                "width": 5,
+                "length": 5,
+                "hittable": false,
+                "absorbable": false,
+                "scaleVelocity": false,
+                "hitSize": 70,
+                "frontColor": "ff4444",
+                "backColor": "ff4444"
+            }
+        }
+     ]
+}

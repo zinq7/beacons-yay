@@ -80,7 +80,7 @@
         },
         {
             "name": "hyper-beam",
-            "reload": 300,
+            "reload": 240,
             "x": 0,
             "y": 0,
             "mirror": false,
@@ -93,19 +93,18 @@
             "top": true,
             "ignoreRotation": false,
             "shootY": 1,
+            
+            "continuous": true,
+            "cooldown": 240,
 
             "bullet": {
-                "type": "LaserBulletType",
-                "damage": 2400,
-                "pierceCap": 5,
-                "speed": 0.1,
-                "height": 140,
-                "width": 100,
-                "length": 400,
-                "hitSize": 70,
+                "type": "ContinuousLaserBulletType",
+                "damage": 100,
+                "shake": 2,
+                "length": 300,
                 "drawSize": 700,
-                "lifetime": 30,
-                "color": "44ff44aa"
+                "lifetime": 240,
+                "colors": ["44ff44aa, 44ff44bb, 44ff4400"]
             }
         }
      ],
