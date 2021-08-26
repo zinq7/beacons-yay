@@ -25,7 +25,7 @@
     Blocks.duo.ammo.add(Items.metaglass, standardNuke);
     Blocks.duo.init();
 });*/
-Events.on(ClientLoadEvent, e => {
+Events.on(WorldLoadEvent, e => {
     extend(Block, "duo", {
         init() {
             this.super$init();
