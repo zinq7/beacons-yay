@@ -1,0 +1,43 @@
+{
+    "type": "ItemTurret",
+    "size": 2,
+    "health": 2000,
+    "range": 90,
+    "reloadTime": 80,
+    "shots": 1,
+    "spread": 0,
+    "velocityInaccuracy": 0,
+    "recoilAmount": 0.4,
+    "inaccuracy": 0,
+    "targetAir": true,
+    "hasItems": true,
+    "itemCapacity": 10,
+    "maxAmmo": 60,
+    "rotateSpeed": 3,
+    "shootSound": "laser",
+    "ammoTypes": {
+        "plastanium": {
+
+          "type": "LaserBulletType",
+          "damage": 150,
+          "pierceCap": 10,
+          "speed": 0.1,
+          "height": 35,
+          "width": 15,
+          "length": 120,
+          "hitSize": 10,
+          "drawSize": 600,
+          "lifetime": 20,
+          "frontColor": "BBFFBB",
+          "backColor": "BBFFBB"
+        }
+    },
+    "requirements": [
+        {
+            "item": "plastanium",
+            "amount": 36
+        }
+    ],
+    "category": "defense",
+    "research": "plastanium-wall-large"
+}
