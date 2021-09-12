@@ -19,7 +19,7 @@
         "surge-alloy": {
             "lifetime": 20,
             "type": "LightningBulletType",
-            "lightningLength": 20,
+            "lightningLength": 10,
             "maxRange": 50, 
             "damage": 90,
             "ammoMultiplier": 6
