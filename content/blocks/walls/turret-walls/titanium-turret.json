@@ -23,7 +23,7 @@
             "shots": 1,
             "damage": 50,
             "length": 70,
-            "ammoMultiplier": 6
+            "ammoMultiplier": 6,
             "statusDuration": 15,
             "status": {
                     "name": "chunked",
