@@ -19,8 +19,8 @@
         "copper": {
             "lifetime": 30,
             "type": "BasicBulletType",
-            "height": 10,
-            "width": 5,
+            "height": 12,
+            "width": 8,
             "speed": 4,
             "collidesTiles": true,
             "damage": 14,
