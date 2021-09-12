@@ -24,6 +24,13 @@
             "damage": 50,
             "length": 70,
             "ammoMultiplier": 6
+            "statusDuration": 15,
+            "status": {
+                    "name": "chunked",
+                    "speedMultiplier": 0.3,
+                    "damageMultiplier": 0.9,
+                    "reloadMultiplier": 0.9,
+            }
         }
     },
     "requirements": [
