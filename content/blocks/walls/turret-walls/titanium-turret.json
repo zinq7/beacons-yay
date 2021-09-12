@@ -1,0 +1,37 @@
+{
+    "type": "ItemTurret",
+    "size": 2,
+    "health": 1760,
+    "range": 60,
+    "reloadTime": 20,
+    "shots": 1,
+    "spread": 0,
+    "velocityInaccuracy": 0,
+    "recoilAmount": 0.4,
+    "inaccuracy": 0,
+    "targetAir": true,
+    "hasItems": true,
+    "itemCapacity": 10,
+    "maxAmmo": 60,
+    "rotateSpeed": 3,
+    "shootSound": "artillery",
+    "ammoTypes": {
+        "copper": {
+            "type": "ShrapnelBulletType",
+            "width": 18,
+            "spread": 12,
+            "shots": 1,
+            "damage": 50,
+            "length": 70,
+            "ammoMultiplier": 6
+        }
+    },
+    "requirements": [
+        {
+            "item": "titanium",
+            "amount": 36
+        }
+    ],
+    "category": "defense",
+    "research": "titanium-wall-large"
+}
