@@ -16,7 +16,7 @@
     "rotateSpeed": 3,
     "shootSound": "artillery",
     "ammoTypes": {
-        "copper": {
+        "titanium": {
             "type": "ShrapnelBulletType",
             "width": 18,
             "spread": 12,
