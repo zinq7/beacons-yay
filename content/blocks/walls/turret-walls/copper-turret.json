@@ -21,8 +21,6 @@
             "type": "BasicBulletType",
             "height": 10,
             "width": 5,
-            "pierce": true,
-            "pierceCap": 1,
             "speed": 4,
             "collidesTiles": true,
             "damage": 14,
