@@ -10,7 +10,6 @@
                     "speedMultiplier": 0.1,
                     "damageMultiplier": 100,
                     "healthMultiplier": 10000,
-                    "reloadMultiplier": 6,
                     "permanent": true
     },
     "attributes": {
