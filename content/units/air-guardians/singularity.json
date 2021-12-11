@@ -19,7 +19,7 @@
     "weapons": [
         {
             "name": "orbital-laser",
-            "reload": 240,
+            "reload": 3,
             "x": 45,
             "y": 40,
             "mirror": true,
@@ -27,20 +27,18 @@
 
             "top": true,
             "ignoreRotation": true,
-            "shootY": 1,
-            "rotateSpeed": 30,
-            "continuous": true,
-            "cooldown": 60,
+            "rotateSpeed": 20,
             "shootCone": 10,
-            "recoil": 5,
+            "recoil": 3,
 
             "bullet": {
-                "type": "ContinuousLaserBulletType",
-                "damage": 130,
+                "type": "LaserBulletType",
+                "damage": 240,
                 "shake": 2,
-                "length": 250,
+                "length": 180,
+                "width": 10,
                 "drawSize": 300,
-                "lifetime": 180,
+                "lifetime": 5,
                 "colors": ["4444ffaa, 4444ffbb, 4444ff00"]
             }
         },
