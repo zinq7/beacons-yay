@@ -19,7 +19,7 @@
     "shootSound": "artillery",
     "ammoTypes": {
         "bullet": {
-            "lifetime": 60,
+            "lifetime": 35,
             "type": "BasicBulletType",
             "height": 30,
             "width": 18,
