@@ -27,7 +27,7 @@
             "pierceCap": 1,
             "speed": 5,
             "collidesTiles": true,
-            "damage": 60,
+            "damage": 40,
             "ammoMultiplier": 200,
             "smokeEffect": "shootBigSmoke",
             "shootEffect": "producesmoke"
