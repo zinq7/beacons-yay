@@ -34,7 +34,6 @@
             "bullet": {
                 "type": "LaserBulletType",
                 "damage": 280,
-                "shake": 2,
                 "length": 180,
                 "width": 20,
                 "lifetime": 5,
