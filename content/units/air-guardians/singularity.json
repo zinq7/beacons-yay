@@ -8,7 +8,7 @@
     "health": 80000,
     "armor": 17,
     "drag": 0.05,
-    "speed": 1,
+    "speed": 1.8,
     "rotateSpeed": 1,
     "accel": 0.11,
     "itemCapacity": 3000,
@@ -28,16 +28,15 @@
             "top": true,
             "ignoreRotation": true,
             "rotateSpeed": 20,
-            "shootCone": 10,
+            "shootCone": 20,
             "recoil": 3,
 
             "bullet": {
                 "type": "LaserBulletType",
-                "damage": 240,
+                "damage": 280,
                 "shake": 2,
                 "length": 180,
-                "width": 10,
-                "drawSize": 300,
+                "width": 20,
                 "lifetime": 5,
                 "colors": ["4444ffaa, 4444ffbb, 4444ff00"]
             }
