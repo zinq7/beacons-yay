@@ -55,6 +55,28 @@
                     "damage": 80
                 }
             }
+        },
+        {
+            "name": "gunnn",
+            "reload": 15,
+            "x": 0,
+            "y": 0,
+            "mirror": false,
+            "shots": 2,
+            "inaccuracy": 12,
+            "velocityInaccuracy": 0.5,
+            "top": false,
+            "bullet": {
+                "type": "artilleryBulletType",
+                "width": 10,
+                "height": 10,
+                "lifetime": 90,
+                "speed": 3,
+                "splashDamage": 140,
+                "splashDamageRadius": 30,
+                "collidesTiles": false,
+                "damage": 10
+            }
         }
      ]
 }
