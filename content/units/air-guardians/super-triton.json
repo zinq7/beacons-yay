@@ -10,6 +10,7 @@
     "armor": 20,
     "drag": 0.05,
     "speed": 0.5,
+    "rotateShooting": false,
     "rotateSpeed": 1,
     "accel": 0.11,
     "itemCapacity": 7000,
@@ -19,7 +20,7 @@
     "commandLimit": 1,
     "weapons": [
         {
-            "name": "hyper-cannon",
+            "name": "triton-blaster",
             "reload": 300,
             "x": 0,
             "y": 20,
@@ -29,12 +30,13 @@
             "shootY": 0,
             "top": true,
             "ignoreRotation": true,
+            "rotate": true,
             "shootX": 0,
             "bullet": {
                 "type": "ShrapnelBulletType",
-                "length": 300,
-                "width": 75,
-                "lifetime": 80,
+                "length": 400,
+                "width": 50,
+                "lifetime": 60,
                 "shootShake": 2,
                 "damage": 2000,
                 "splashDamage": 500,
