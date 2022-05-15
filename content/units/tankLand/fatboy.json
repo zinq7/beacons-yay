@@ -1,7 +1,9 @@
 
 {
+    "type": "mech",
     "localizedName": "FatBoy Mk II",
     "description": "Minor 'Experimental' siege tank capable of destroying bases without taking a hit.",
+    "stepShake": 0,
     "commandLimit": 9,
     "speed": 0.5,
     "drag": 0.5,
@@ -16,9 +18,7 @@
     "hitSize": 24,
     "itemCapacity": 40,
     "rotateShooting": true,
-    "lowAltitude": false,
-    "destructibleWreck": false,
-    "flying": false,
+    "faceTarget": false,
     "weapons": [
         {
             "name": "Gauss Artillery",

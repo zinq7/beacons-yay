@@ -1,11 +1,10 @@
-
 {
+    "type": "mech",
     "localizedName": "Rock Head",
     "description": "Heavy tank with splash damage.",
+    "stepShake": 0,
     "commandLimit": 9,
     "speed": 1,
-    "drag": 0.5,
-    "accel": 0.2,
     "strafePenalty": 0.2,
     "rotateSpeed": 3,
     "health": 1500,
@@ -16,9 +15,6 @@
     "hitSize": 12,
     "itemCapacity": 40,
     "rotateShooting": true,
-    "lowAltitude": false,
-    "destructibleWreck": false,
-    "flying": false,
     "weapons": [
         {
             "name": "Direct-Fire Gauss Cannon",
@@ -49,7 +45,7 @@
     "research": {
         "parent": "pillar",
         "requirements": [
-          "silicon/3000"
+            "silicon/3000"
         ]
-      }
+    }
 }

@@ -1,6 +1,8 @@
 {
+    "type": "mech",
     "localizedName": "Pillar",
     "description": "Powerful t2 land unit.",
+    "stepShake": 0,
     "commandLimit": 9,
     "speed": 1,
     "drag": 0.5,
@@ -15,9 +17,6 @@
     "hitSize": 12,
     "itemCapacity": 40,
     "rotateShooting": true,
-    "lowAltitude": false,
-    "destructibleWreck": false,
-    "flying": false,
     "weapons": [
         {
             "name": "Direct-Fire Gauss Cannon",

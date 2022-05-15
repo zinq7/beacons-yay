@@ -1,6 +1,8 @@
 {
+    "type": "mech",
     "localizedName": "MA-12 Striker",
     "description": "Powerful land unit that is ineffective at turning.",
+    "stepShake": 0,
     "commandLimit": 9,
     "speed": 1,
     "drag": 0.5,
@@ -12,13 +14,11 @@
     "range": 180,
     "targetAir": false,
     "circleTarget": false,
-    "hitSize": 7,
+    "hitSize": 5,
     "itemCapacity": 20,
     "crashDamageMultiplier": 4,
     "rotateShooting": true,
-    "lowAltitude": false,
     "destructibleWreck": false,
-    "flying": false,
     "weapons": [
         {
             "name": "ma12-weapon",
