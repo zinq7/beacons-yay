@@ -1,0 +1,76 @@
+{
+    "type": "flying",
+    "isCounted": true,
+    "name": "Singularity",
+    "localisedName": "Singularity",
+    "description": "Experimental T6 orbital gunship",
+    "flying": true,
+    "health": 80000,
+    "armor": 17,
+    "drag": 0.05,
+    "speed": 1.8,
+    "rotateSpeed": 1,
+    "accel": 0.11,
+    "itemCapacity": 3000,
+    "ealt": 220,
+    "engineOffset": 6,
+    "hitSize": 120,
+    "commandLimit": 10,
+    "weapons": [
+        {
+            "name": "orbital-laser",
+            "reload": 3,
+            "x": 45,
+            "y": 40,
+            "mirror": true,
+            
+
+            "top": true,
+            "ignoreRotation": true,
+            "rotateSpeed": 20,
+            "shootCone": 20,
+            "recoil": 3,
+
+            "bullet": {
+                "type": "LaserBulletType",
+                "damage": 280,
+                "length": 180,
+                "width": 20,
+                "lifetime": 5,
+                "colors": ["4444ffaa, 4444ffbb, 4444ff00"]
+            }
+        },
+        {
+            "name": "missiles",
+            "x": 16,
+            "y": -4,
+            "shootY": 2,
+            "recoil": 0,
+            "reload": 5,
+            "shots": 2,
+            "inaccuracy": 120,
+            "mirror": true,
+            "ignoreRotation": true,
+            "bullet": {
+              "type": "MissileBulletType",
+              "hitColor": 888888,
+              "sprite": "missile",
+              "hitEffect": "hitLiquid",
+              "collidesTiles": true,
+              "collidesGround": true,
+              "collidesAir": true,
+              "despawnEffect": "none",
+              "frontColor": "6666ff",
+              "trailColor": "6666ff",
+              "backColor": "6666ff",
+              "damage": 40,
+              "width": 10,
+              "height": 10,
+              "shrinkY": 3,
+              "speed": 2,
+              "lifetime": 180,
+              "homingPower": 4
+            }
+        }
+     ]
+}

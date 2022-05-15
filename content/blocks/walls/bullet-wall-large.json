@@ -2,7 +2,7 @@
     "type": "ItemTurret",
     "size": 4,
     "health": 3200,
-    "range": 320,
+    "range": 200,
     "reloadTime": 20,
     "shots": 2,
     "spread": 0,
@@ -19,7 +19,7 @@
     "shootSound": "artillery",
     "ammoTypes": {
         "bullet": {
-            "lifetime": 60,
+            "lifetime": 35,
             "type": "BasicBulletType",
             "height": 30,
             "width": 18,
@@ -27,10 +27,10 @@
             "pierceCap": 3,
             "speed": 6,
             "collidesTiles": true,
-            "damage": 120,
+            "damage": 90,
             "splashDamage": 30,
             "splashDamageRadius": 20,
-            "ammoMultiplier": 50,
+            "ammoMultiplier": 25,
             "smokeEffect": "shootBigSmoke",
             "shootEffect": "producesmoke"
         }

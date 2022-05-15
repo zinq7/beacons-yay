@@ -1,0 +1,49 @@
+{
+    "type": "ItemTurret",
+    "size": 2,
+    "health": 2400,
+    "range": 220,
+    "reloadTime": 120,
+    "shots": 1,
+    "spread": 0,
+    "velocityInaccuracy": 0,
+    "recoilAmount": 0.8,
+    "inaccuracy": 0,
+    "targetAir": true,
+    "hasItems": true,
+    "itemCapacity": 10,
+    "maxAmmo": 60,
+    "rotateSpeed": 3,
+    "shootSound": "artillery",
+    "ammoTypes": {
+        "phase-fabric": {
+            "lifetime": 1000,
+            "type": "ArtilleryBulletType",
+            "height": 20,
+            "width": 20,
+            "collidesTiles": false,
+            "damage": 200,
+            "splashDamage": 200,
+            "splashDamageRadius": 12,
+            "ammoMultiplier": 6,
+            "smokeEffect": "shootBigSmoke",
+            "shootEffect": "producesmoke",
+            "statusDuration": 30,
+            "status": {
+                    "name": "phased",
+                    "speedMultiplier": 0.1,
+                    "damageMultiplier": 0.9,
+                    "reloadMultiplier": 0.2,
+                    "damage": 30
+            }
+        }
+    },
+    "requirements": [
+        {
+            "item": "phase-fabric",
+            "amount": 36
+        }
+    ],
+    "category": "defense",
+    "research": "phase-wall-large"
+}

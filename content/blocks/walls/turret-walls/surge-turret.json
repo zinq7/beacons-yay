@@ -1,0 +1,36 @@
+{
+    "type": "ItemTurret",
+    "size": 2,
+    "health": 3680,
+    "range": 40,
+    "reloadTime": 10,
+    "shots": 1,
+    "spread": 0,
+    "velocityInaccuracy": 0,
+    "recoilAmount": 0.4,
+    "inaccuracy": 0,
+    "targetAir": true,
+    "hasItems": true,
+    "itemCapacity": 10,
+    "maxAmmo": 60,
+    "rotateSpeed": 3,
+    "shootSound": "laser",
+    "ammoTypes": {
+        "surge-alloy": {
+            "lifetime": 20,
+            "type": "LightningBulletType",
+            "lightningLength": 10,
+            "maxRange": 50, 
+            "damage": 90,
+            "ammoMultiplier": 6
+        }
+    },
+    "requirements": [
+        {
+            "item": "surge-alloy",
+            "amount": 36
+        }
+    ],
+    "category": "defense",
+    "research": "surge-wall-large"
+}

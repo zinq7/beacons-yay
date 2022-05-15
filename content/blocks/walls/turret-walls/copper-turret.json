@@ -1,0 +1,38 @@
+{
+    "type": "ItemTurret",
+    "size": 2,
+    "health": 1280,
+    "range": 110,
+    "reloadTime": 25,
+    "shots": 1,
+    "spread": 0,
+    "velocityInaccuracy": 0,
+    "recoilAmount": 0.4,
+    "inaccuracy": 3,
+    "targetAir": true,
+    "hasItems": true,
+    "itemCapacity": 10,
+    "maxAmmo": 60,
+    "rotateSpeed": 3,
+    "shootSound": "artillery",
+    "ammoTypes": {
+        "copper": {
+            "lifetime": 30,
+            "type": "BasicBulletType",
+            "height": 12,
+            "width": 8,
+            "speed": 4,
+            "collidesTiles": true,
+            "damage": 14,
+            "ammoMultiplier": 6,
+        }
+    },
+    "requirements": [
+        {
+            "item": "copper",
+            "amount": 36
+        }
+    ],
+    "category": "defense",
+    "research": "copper-wall-large"
+}

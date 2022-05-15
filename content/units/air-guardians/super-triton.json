@@ -1,0 +1,58 @@
+{
+    "type": "naval",
+    "isCounted": true,
+    "name": "Super Triton",
+    "localisedName": "Super Triton",
+    "description": "Just look at the size of that cannon.",
+    "boat": true,
+    "health": 110000,
+    "onmiMovement": "false",
+    "armor": 20,
+    "drag": 0.05,
+    "speed": 0.5,
+    "rotateShooting": false,
+    "rotateSpeed": 1,
+    "accel": 0.11,
+    "itemCapacity": 7000,
+    "ealt": 220,
+    "engineOffset": 6,
+    "hitSize": 120,
+    "commandLimit": 1,
+    "weapons": [
+        {
+            "name": "triton-blaster",
+            "reload": 300,
+            "x": 0,
+            "y": 20,
+            "mirror": false,
+            "inaccuracy": 0,
+            "velocityInaccuracy": 0,
+            "shootY": 0,
+            "top": true,
+            "ignoreRotation": true,
+            "rotate": true,
+            "shootX": 0,
+            "bullet": {
+                "type": "ShrapnelBulletType",
+                "length": 400,
+                "width": 50,
+                "lifetime": 60,
+                "shootShake": 2,
+                "damage": 2000,
+                "splashDamage": 500,
+                "splashDamageRadius": 30,
+                "collidesTiles": true,
+                "collidesAir": true,
+                "reflectable": false,
+                "statusDuration": 120,
+                "status": {
+                    "name": "shrapnel",
+                    "speedMultiplier": 0.5,
+                    "damageMultiplier": 0.5,
+                    "reloadMultiplier": 0.5,
+                    "damage": 80
+                }
+            }
+        }
+     ]
+}
