@@ -8,6 +8,7 @@
     "name": "Mercy",
     "drag": 0.05,
     "speed": 6,
+    "useUnitCap": false,
     "rotateSpeed": 3,
     "accel": 0.3,
     "itemCapacity": 10,
