@@ -1,5 +1,5 @@
 {
-    "type": "LiquidConverter",
+    "type": "GenericCrafter",
     "health": 240,
     "size": 3,
     "hasPower": true,
