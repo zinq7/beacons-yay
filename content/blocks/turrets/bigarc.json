@@ -3,7 +3,7 @@
     "size": 2,
     "health": 300,
     "range": 175,
-    "reloadTime": 5,
+    "reload": 5,
     "shots": 2,
     "inaccuracy": 5,
     "targetAir": false,

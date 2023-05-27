@@ -4,7 +4,7 @@
     "health": 3000,
     "range": 240,
     "minRange": 0,
-    "reloadTime": 90,
+    "reload": 90,
     "shots": 9,
     "spread": 0,
     "velocityInaccuracy": 0.1,
@@ -15,7 +15,6 @@
     "shake": 2,
     "inaccuracy": 18,
     "maxAmmo": 20,
-    "targetAir": true,
     "rotateSpeed": 3,
     "shootSound": "artillery",
     "ammoTypes": {

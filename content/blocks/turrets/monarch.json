@@ -4,7 +4,7 @@
     "health": 2000,
     "range": 480,
     "minRange": 40,
-    "reloadTime": 80,
+    "reload": 80,
     "shots": 6,
     "velocityInaccuracy": 0.2,
     "recoilAmount": 4,

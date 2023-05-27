@@ -3,7 +3,7 @@
     "size": 3,
     "health": 800,
     "range": 200,
-    "reloadTime": 70,
+    "reload": 70,
     "shots": 5,
     "burstSpacing": 5,
     "inaccuracy": 5,

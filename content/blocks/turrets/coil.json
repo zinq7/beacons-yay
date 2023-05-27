@@ -4,7 +4,7 @@
     "health": 150,
     "range": 250,
     "minRange": 11,
-    "reloadTime": 200,
+    "reload": 200,
     "shots": 1,
     "spread": 0,
     "velocityInaccuracy": 0,
