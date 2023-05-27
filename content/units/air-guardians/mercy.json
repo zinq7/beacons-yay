@@ -22,7 +22,6 @@
             "reload": 60,
             "x": 1,
             "y": 2,
-            "shots": 1,
             "inaccuracy": 0,
             "ejectEffect": "casing2Double",
             "bullet": {

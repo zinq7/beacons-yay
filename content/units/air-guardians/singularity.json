@@ -22,9 +22,7 @@
             "reload": 3,
             "x": 45,
             "y": 40,
-            "mirror": true,
-            
-
+            "mirror": true,  
             "top": true,
             "ignoreRotation": true,
             "rotateSpeed": 20,
@@ -70,6 +68,9 @@
               "speed": 2,
               "lifetime": 180,
               "homingPower": 4
+            },
+            "shoot": {
+                "shots": 2
             }
         }
      ]

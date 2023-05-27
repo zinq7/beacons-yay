@@ -17,7 +17,6 @@
     "engineOffset": 6,
     "hitSize": 120,
     "commandLimit": 20,
-
       "abilities": [
       {
           "type": "UnitSpawnAbility",

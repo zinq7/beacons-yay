@@ -48,7 +48,6 @@
             "reload": 90,
             "x": 1,
             "y": 2,
-            "shots": 1,
             "ejectEffect": "casing2Double",
             "bullet": {
                 "lifetime": 100,

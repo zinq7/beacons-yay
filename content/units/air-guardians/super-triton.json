@@ -62,7 +62,6 @@
             "x": 0,
             "y": 0,
             "mirror": false,
-            "shots": 2,
             "inaccuracy": 12,
             "velocityInaccuracy": 0.5,
             "top": false,
@@ -76,6 +75,9 @@
                 "splashDamageRadius": 30,
                 "collidesTiles": false,
                 "damage": 10
+            },
+            "shoot": {
+                "shots": 2
             }
         }
      ]
