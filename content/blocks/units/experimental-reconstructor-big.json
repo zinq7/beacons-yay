@@ -13,7 +13,8 @@
         ["reign","king-kryptor"],
         ["arkyid","monkeylord"],
         ["oct","deca"],
-        ["supernova", "singularity"]
+        ["supernova", "singularity"],
+        ["omura", "super-triton"]
     ],
     "consumes": {
         "power": 80,

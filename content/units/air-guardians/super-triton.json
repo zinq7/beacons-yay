@@ -28,25 +28,27 @@
             "y": 20,
             "mirror": false,
             "inaccuracy": 0,
-            "velocityRnd": 0,
+            "velocityRnd": 0.7,
             "shootY": 0,
             "top": true,
             "ignoreRotation": true,
             "rotate": true,
             "shootX": 0,
             "bullet": {
-                "type": "ShrapnelBulletType",
-                "length": 400,
-                "width": 50,
+                "type": "BasicBulletType",
+                "length": 12,
+                "width": 12,
+                "speed": 16,
                 "lifetime": 60,
                 "shootShake": 2,
-                "damage": 2000,
-                "splashDamage": 500,
-                "splashDamageRadius": 30,
+                "damage": 80,
+                "splashDamage": 40,
+                "splashDamageRadius": 40,
                 "collidesTiles": true,
                 "collidesAir": true,
-                "reflectable": false,
+                "reflectable": true,
                 "statusDuration": 120,
+                "makeFire": true,
                 "status": {
                     "name": "shrapnel",
                     "speedMultiplier": 0.5,
@@ -54,6 +56,10 @@
                     "reloadMultiplier": 0.5,
                     "damage": 80
                 }
+            },
+            "shoot": {
+                "spread": 0,
+                "shots": 125
             }
         },
         {
@@ -66,7 +72,7 @@
             "velocityRnd": 0.5,
             "top": false,
             "bullet": {
-                "type": "artilleryBulletType",
+                "type": "ArtilleryBulletType",
                 "width": 10,
                 "height": 10,
                 "lifetime": 90,
