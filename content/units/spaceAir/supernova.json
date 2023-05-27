@@ -28,7 +28,6 @@
       "shootY": 2,
       "recoil": 0.4,
       "reload": 5,
-      "shots": 1,
       "inaccuracy": 120,
       "mirror": true,
       "ignoreRotation": true,

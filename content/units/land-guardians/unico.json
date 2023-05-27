@@ -15,7 +15,6 @@
     "circleTarget": false,
     "hitSize": 48,
     "itemCapacity": 1000,
-    
     "legCount": 4,
     "legMoveSpace": 1.5,
     "legLength": 14,
@@ -42,7 +41,6 @@
             "reload": 10,
             "x": 35,
             "y": 20,
-            "shots": 2,
             "mirror": false,
             "inaccuracy": 4,
             "shootY": -2,
@@ -54,6 +52,11 @@
                 "type": "LightningBulletType",
                 "lightningLength": 40,
                 "damage": 500
+            },
+            "shoot": {
+                "type": "ShootSpread",
+                "shots": 2,
+                "spread": 15
             }
         },
         {
@@ -76,6 +79,11 @@
                 "lightningColor": "44ff44aa",
                 "collidesTeam": true,
                 "healPercent": 10
+            },
+            "shoot": {
+                "type": "ShootSpread",
+                "shots": 2,
+                "spread": 15
             }
         },
         {
@@ -83,20 +91,13 @@
             "reload": 240,
             "x": 0,
             "y": 0,
-            "mirror": false,
-            "shots": 1,
             "spacing": 0,
-            "spread": 0.5,
-            "inaccuracy": 0,
-            "velocityInaccuracy": 0,
             "shootX": 0,
             "top": true,
             "ignoreRotation": false,
             "shootY": 1,
-            
             "continuous": true,
             "cooldown": 240,
-
             "bullet": {
                 "type": "ContinuousLaserBulletType",
                 "damage": 100,
@@ -105,6 +106,9 @@
                 "drawSize": 700,
                 "lifetime": 240,
                 "colors": ["44ff44aa, 44ff44bb, 44ff4400"]
+            },
+            "shoot": {
+                "firstShotDelay": 80
             }
         }
      ],

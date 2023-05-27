@@ -15,7 +15,6 @@
     "circleTarget": false,
     "hitSize": 48,
     "itemCapacity": 1000,
-   
 
     "hovering": false,
     "allowLegStep": true,
@@ -29,7 +28,6 @@
             "reload": 15,
             "x": 36,
             "y": 2,
-            "shots": 2,
             "mirror": false,
             "inaccuracy": 3,
             "shootY": -2,
@@ -51,6 +49,9 @@
                 "collidesTiles": true,
                 "collidesAir": true,
                 "reflectable": false
+            },
+            "shoot": {
+                "shots": 2
             }
         },
         {
@@ -79,6 +80,9 @@
                 "collidesTiles": true,
                 "collidesAir": true,
                 "reflectable": false
+            },
+            "shoot": {
+                "shots": 2
             }
         }
      ]
