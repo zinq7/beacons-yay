@@ -24,7 +24,7 @@
             "y": 20,
             "mirror": false,
             "inaccuracy": 8,
-            "velocityInaccuracy": 0.2,
+            "velocityRnd": 0.2,
             "shootY": -2,
             "top": true,
             "ignoreRotation": true,

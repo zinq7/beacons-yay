@@ -73,6 +73,7 @@
             "shootX": 0,
             "bullet": {
                 "lifetime": 60,
+                
                 "type": "LightningBulletType",
                 "lightningLength": 40,
                 "damage": 500,

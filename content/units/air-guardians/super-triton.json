@@ -28,7 +28,7 @@
             "y": 20,
             "mirror": false,
             "inaccuracy": 0,
-            "velocityInaccuracy": 0,
+            "velocityRnd": 0,
             "shootY": 0,
             "top": true,
             "ignoreRotation": true,
@@ -63,7 +63,7 @@
             "y": 0,
             "mirror": false,
             "inaccuracy": 12,
-            "velocityInaccuracy": 0.5,
+            "velocityRnd": 0.5,
             "top": false,
             "bullet": {
                 "type": "artilleryBulletType",
