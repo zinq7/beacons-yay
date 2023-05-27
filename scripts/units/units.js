@@ -34,11 +34,6 @@ Events.on(ContentInitEvent, () => {
   );
   Blocks.airFactory.init();
 
-  Blocks.groundFactory.plans.addAll(
-    new UnitFactory.UnitPlan(ma12, 1000, ItemStack.with(Items.silicon, 30, zinc, 20)), 
-  );
-  Blocks.groundFactory.init();
-
   //reconstructors
   Blocks.additiveReconstructor.upgrades.addAll(waspUp, satUp);
   Blocks.multiplicativeReconstructor.upgrades.addAll(eaglUp, astUp);
