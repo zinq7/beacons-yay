@@ -1,0 +1,59 @@
+{
+    "type": "mech",
+    "localizedName": "Orchid",
+    "description": "Bio-mech that specializes in damage over time.",
+    "stepShake": 0,
+    "speed": 1,
+    "drag": 0.5,
+    "accel": 0.2,
+    "strafePenalty": 0.2,
+    "rotateSpeed": 2,
+    "health": 160,
+    "armor": 1,
+    "range": 70,
+    "targetAir": true,
+    "circleTarget": false,
+    "hitSize": 5,
+    "itemCapacity": 20,
+    "crashDamageMultiplier": 4,
+    "rotateShooting": true,
+    "destructibleWreck": false,
+    "weapons": [
+        {
+            "name": "flower-weapon",
+            "reload": 6,
+            "mirror": false,
+            "alternate": false,
+            "x": 0,
+            "y": 2,
+            "shootX": 0,
+            "rotate": false,
+            "ignoreRotation": false,
+            "shootY": 1,
+            "bullet": {
+                "type": "ContinuousFlameType",
+                "hitSize": 5,
+                "flareLength": 80,
+                "flareWidth": 5,
+                "lifetime": 26,
+                "pierce": true,
+                "pierceBuilding": true,
+                "speed": 3,
+                "damage": 5,
+                "colors": ["ffd1dc8c", "ffdedab2", "ffdfe0cc", "ffd1dcff"],
+                "flareColor": "ffd1dcff",
+                "pierceCap": 1,
+                "collidesTiles": true,
+                "collidesGround": true,
+                "collidesAir": true,
+                "reflectable": true
+            }
+        }
+    ],
+    "research": {
+        "parent": "mace",
+        "requirements": [
+          "silicon/3000"
+        ]
+      }
+}
