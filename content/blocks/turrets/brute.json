@@ -5,20 +5,18 @@
     "range": 240,
     "minRange": 0,
     "reload": 90,
-    "shots": 9,
-    "spread": 0,
-    "velocityInaccuracy": 0.1,
+    "velocityRnd": 0.1,
     "recoilAmount": 6,
     "hasItems": true,
     "itemCapacity": 20,
     "targetAir": true,
-    "shake": 2,
     "inaccuracy": 18,
     "maxAmmo": 20,
     "rotateSpeed": 3,
     "shootSound": "artillery",
     "shoot": {
         "shots": 9,
+        "shake": 2,
         "spread": 0
     },
     "ammoTypes": {
