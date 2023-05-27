@@ -4,7 +4,7 @@
     "health": 400,
     "range": 170,
     "minRange": 0,
-    "reload": 10,
+    "reload": 7,
     "velocityRnd": 0.2,
     "inaccuracy": 16,
     "shootCone": 32,
@@ -16,7 +16,7 @@
     "rotateSpeed": 12,
     "shootSound": "artillery",
     "shoot": {
-        "shots": 9,
+        "shots": 2,
         "spread": 0
     },
     "ammoTypes": {

@@ -15,8 +15,9 @@
     "rotateSpeed": 12,
     "shootSound": "artillery",
     "shoot": {
+        "type": "ShootSpread",
         "shots": 360,
-        "spread": 1
+        "spread": 12
     },
     "ammoTypes": {
         "nuke": {
