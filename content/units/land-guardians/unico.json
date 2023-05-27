@@ -3,7 +3,7 @@
     "description": "Experimental T6 laser bot that does insane damage, but is incredibly slow",
     "commandLimit": 1,
     "type": "legs",
-    "speed": 0.4,
+    "speed": 0.5,
     "drag": 0.5,
     "accel": 0.2,
     "strafePenalty": 0,
@@ -32,7 +32,8 @@
     "hovering": true,
     "allowLegStep": true,
     "visualElevation": 0.2,
-  
+    
+    "singleTarget": true,
     "destructibleWreck": false,
     "flying": false,
     "weapons": [
@@ -48,15 +49,15 @@
             "ignoreRotation": false,
             "shootX": 0,
             "bullet": {
-                "lifetime": 60,
+                "lifetime": 30,
                 "type": "LightningBulletType",
                 "lightningLength": 40,
-                "damage": 500
+                "damage": 150
             },
             "shoot": {
                 "type": "ShootSpread",
                 "shots": 2,
-                "spread": 15
+                "spread": 12
             }
         },
         {
@@ -72,11 +73,10 @@
             "ignoreRotation": false,
             "shootX": 0,
             "bullet": {
-                "lifetime": 60,
-
+                "lifetime": 40,
                 "type": "LightningBulletType",
-                "lightningLength": 40,
-                "damage": 500,
+                "lightningLength": 35,
+                "damage": 125,
                 "lightningColor": "44ff44aa",
                 "collidesTeam": true,
                 "healPercent": 10
@@ -84,34 +84,31 @@
             "shoot": {
                 "type": "ShootSpread",
                 "shots": 2,
-                "spread": 15
+                "spread": 12
             }
         },
         {
             "name": "hyper-beam",
-            "reload": 240,
+            "reload": 155,
             "x": 0,
             "y": 0,
             "shootX": 0,
             "parentizeEffects": true,
-            "top": true,
             "ignoreRotation": false,
             "shootY": 1,
-            "cooldown": 240,
             "continous": true,
-            "cooldownTime": 100,
+            "cooldownTime": 200,
             "bullet": {
                 "type": "ContinuousLaserBulletType",
                 "damage": 100,
                 "shake": 2,
-                "length": 300,
-                "drawSize": 700,
-                "lifetime": 240,
-                "continuous": true,
-                "colors": ["44ff44aa, 44ff44bb, 44ff4400"]
+                "length": 500,
+                "drawSize": 500,
+                "lifetime": 160,
+                "colors": ["44ff44ff, 44ff44ff, 44ff44ff", "ffffffff"]
             },
             "shoot": {
-                "firstShotDelay": 80
+                "firstShotDelay": 120
             }
         }
      ],
