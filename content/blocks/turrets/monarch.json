@@ -5,8 +5,7 @@
     "range": 480,
     "minRange": 40,
     "reload": 80,
-    "shots": 6,
-    "velocityInaccuracy": 0.2,
+    "velocityRnd": 0.2,
     "recoilAmount": 4,
     "hasItems": true,
     "itemCapacity": 50,
@@ -15,6 +14,10 @@
     "targetAir": false,
     "rotateSpeed": 2,
     "shootSound": "artillery",
+    "shoot": {
+        "shots": 6,
+        "spread": 0
+    },
     "ammoTypes": {
         "quartz": {
             "lifetime": 1000,

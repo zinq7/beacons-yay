@@ -5,9 +5,7 @@
     "range": 5000,
     "minRange": 1,
     "reload": 240,
-    "shots": 360,
-    "spread": 1,
-    "velocityInaccuracy": 12,
+    "velocityRnd": 12,
     "recoilAmount": 0,
     "hasItems": true,
     "itemCapacity": 12,
@@ -16,6 +14,10 @@
     "targetAir": false,
     "rotateSpeed": 12,
     "shootSound": "artillery",
+    "shoot": {
+        "shots": 360,
+        "spread": 1
+    },
     "ammoTypes": {
         "nuke": {
             "lifetime": 500,

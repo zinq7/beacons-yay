@@ -5,8 +5,7 @@
     "range": 170,
     "minRange": 0,
     "reload": 10,
-    "shots": 5,
-    "velocityInaccuracy": 0.2,
+    "velocityRnd": 0.2,
     "inaccuracy": 16,
     "shootCone": 32,
     "recoilAmount": 1,
@@ -16,6 +15,10 @@
     "targetAir": true,
     "rotateSpeed": 12,
     "shootSound": "artillery",
+    "shoot": {
+        "shots": 9,
+        "spread": 0
+    },
     "ammoTypes": {
         "scrap": {
             "type": "BasicBulletType",
