@@ -31,7 +31,7 @@
             "ignoreRotation": false,
             "shootY": 1,
             "bullet": {
-                "type": "ContinuousFlameType",
+                "type": "ContinuousFlameBulletType",
                 "hitSize": 5,
                 "flareLength": 80,
                 "flareWidth": 5,
