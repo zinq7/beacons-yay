@@ -4,12 +4,12 @@
     "health": 800,
     "range": 1500,
     "minRange": 100,
-    "reload": 90,
+    "reload": 300,
     "velocityRnd": 0.1,
     "recoilAmount": 1,
     "hasItems": true,
     "itemCapacity": 12,
-    "inaccuracy": 12,
+    "inaccuracy": 4,
     "maxAmmo": 1,
     "targetAir": false,
     "rotateSpeed": 2,
@@ -21,6 +21,7 @@
             "height": 30,
             "absorbable": false,
             "hittable": true,
+            "makeFire": true,
             "width": 12,
             "collidesTiles": false,
             "splashDamage": 3000,
@@ -45,16 +46,28 @@
             "amount": 500
         },
         {
-            "item":  "graphite",
+            "item": "zinq",
+            "amount": 400
+        },
+        {
+            "item": "graphite",
+            "amount": 250
+        },
+        {
+            "item": "silicon",
+            "amount": 250
+        },
+        {
+            "item": "titanium",
             "amount": 300
         },
         {
-            "item": "thorium",
+            "item": "metaglass",
             "amount": 200
         },
         {
-            "item": "phase-fabric",
-            "amount": 75
+            "item": "radicite",
+            "amount": 200
         }
     ],
     "category": "turret",
