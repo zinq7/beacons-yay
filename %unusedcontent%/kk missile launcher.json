@@ -1,0 +1,32 @@
+,
+        {
+            "name": "missile-launcher",
+            "reload": 75,
+            "x": 0,
+            "y": 0,
+            "shots": 1,
+            "inaccuracy": 6,
+            "top": true,
+            "bullet": {
+                "type": "MissileBulletType",
+                "height": 12,
+                "width": 12,
+                "speed": 24,
+                "frontColor": "add8e6",
+                "backColor": "add8e6",
+                "damage": 0,
+                "homingPower": 0.7,
+                "lifetime": 20,
+                "knockback": 10,
+                "statusDuration": 20
+                "status": {
+                   "name": "chunked",
+                   "damage": 12,
+                   "opposites": ["experimental"],
+                   "transitionDamage": 10000,
+                   "speedMultiplier": 0,
+                   "show": true,
+                   "disarm": true
+                }
+            }
+        }

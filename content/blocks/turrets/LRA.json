@@ -33,7 +33,7 @@
             "type": "ArtilleryBulletType",
             "height": 60,
             "width": 22,
-"knockback": 200,
+            "knockback": 200,
             "collidesTiles": false,
             "damage": 100,
             "splashDamage": 75,

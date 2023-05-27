@@ -2,26 +2,24 @@
     "type": "ItemTurret",
     "size": 3,
     "health": 800,
-    "range": 2000,
+    "range": 1500,
     "minRange": 100,
-    "reload": 600,
-    "velocityRnd": 0,
+    "reload": 90,
+    "velocityRnd": 0.1,
     "recoilAmount": 1,
     "hasItems": true,
     "itemCapacity": 12,
-    "inaccuracy": 0,
-    "maxAmmo": 5,
+    "inaccuracy": 12,
+    "maxAmmo": 1,
     "targetAir": false,
     "rotateSpeed": 2,
     "shootSound": "artillery",
-    "coolantMultiplier": 0.2,
     "ammoTypes": {
         "nuke": {
             "lifetime": 1000,
             "type": "ArtilleryBulletType",
             "height": 30,
             "absorbable": false,
-            "makeFire": true,
             "hittable": true,
             "width": 12,
             "collidesTiles": false,
@@ -32,34 +30,31 @@
             "shootEffect": "producesmoke"
         }
     },
+    "coolantMultiplier": 1,
+    "consumes": {
+        "coolant": {
+            "liquid": "water",
+            "amount": 0.5,
+            "optional": true,
+            "booster": true
+        }
+    },
     "requirements": [
         {
             "item": "lead",
             "amount": 500
         },
         {
-            "item": "zinq",
-            "amount": 400
-        },
-        {
-            "item": "graphite",
-            "amount": 250
-        },
-        {
-            "item": "silicon",
-            "amount": 250
-        },
-        {
-            "item": "titanium",
+            "item":  "graphite",
             "amount": 300
         },
         {
-            "item": "metaglass",
+            "item": "thorium",
             "amount": 200
         },
         {
-            "item": "radicite",
-            "amount": 200
+            "item": "phase-fabric",
+            "amount": 75
         }
     ],
     "category": "turret",
