@@ -26,7 +26,6 @@
       "shootY": 2,
       "recoil": 0.4,
       "reload": 45,
-      "shots": 3,
       "burstSpacing": 4,
       "inaccuracy": 14,
       "rotate": true,
@@ -50,6 +49,9 @@
         "speed": 3,
         "lifetime": 30,
         "homingPower": 2
+      },
+      "shoot": {
+        "shots": 3
       }
     }
   ],

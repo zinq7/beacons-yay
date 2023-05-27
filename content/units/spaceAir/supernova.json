@@ -59,7 +59,6 @@
       "shootY": 2,
       "recoil": 0.8,
       "reload": 120,
-      "shots": 1,
       "inaccuracy": 0,
       "rotate": true,
       "ignoreRotation": true,
@@ -87,7 +86,6 @@
       "shootY": 2,
       "recoil": 1,
       "reload": 120,
-      "shots": 1,
       "inaccuracy": 0,
       "rotate": true,
       "mirror": true,
@@ -116,7 +114,6 @@
       "shootY": 2,
       "recoil": 0.8,
       "reload": 40,
-      "shots": 4,
       "mirror": true,
       "inaccuracy": 10,
       "rotate": true,
@@ -134,6 +131,9 @@
         "height": 20,
         "speed": 5,
         "lifetime": 60
+      },
+      "shoot": {
+        "shots": 4
       }
     },
     {
@@ -143,7 +143,6 @@
       "shootY": 2,
       "recoil": 0.8,
       "reload": 40,
-      "shots": 4,
       "mirror": true,
       "inaccuracy": 10,
       "rotate": true,
@@ -161,6 +160,9 @@
         "height": 20,
         "speed": 5,
         "lifetime": 60
+      },
+      "shoot": {
+        "shots": 4
       }
     }
   ],
