@@ -38,24 +38,17 @@
                 "type": "BasicBulletType",
                 "length": 12,
                 "width": 12,
-                "speed": 16,
-                "lifetime": 60,
+                "speed": 14,
+                "lifetime": 50,
                 "shootShake": 2,
-                "damage": 80,
+                "damage": 20,
                 "splashDamage": 40,
                 "splashDamageRadius": 40,
                 "collidesTiles": true,
                 "collidesAir": true,
                 "reflectable": true,
                 "statusDuration": 120,
-                "makeFire": true,
-                "status": {
-                    "name": "shrapnel",
-                    "speedMultiplier": 0.5,
-                    "damageMultiplier": 0.5,
-                    "reloadMultiplier": 0.5,
-                    "damage": 80
-                }
+                "makeFire": true
             },
             "shoot": {
                 "spread": 0,

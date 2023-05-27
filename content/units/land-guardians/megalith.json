@@ -1,6 +1,6 @@
 {
     "localizedName": "Megalith",
-    "description": "Experimental T6 megabot capable of mass destruction.",
+    "description": "Experimental T6 megabot capable of that can outpreform many things.",
     "commandLimit": 1,
     "type": "legs",
     "speed": 0.5,

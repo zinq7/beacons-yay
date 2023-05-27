@@ -3,7 +3,7 @@
     "isCounted": true,
     "name": "Singularity",
     "localisedName": "Singularity",
-    "description": "Experimental T6 orbital gunship",
+    "description": "Experimental T6 orbital gunship that specializes in hit and run",
     "flying": true,
     "health": 80000,
     "armor": 17,

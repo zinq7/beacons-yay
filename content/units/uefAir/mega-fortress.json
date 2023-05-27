@@ -1,6 +1,6 @@
 {
   "localizedName": "Mega Fortress",
-  "description": "Summons Flares at insanely high speed as well as being a powerful gunship",
+  "description": "Summons air units at insanely high speed as well as being a powerful gunship",
   "commandLimit": 8,
   "speed": 0.71,
   "drag": 0.2,
