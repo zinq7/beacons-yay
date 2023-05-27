@@ -9,12 +9,16 @@ Events.on(ContentInitEvent, () => {
   const broadsword = Vars.content.getByName(ContentType.unit, "beacons-yay-broadsword");
   const ac1k = Vars.content.getByName(ContentType.unit, "beacons-yay-ac1k");
   const megafort = Vars.content.getByName(ContentType.unit, "beacons-yay-mega-fortress");
+  
   //air upgrades
   const waspUp = Seq.with(wasp, eagle).toArray(UnitType);
   const eaglUp = Seq.with(eagle, broadsword).toArray(UnitType);
   const bdsdUp = Seq.with(broadsword, ac1k).toArray(UnitType);
   const ac1kUp = Seq.with(ac1k, megafort).toArray(UnitType);
 
+  //land bois
+  const orchid = Vars.content.getByName(ContentType.unit, "beacons-yay-orchid");
+  
   //space units
   const satellite = Vars.content.getByName(ContentType.unit, "beacons-yay-satellite");
   const asteroid = Vars.content.getByName(ContentType.unit, "beacons-yay-asteroid");
@@ -33,6 +37,11 @@ Events.on(ContentInitEvent, () => {
     new UnitFactory.UnitPlan(satellite, 2100, ItemStack.with(Items.silicon, 50, Items.metaglass, 30, zinc, 20)),
   );
   Blocks.airFactory.init();
+  
+  Blocks.groundFactory.plans.addAll(
+    new UnitFactory.UnitPlan(orchid, 2400, ItemStack.with(Items.silicon, 45, Items.sporePod, 20)),
+  );
+  Blocks.groundFactory.init();
 
   //reconstructors
   Blocks.additiveReconstructor.upgrades.addAll(waspUp, satUp);
