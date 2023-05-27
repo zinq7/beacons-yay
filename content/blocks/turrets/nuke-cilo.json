@@ -14,6 +14,7 @@
     "targetAir": false,
     "rotateSpeed": 2,
     "shootSound": "artillery",
+    "coolantMultiplier": 0.2,
     "ammoTypes": {
         "nuke": {
             "lifetime": 1000,
@@ -21,6 +22,7 @@
             "height": 30,
             "absorbable": false,
             "makeFire": true,
+            "hittable": true,
             "width": 12,
             "collidesTiles": false,
             "splashDamage": 3000,

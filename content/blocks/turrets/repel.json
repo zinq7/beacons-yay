@@ -66,6 +66,15 @@
             "shootEffect": "producesmoke"
         }
     },
+    "coolantMultiplier": 1,
+    "consumes": {
+        "coolant": {
+            "liquid": "water",
+            "amount": 0.5,
+            "optional": true,
+            "booster": true
+        }
+    },
     "requirements": [
         {
             "item": "lead",
