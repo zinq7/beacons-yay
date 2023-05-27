@@ -19,7 +19,7 @@
     "weapons": [
         {
             "name": "Chain Shredder",
-            "reload": 5,
+            "reload": 2,
             "x": 0,
             "y": 20,
             "mirror": false,
@@ -31,14 +31,14 @@
             "shootX": 0,
             "bullet": {
                 "type": "BasicBulletType",
-                "height": 30,
-                "width": 25,
+                "height": 20,
+                "width": 15,
                 "speed": 8,
                 "lifetime": 65,
                 "scaleVelocity": false,
                 "shootShake": 2,
-                "damage": 150,
-                "splashDamage": 120,
+                "damage": 80,
+                "splashDamage": 40,
                 "splashDamageRadius": 30,
                 "collidesTiles": true,
                 "collidesAir": true,

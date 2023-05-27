@@ -5,7 +5,7 @@
     "localisedName": "Deca",
     "description": "Experimental T6 support ship.",
     "flying": true,
-    "health": 94000,
+    "health": 68000,
     "armor": 20,
     "mineSpeed": 200,
     "mineTier": 7,
@@ -45,7 +45,7 @@
         {
             "name": "small-mount-weapon",
             "top": false,
-            "reload": 90,
+            "reload": 300,
             "x": 1,
             "y": 2,
             "ejectEffect": "casing2Double",
