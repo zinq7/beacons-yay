@@ -14,17 +14,7 @@ Events.on(ContentInitEvent, () => {
   const eaglUp = Seq.with(eagle, broadsword).toArray(UnitType);
   const bdsdUp = Seq.with(broadsword, ac1k).toArray(UnitType);
   const ac1kUp = Seq.with(ac1k, megafort).toArray(UnitType);
-  //land units
-  const ma12 = Vars.content.getByName(ContentType.unit, "beacons-yay-ma12");
-  const pillar = Vars.content.getByName(ContentType.unit, "beacons-yay-pillar");
-  const rockhead = Vars.content.getByName(ContentType.unit, "beacons-yay-rockhead");
-  const fatboy = Vars.content.getByName(ContentType.unit, "beacons-yay-fatboy");
-  const jackhammer = Vars.content.getByName(ContentType.unit, "beacons-yay-jackhammer");
-  //land updgrades
-  const ma12Up = Seq.with(ma12, pillar).toArray(UnitType);
-  const pillUp = Seq.with(pillar, rockhead).toArray(UnitType);
-  const rockUp = Seq.with(rockhead, fatboy).toArray(UnitType);
-  const fatbUp = Seq.with(fatboy, jackhammer).toArray(UnitType);
+
   //space units
   const satellite = Vars.content.getByName(ContentType.unit, "beacons-yay-satellite");
   const asteroid = Vars.content.getByName(ContentType.unit, "beacons-yay-asteroid");
@@ -50,10 +40,10 @@ Events.on(ContentInitEvent, () => {
   Blocks.groundFactory.init();
 
   //reconstructors
-  Blocks.additiveReconstructor.upgrades.addAll(waspUp, ma12Up, satUp);
-  Blocks.multiplicativeReconstructor.upgrades.addAll(eaglUp, pillUp, astUp);
-  Blocks.exponentialReconstructor.upgrades.addAll(bdsdUp, rockUp, comUp);
-  Blocks.tetrativeReconstructor.upgrades.addAll(ac1kUp, fatbUp, nebUp);
+  Blocks.additiveReconstructor.upgrades.addAll(waspUp, satUp);
+  Blocks.multiplicativeReconstructor.upgrades.addAll(eaglUp, astUp);
+  Blocks.exponentialReconstructor.upgrades.addAll(bdsdUp, comUp);
+  Blocks.tetrativeReconstructor.upgrades.addAll(ac1kUp, nebUp);
 
   //Experimental reconstructor is special so it doesn't need any overriding
 });
