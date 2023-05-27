@@ -24,7 +24,6 @@
             "reload": 15,
             "x": 1,
             "y": 2,
-            "shots": 2,
             "spacing": 2,
             "inaccuracy": 3,
             "shotDelay": 3,
@@ -38,6 +37,9 @@
                 "smokeEffect": "shootSmallSmoke",
                 "buildingDamageMultiplier": 0.10,
                 "homingPower": 0.1
+            },
+            "shoot": {
+                "shots": 2
             }
         }
     ]

@@ -32,7 +32,6 @@
             "reload": 40,
             "x": 1,
             "y": 2,
-            "shots": 6,
             "spacing": 2,
             "inaccuracy": 24,
             "shotDelay": 3,
@@ -47,8 +46,10 @@
                 "lifetime": 40,
                 "buildingDamageMultiplier": 0.2,
                 "homingPower": 0.5
+            },
+            "shoot": {
+                "shots": 6
             }
-            
         }
     ]
 }
