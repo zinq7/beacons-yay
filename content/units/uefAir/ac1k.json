@@ -100,7 +100,7 @@
   "abilities": [
     {
       "type": "ShieldArcAbility",
-      "radius": 40,
+      "radius": 34,
       "regen": 0.1,
       "max": 250,
       "cooldown": 440,
