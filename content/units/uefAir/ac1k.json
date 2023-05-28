@@ -1,6 +1,6 @@
 {
   "localizedName": "AC1000 Terror",
-  "description": "Minor experimental gunship that dishes out high damage at a low cost!",
+  "description": "High unit damage and shielded gunship, very versatile. Deceptively small.",
   "commandLimit": 6,
   "speed": 1.4,
   "drag": 0.1,
@@ -55,7 +55,8 @@
         "speed": 8,
         "sprite": "bullet",
         "lifetime": 30,
-        "damage": 5,
+        "buildingDamageMultiplier": 0.5,
+        "damage": 70,
         "reflectable": true
       }
     },
@@ -78,8 +79,8 @@
       "soundPitchMax": 1.04,
       "bullet": {
         "type": "ArtilleryBulletType",
-        "frontColor": "de5246",
-        "backColor": "de5246",
+        "frontColor": "deb2c6",
+        "backColor": "dea2a6",
         "trailColor": "de5246",
         "collidesTiles": false,
         "scaleVelocity": true,
@@ -89,17 +90,27 @@
         "shrinkX": 0,
         "shrinkY": 0,
         "sprite": "bullet",
-        "damage": 300,
-        "splashDamage": 100,
+        "damage": 10,
+        "splashDamage": 200,
         "splashDamageRadius": 60,
         "reflectable": true
       }
     }
   ],
+  "abilities": [
+    {
+      "type": "ShieldArcAbility",
+      "radius": 30,
+      "regen": 0.1,
+      "max": 250,
+      "cooldown": 440,
+      "angle": 65
+    }      
+  ],
   "research": {
     "parent": "broadsword",
     "requirements": [
-      "silicon/220000"
+      "silicon/40000"
     ]
   }
 }
