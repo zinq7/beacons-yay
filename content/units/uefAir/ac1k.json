@@ -30,7 +30,7 @@
       "y": 2,
       "shootY": 7,
       "recoil": 0.1,
-      "reload": 10,
+      "reload": 6,
       "shots": 8,
       "shotDelay": 2,
       "spacing": 0,
@@ -48,15 +48,15 @@
         "frontColor": "ffffff",
         "backColor": "ffffff",
         "trailColor": "ffffff",
-        "width": 4,
-        "height": 4,
+        "width": 6,
+        "height": 8,
         "shrinkX": 0,
         "shrinkY": 0,
         "speed": 8,
         "sprite": "bullet",
         "lifetime": 30,
-        "buildingDamageMultiplier": 0.5,
-        "damage": 70,
+        "buildingDamageMultiplier": 0.2,
+        "damage": 160,
         "reflectable": true
       }
     },
@@ -100,11 +100,12 @@
   "abilities": [
     {
       "type": "ShieldArcAbility",
-      "radius": 30,
+      "radius": 40,
       "regen": 0.1,
       "max": 250,
       "cooldown": 440,
-      "angle": 65
+      "whenShooting": false,
+      "angle": 70
     }      
   ],
   "research": {
