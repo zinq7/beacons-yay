@@ -1,8 +1,8 @@
 {
   "localizedName": "Eagle Eye",
-  "description": "Drops powerful bombs at a slow RoF. High speed.",
+  "description": "Zaps nearby targets while moving.",
   "commandLimit": 10,
-  "speed": 4.5,
+  "speed": 4,
   "drag": 0.1,
   "accel": 0.083,
   "strafePenalty": 0.4,
@@ -26,42 +26,15 @@
   "lowAltitude": true,
   "destructibleWreck": false,
   "flying": true,
-  "weapons": [
+  "abilities": [
     {
-      "name": "Magnofephefr Cluster Bomb",
-      "x": 7,
-      "y": 0,
-      "shootY": 0,
-      "recoil": 0,
-      "reload": 240,
-      "minShootVelocity": 3,
-      "top": false,
-      "shots": 2,
-      "shotDelay": 1,
-      "spacing": 0.2,
-      "rotate": true,
-      "rotateSpeed": 100,
-      "inaccuracy": 180,
-      "velocityInaccuracy": 1,
-      "ignoreRotation": true,
-      "bullet": {
-        "type": "ArtilleryBulletType",
-        "frontColor": "999999",
-        "backColor": "999999",
-        "width": 50,
-        "height": 50,
-        "hitColor": 999999,
-        "lightColor": "999999",
-        "despawnEffect": "none",
-        "lifetime": 30,
-        "speed": 1,
-        "pierce": true,
-        "damage": 10,
-        "splashDamage": 80,
-        "splashDamageRadius": 3,
-        "reflectable": false
-      }
-    }
+      "type": "MoveLightningAbility",
+      "damage": 10,
+      "chance": 0.5,
+      "length": 6,
+      "minSpeed": 3,
+      "maxSpeed": 4
+    }      
   ],
   "research": {
     "parent": "wasp",
