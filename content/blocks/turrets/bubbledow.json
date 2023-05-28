@@ -17,17 +17,17 @@
     "shoot": {
         "type": "ShootSpread",
         "shots": 360,
-        "spread": 12
+        "spread": 6
     },
     "ammoTypes": {
         "nuke": {
-            "lifetime": 360,
+            "lifetime": 240,
             "type": "BasicBulletType",
             "height": 12,
             "width": 12,
             "pierce": true,
             "collidesTiles": false,
-            "damage": 750,
+            "damage": 1250,
             "splashDamage": 1,
             "splashDamageRadius": 1,
             "ammoMultiplier": 1,
@@ -59,7 +59,7 @@
         },
         {
             "item": "zinq-good",
-            "amount": 25
+            "amount": 75
         }
     ],
     "category": "turret",
