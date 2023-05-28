@@ -1,6 +1,6 @@
 {
   "localizedName": "Broadsword",
-  "description": "A small, low range gunship with high health and medium DPS.",
+  "description": "A small, low range gunship with high health and medium DPS. Deals high damage to units.",
   "commandLimit": 8,
   "speed": 2,
   "drag": 0.1,
@@ -30,7 +30,7 @@
       "y": 2,
       "shootY": 7,
       "recoil": 0.1,
-      "reload": 24,
+      "reload": 10,
       "shots": 4,
       "shotDelay": 2,
       "spacing": 3,
@@ -56,7 +56,8 @@
         "speed": 8,
         "sprite": "bullet",
         "lifetime": 30,
-        "damage": 3,
+        "buildingDamageMultiplier": 0.4,
+        "damage": 45,
         "reflectable": true
       }
     }
@@ -64,7 +65,7 @@
   "research": {
     "parent": "eagle-eye",
     "requirements": [
-      "silicon/55000"
+      "silicon/15000"
     ]
   }
 }
