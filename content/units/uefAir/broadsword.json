@@ -1,6 +1,6 @@
 {
   "localizedName": "Broadsword",
-  "description": "A small, low range gunship with high health and medium DPS. Deals high damage to units.",
+  "description": "A small, low range gunship with high health and medium DPS. Deals 5x damage to units.",
   "commandLimit": 8,
   "speed": 2,
   "drag": 0.1,
@@ -30,7 +30,7 @@
       "y": 2,
       "shootY": 7,
       "recoil": 0.1,
-      "reload": 10,
+      "reload": 5,
       "shots": 4,
       "shotDelay": 2,
       "spacing": 3,
@@ -56,8 +56,8 @@
         "speed": 8,
         "sprite": "bullet",
         "lifetime": 30,
-        "buildingDamageMultiplier": 0.4,
-        "damage": 45,
+        "buildingDamageMultiplier": 0.2,
+        "damage": 50,
         "reflectable": true
       }
     }
