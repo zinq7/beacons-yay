@@ -3,7 +3,7 @@
     "size": 2,
     "health": 2400,
     "range": 220,
-    "reloadTime": 120,
+    "reload": 120,
     "shots": 1,
     "spread": 0,
     "velocityInaccuracy": 0,
