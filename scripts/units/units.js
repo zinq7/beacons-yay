@@ -17,7 +17,7 @@ Events.on(ContentInitEvent, () => {
   const ac1kUp = Seq.with(ac1k, megafort).toArray(UnitType);
 
   //land bois
-  const orchid = Vars.content.getByName(ContentType.unit, "beacons-yay-orchid");
+  //const orchid = Vars.content.getByName(ContentType.unit, "beacons-yay-orchid");
   
   //space units
   const satellite = Vars.content.getByName(ContentType.unit, "beacons-yay-satellite");
