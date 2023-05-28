@@ -7,12 +7,13 @@
     "buildCostMultiplier": 0.2,
     "upgrades": [
         ["toxopid","megalith"],
-        ["eclipse","soul-ripper"],
+        ["mega-fortress","soul-ripper"],
         ["corvus","unico"],
         ["omura","super-triton"],
         ["reign","king-kryptor"],
         ["arkyid","monkeylord"],
         ["oct","deca"],
+        ["eclipse","mothership"],
         ["supernova", "singularity"],
         ["omura", "super-triton"]
     ],
