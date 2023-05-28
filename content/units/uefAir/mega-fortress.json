@@ -1,6 +1,6 @@
 {
   "localizedName": "Mega Fortress",
-  "description": "Summons air units at insanely high speed as well as being a powerful gunship",
+  "description": "The best support gunship, and penultimate anti-unit unit",
   "commandLimit": 8,
   "speed": 0.71,
   "drag": 0.2,
@@ -9,7 +9,7 @@
   "rotateSpeed": 0.9,
   "health": 22500,
   "armor": 20,
-  "range": 200,
+  "range": 160,
   "itemCapacity": 220,
   "hitSize": 31,
   "crashDamageMultiplier": 20,
@@ -26,17 +26,22 @@
   "abilities": [
     {
       "type": "UnitSpawnAbility",
-      "unit": "broadsword",
-      "spawnTime": 300,
+      "unit": "wasp",
+      "spawnTime": 240,
       "spawnx": 0,
       "spawny": 40
     },
     {
-      "type": "UnitSpawnAbility",
-      "unit": "eagle-eye",
-      "spawnTime": 175,
-      "spawnx": 0,
-      "spawny": 60
+      "type": "EnergyFieldAbility",
+      "damage": 120,
+      "range": 140,
+      "reload": 60,
+      "maxTargets": 40,
+      "targetGround": true,
+      "targetAir": true,
+      "hitBuildings": true,
+      "hitUnits": true,
+      "healPercent": 3
     }
   ],
   "weapons": [
@@ -46,7 +51,7 @@
       "y": 2,
       "shootY": 7,
       "recoil": 0.1,
-      "reload": 45,
+      "reload": 8,
       "shots": 12,
       "shotDelay": 2,
       "spacing": 0,
@@ -70,8 +75,9 @@
         "shrinkY": 0,
         "speed": 6,
         "sprite": "bullet",
-        "lifetime": 50,
-        "damage": 50,
+        "lifetime": 30,
+        "damage": 120,
+        "buildingDamageMultiplier": 0.3,
         "reflectable": true
       }
     }
@@ -79,7 +85,7 @@
   "research": {
     "parent": "ac1k",
     "requirements": [
-      "silicon/555000"
+      "silicon/120000"
     ]
   }
 }
