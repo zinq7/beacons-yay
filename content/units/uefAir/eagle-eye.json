@@ -29,11 +29,11 @@
   "abilities": [
     {
       "type": "MoveLightningAbility",
-      "damage": 10,
+      "damage": 15,
       "chance": 0.5,
       "length": 6,
-      "minSpeed": 3,
-      "maxSpeed": 4
+      "minSpeed": 0.8,
+      "maxSpeed": 5
     }      
   ],
   "research": {
