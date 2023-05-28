@@ -38,10 +38,10 @@ Events.on(ContentInitEvent, () => {
   );
   Blocks.airFactory.init();
   
-  Blocks.groundFactory.plans.addAll(
+  /*Blocks.groundFactory.plans.addAll(
     new UnitFactory.UnitPlan(orchid, 2400, ItemStack.with(Items.silicon, 45, Items.sporePod, 20)),
   );
-  Blocks.groundFactory.init();
+  Blocks.groundFactory.init();*/
 
   //reconstructors
   Blocks.additiveReconstructor.upgrades.addAll(waspUp, satUp);
