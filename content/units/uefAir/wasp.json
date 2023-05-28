@@ -13,7 +13,7 @@
   "circleTarget": false,
   "hitSize": 8,
   "itemCapacity": 20,
-  "crashDamageMultiplier": 4,
+  "crashDamageMultiplier": 2,
   "fallEffect": "coreBurn",
   "fallThrusterEffect": "none",
   "rotateShooting": true,
