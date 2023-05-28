@@ -29,7 +29,7 @@
   "abilities": [
     {
       "type": "MoveLightningAbility",
-      "damage": 15,
+      "damage": 20,
       "chance": 0.5,
       "length": 6,
       "minSpeed": 0.8,
