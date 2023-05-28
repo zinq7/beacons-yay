@@ -13,10 +13,10 @@
   "armor": 3,
   "itemCapacity": 50,
   "hitSize": 8,
-  "crashDamageMultiplier": 8,
+  "crashDamageMultiplier": 3,
   "fallEffect": "coreBurn",
   "rotateShooting": false,
-  "circleTarget": true,
+  "circleTarget": false,
   "immunities": [
     "wet",
     "shocked"
@@ -45,9 +45,8 @@
       "velocityInaccuracy": 1,
       "ignoreRotation": true,
       "bullet": {
-        "type": "BombBulletType",
+        "type": "ArtilleryBulletType",
         "frontColor": "999999",
-        "sprite": "large-bomb",
         "backColor": "999999",
         "width": 50,
         "height": 50,
@@ -55,9 +54,11 @@
         "lightColor": "999999",
         "despawnEffect": "none",
         "lifetime": 30,
+        "speed": 1,
         "pierce": true,
-        "damage": 80,
-        "splashDamage": 10,
+        "damage": 10,
+        "splashDamage": 80,
+        "splashDamageRadius": 3,
         "reflectable": false
       }
     }
@@ -65,7 +66,7 @@
   "research": {
     "parent": "wasp",
     "requirements": [
-      "silicon/15000"
+      "silicon/6000"
     ]
   }
 }
