@@ -1,6 +1,7 @@
-                    
+{                    
 "name": "Mega",
 "speedMultiplier": 0.1,
 "damageMultiplier": 400,
 "unitHealthMultiplier": 10000,
 "reloadMultiplier": 1
+}
