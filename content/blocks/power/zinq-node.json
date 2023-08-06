@@ -1,7 +1,7 @@
 {
     "type": "PowerNode",
     "size": 2,
-    "health": 100,
+    "health": 60,
     "emitLight": true,
     "hasPower": true,
     "laserColor1": "ffffffff",
