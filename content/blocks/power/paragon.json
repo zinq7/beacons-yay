@@ -1,5 +1,5 @@
 {
-    "type": "DecayGenerator",
+    "type": "ConsumeGenerator",
     "size": 4,
     "health": 1800,
     "emitLight": false,
