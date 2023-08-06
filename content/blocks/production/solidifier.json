@@ -18,10 +18,10 @@
             "amount": 0.3
         },
         "items": {
-            "items":[
+            "items": [{
                 "item": "sand",
                 "amount": 1
-            ]
+            }]
         }
     },
     "requirements": [
