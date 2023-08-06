@@ -1,7 +1,7 @@
 {
     "type": "Battery",
     "size": 2,
-    "health": 300,
+    "health": 180,
     "emitLight": true,
     "hasPower": true,
     "baseExplosiveness": 200,
