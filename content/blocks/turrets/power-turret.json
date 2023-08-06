@@ -10,7 +10,6 @@
     "targetAir": true,
     "alternate": true,
     "rotateSpeed": 3,
-    "powerUse": 0.5,
     "shootSound": "artillery",
     "shootType": {
         "type": "LaserBoltBulletType",
@@ -31,7 +30,8 @@
             "amount": 0.5,
             "optional": true,
             "booster": true
-        }
+        },
+        "power":{ "usage": 0.5 }
     },
     "requirements": [
         {
