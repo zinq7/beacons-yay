@@ -4,6 +4,10 @@ Make custom Unit spirtes for all uefAir and tankLand
 
 IDEAS:
 
+W:
+	- Uranium producer w/ jungle juice plastanium and lead 'repletes' uranium
+	- reactor: power station which takes uranium and returns plast & lead 'depleted'
+
 SC2 UNITS:
 
 adding sc2 units into the game, starting at UEF.
