@@ -12,7 +12,7 @@
     "drawLiquidLight": true,
     "outputLiquid": {
         "liquid": "jungle-juice",
-        "amount": 48
+        "amount": 0.6
     },
     "consumes": {
         "power": 1.2,
