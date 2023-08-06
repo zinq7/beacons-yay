@@ -7,6 +7,8 @@ IDEAS:
 W:
 	- Uranium producer w/ jungle juice plastanium and lead 'repletes' uranium
 	- reactor: power station which takes uranium and returns plast & lead 'depleted'
+		- Power generation w/ -ve power works- but breaks nodes and doesnt work w/ full pwr
+			- See 'Neoplasia Reactor' & 'ConsumeGenerator'
 
 SC2 UNITS:
 

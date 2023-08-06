@@ -1,0 +1,57 @@
+  
+{
+    "type": "GenericCrafter",
+    "health": 400,
+    "size": 3,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 120,
+    "itemCapacity": 16,
+    "liquidCapacity" : 120,
+    "craftEffect": "smeltsmoke",
+    "drawLiquidLight": true,
+    "outputItem": {
+        "item": "plastanium",
+        "amount": 4
+    },
+    "consumes": {
+        "power": -8,
+        "items": {
+            "items": [
+                {
+                    "item": "uranium",
+                    "amount": 4
+                },
+                {
+                    "item": "lead",
+                    "amount": 2
+                }
+            ]
+        },
+        "liquid": {
+            "liquid": "water",
+            "amount": 0.5
+        }
+    },
+    "requirements": [
+        {
+            "item": "silicon",
+            "amount": 180
+        },
+        {
+            "item": "thorium",
+            "amount": 200
+        },
+        {
+            "item": "lead",
+            "amount": 500
+        },
+        {
+            "item": "zinq-good",
+            "amount": 50
+        }
+    ],
+    "category": "crafting",
+    "research": "thorium-reactor"
+}
