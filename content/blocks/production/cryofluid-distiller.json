@@ -1,0 +1,60 @@
+{
+    "type": "GenericCrafter",
+    "health": 200,
+    "size": 3,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 120,
+    "itemCapacity": 30,
+    "liquidCapacity" : 180,
+    "craftEffect": "smeltsmoke",
+    "drawLiquidLight": true,
+    "outputLiquid": {
+        "liquid": "cryofluid",
+        "amount": 1.2
+    },
+    "consumes": {
+        "power": 1.0,
+        "items": {
+            "items": [
+                {
+                    "item": "titanium",
+                    "amount": 2
+                },
+                {
+                    "item": "quartz",
+                    "amount": 1
+                }
+            ]
+        },
+        "liquid": {
+            "liquid": "water",
+            "amount": 1.2
+        }
+    },
+    "requirements": [
+        {
+            "item": "lead",
+            "amount": 250
+        },
+        {
+            "item": "silicon",
+            "amount": 150
+        },
+        {
+            "item": "titanium",
+            "amount": 200
+        },
+        {
+            "item": "thorium",
+            "amount": 100
+        },
+        {
+            "item": "zinq-good",
+            "amount": 50
+        }
+    ],
+    "category": "crafting",
+    "research": "jungle-juicer"
+}
