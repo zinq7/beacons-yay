@@ -1,4 +1,4 @@
-Holy Light (Beacons-yay) ~ By zinq and Archaeon
+Holy Light (Beacons-yay) ~ By zinq and Archaeon and also a little bit of SemicolonNolan
 
 A mod that aims add a bunch of weapons and content.
 ## Software Used

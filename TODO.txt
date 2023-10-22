@@ -5,8 +5,8 @@ Make custom Unit spirtes for all uefAir and tankLand
 IDEAS:
 
 Nolan:
-	- big cryoflood (w/ quartz because why not)
 	- Uranium producer w/ jungle juice plastanium and lead 'repletes' uranium
+	- slag generator b/c melter sucks, efficiency enhanced by any metal
 	- reactor: power station which takes uranium and returns plast & lead 'depleted'
 		- Power generation w/ -ve power works- but breaks nodes and doesnt work w/ full pwr
 			- See 'Neoplasia Reactor' & 'ConsumeGenerator'
