@@ -1,0 +1,53 @@
+{
+  "localizedName": "Spornet",
+  "description": "Trivial on its own, but capable of forming huge swarms.",
+  "speed": 2.4,
+  "accel": 0.08,
+  "drag": 0.01,
+  "health": 60,
+  "armor": 0,
+  "engineOffset": 3,
+  "engineSize": 2,
+  "range": 50,
+  "hitSize": 15,
+  "itemCapacity": 2,
+  "crashDamageMultiplier": 0.2,
+  "fallEffect": "coreBurn",
+  "fallThrusterEffect": "none",
+  "rotateShooting": true,
+  "lowAltitude": false,
+  "destructibleWreck": false,
+  "flying": true,
+  "weapons": [
+    {
+      "name": "stinger",
+      "x": 0,
+      "y": 5,
+      "shootY": 2,
+      "recoil": 0.4,
+      "reload": 90,
+      "burstSpacing": 4,
+      "inaccuracy": 12,
+      "mirror": false,
+      "ignoreRotation": false,
+      "bullet": {
+        "type": "ShrapnelBulletType",
+        "fromColor": "ccffff",
+        "toColor": "66ffff",
+        "length": 50,
+        "width": 7,
+        "spread": 12,
+        "shots": 1,
+        "damage": 5,
+        "pierce": false
+      }
+    }
+  ],
+  "research": {
+    "parent": "asteroid",
+    "requirements": [
+      "silicon/7000",
+      "titanium/3000"
+    ]
+  }
+}
