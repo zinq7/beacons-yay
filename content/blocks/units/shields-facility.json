@@ -21,6 +21,15 @@
             ]
         }
     ],
+    "abilities": [
+        {
+            "type": "ForceFieldAbility",
+            "radius": 60,
+            "regen": 0.4,
+            "max": 500,
+            "cooldown": 300
+        }
+    ],
     "requirements": [
         {
             "item": "silicon",
