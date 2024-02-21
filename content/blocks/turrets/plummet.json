@@ -1,0 +1,94 @@
+{
+    "type": "ItemTurret",
+    "size": 5,
+    "health": 4000,
+    "range": 480,
+    "minRange": 0,
+    "reload": 10,
+    "velocityRnd": 0.2,
+    "inaccuracy": 16,
+    "shootCone": 4,
+    "recoilAmount": 1,
+    "hasItems": true,
+    "maxAmmo": 50,
+    "itemCapacity": 50,
+    "targetAir": true,
+    "targetGround": false,
+    "rotateSpeed": 12,
+    "shootSound": "artillery",
+    "shoot": {
+        "shots": 2,
+        "spread": 0
+    },
+    "ammoTypes": {
+        "metaglass": {
+            "type": "FlakBulletType",
+            "damage": 170,
+            "height": 20,
+            "width": 10,
+            "speed": 6,
+            "lifetime": 80,
+            "collidesTiles": false,
+            "ammoMultiplier": 5
+        },
+        "plastanium": {
+            "type": "FlakBulletType",
+            "damage": 220,
+            "height": 20,
+            "width": 10,
+            "speed": 6,
+            "lifetime": 80,
+            "collidesTiles": false,
+            "ammoMultiplier": 8
+        },
+        "bullet": {
+            "type": "FlakBulletType",
+            "damage": 280,
+            "height": 20,
+            "width": 10,
+            "speed": 6,
+            "lifetime": 80,
+            "collidesTiles": false,
+            "ammoMultiplier": 5
+        },
+        "quartz": {
+            "type": "FlakBulletType",
+            "damage": 350,
+            "height": 20,
+            "width": 10,
+            "speed": 6,
+            "lifetime": 80,
+            "collidesTiles": false,
+            "ammoMultiplier": 15
+        },
+    },
+    "coolantMultiplier": 2,
+    "consumes": {
+        "coolant": {
+            "liquid": "water",
+            "amount": 0.5,
+            "optional": true,
+            "booster": true
+        }
+    },
+    "requirements": [
+        {
+            "item": "titanium",
+            "amount": 3000
+        },
+        {
+            "item": "graphite",
+            "amount": 2000
+        },
+        {
+            "item": "plastanium",
+            "amount": 3000
+        },
+        {
+            "item": "radicite",
+            "amount": 350
+        }
+    ],
+    "category": "turret",
+    "research": "foreshadow"
+}
