@@ -53,6 +53,10 @@
         {
             "item": "zinq",
             "amount": 100
+        },
+        {
+            "item":"thorium",
+            "amount": 50
         }
     ],
     "category": "crafting",
