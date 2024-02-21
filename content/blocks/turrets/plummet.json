@@ -23,19 +23,19 @@
     "ammoTypes": {
         "plastanium": {
             "type": "FlakBulletType",
-            "damage": 170,
+            "damage": 220,
             "height": 20,
             "width": 10,
             "explodeRange": 60,
-            "speed": 7,
-            "lifetime": 72,
+            "speed": 14,
+            "lifetime": 36,
             "collidesTiles": false,
             "ammoMultiplier": 5
             "fragSpread": 20,
             "fragBullets": 18,
             "fragBullet": {
                 "type": "FlakBulletType"
-                "damage": 80,
+                "damage": 125,
                 "height": 10,
                 "width": 5,
                 "speed": 7,
@@ -45,19 +45,19 @@
         },
         "bullet": {
             "type": "FlakBulletType",
-            "damage": 100,
+            "damage": 300,
             "height": 20,
             "width": 10,
             "explodeRange": 60,
-            "speed": 7,
-            "lifetime": 72,
+            "speed": 14,
+            "lifetime": 36,
             "collidesTiles": false,
             "ammoMultiplier": 5
             "fragSpread": 20,
             "fragBullets": 18,
             "fragBullet": {
                 "type": "FlakBulletType"
-                "damage": 130,
+                "damage": 80,
                 "height": 10,
                 "width": 5,
                 "speed": 7,
@@ -71,8 +71,8 @@
             "height": 20,
             "width": 10,
             "explodeRange": 60,
-            "speed": 7,
-            "lifetime": 72,
+            "speed": 14,
+            "lifetime": 36,
             "collidesTiles": false,
             "ammoMultiplier": 15
             "fragSpread": 20,
