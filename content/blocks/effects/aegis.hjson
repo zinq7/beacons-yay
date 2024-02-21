@@ -11,6 +11,7 @@ canOverdrive: true
 phaseUseTime: 270
 phaseRadiusBoost: 174
 radius: 200
+sides: 12
 shieldHealth: 1500
 phaseShieldBoost: 1000
 cooldownNormal: 1
