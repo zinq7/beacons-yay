@@ -1,0 +1,51 @@
+{
+    "type": "mech",
+    "localizedName": "Adaptor",
+    "description": "Great for supporting other units.",
+    "stepShake": 0,
+    "speed": 1,
+    "drag": 0.5,
+    "accel": 0.2,
+    "strafePenalty": 0.2,
+    "rotateSpeed": 2,
+    "health": 350,
+    "armor": 2,
+    "range": 30,
+    "targetAir": true,
+    "circleTarget": false,
+    "hitSize": 5,
+    "itemCapacity": 60,
+    "crashDamageMultiplier": 4,
+    "rotateShooting": true,
+    "destructibleWreck": false,
+    "weapons": [
+        {
+            "type": "RepairBeamWeapon",
+            "reload": 6,
+            "repairSpeed": 0.2,
+            "mirror": false,
+            "alternate": false,
+            "x": 0,
+            "y": 2,
+            "shootX": 0,
+            "rotate": true,
+            "ignoreRotation": true,
+            "shootY": 1
+        }
+    ],
+      "abilities": [
+        {
+            "type": "ForceFieldAbility",
+            "radius": 20,
+            "regen": 5,
+            "max": 100,
+            "cooldown": 300
+        }
+    ],
+    "research": {
+        "parent": "pulsar",
+        "requirements": [
+          "silicon/3000"
+        ]
+      }
+}
