@@ -10,7 +10,7 @@
     "rotateSpeed": 2,
     "health": 350,
     "armor": 2,
-    "range": 15,
+    "range": 30,
     "targetAir": true,
     "circleTarget": false,
     "hitSize": 5,
@@ -30,7 +30,10 @@
             "shootX": 0,
             "rotate": true,
             "ignoreRotation": true,
-            "shootY": 1
+            "shootY": 1,
+            "bullet": {
+                "maxRange": 30
+            }
         }
     ],
       "abilities": [
