@@ -10,6 +10,7 @@ Nolan:
 	- reactor: power station which takes uranium and returns plast & lead 'depleted'
 		- Power generation w/ -ve power works- but breaks nodes and doesnt work w/ full pwr
 			- See 'Neoplasia Reactor' & 'ConsumeGenerator'
+	- maybe better plast/blast factory or smthg
 
 SC2 UNITS:
 
